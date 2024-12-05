@@ -1,0 +1,448 @@
+[
+    {
+    "avId": "SYS-000",
+    "avName": "System-level Attack Taxonomy",
+    "info": [{
+        "Description": "",
+        "Mapped Safeguard": []
+    }]
+}, {
+    "avId": "SYS-100",
+    "avName": "Application Domain",
+    "info": [{
+        "Description": "Domain or vehicle type that is the target of the attack, such as “Cars” or “Drones”.",
+        "Mapped Safeguard": []
+    }]
+}, {
+    "avId": "SYS-110",
+    "avName": "Cars",
+    "info": [{
+        "Description": "Domain or vehicle type that is the target of the attack, such as “Cars” or “Drones”.",
+        "Mapped Safeguard": []
+    }]
+}, {
+    "avId": "SYS-120",
+    "avName": "Drones",
+    "info": [{
+        "Description": "Domain or vehicle type that is the target of the attack, such as “Cars” or “Drones”.",
+        "Mapped Safeguard": []
+    }]
+}, {
+    "avId": "SYS-200",
+    "avName": "DL Model Under Attack",
+    "info": [{
+        "Description": "The DL model under attack, which is responsible for the system-level failure, such as YOLOv5, ResNet-34, or DAVE-2. The “DL Model Under Attack” category has four subcategories. The first, “Object Detection & Tracking”, includes DL models (e.g., YOLO) that handle object tracking or detection. The “Steering Wheel Angle Prediction” covers models that control the car’s steering angle. “Road Line Detection” helps the system detect and follow road lines, while “Traffic Control” assists in navigating complex traffic situations.",
+        "Mapped Safeguard": []
+    }]
+}, {
+    "avId": "SYS-210",
+    "avName": "Object Detection & Tracking",
+    "info": [{
+        "Description": "The DL model under attack, which is responsible for the system-level failure, such as YOLOv5, ResNet-34, or DAVE-2. The “DL Model Under Attack” category has four subcategories. The first, “Object Detection & Tracking”, includes DL models (e.g., YOLO) that handle object tracking or detection. The “Steering Wheel Angle Prediction” covers models that control the car’s steering angle. “Road Line Detection” helps the system detect and follow road lines, while “Traffic Control” assists in navigating complex traffic situations.",
+        "Mapped Safeguard": []
+    }]
+}, {
+    "avId": "SYS-220",
+    "avName": "Steering Wheel Angle Prediction",
+    "info": [{
+        "Description": "The DL model under attack, which is responsible for the system-level failure, such as YOLOv5, ResNet-34, or DAVE-2. The “DL Model Under Attack” category has four subcategories. The first, “Object Detection & Tracking”, includes DL models (e.g., YOLO) that handle object tracking or detection. The “Steering Wheel Angle Prediction” covers models that control the car’s steering angle. “Road Line Detection” helps the system detect and follow road lines, while “Traffic Control” assists in navigating complex traffic situations.",
+        "Mapped Safeguard": []
+    }]
+}, {
+    "avId": "SYS-230",
+    "avName": "Lane Detection",
+    "info": [{
+        "Description": "The DL model under attack, which is responsible for the system-level failure, such as YOLOv5, ResNet-34, or DAVE-2. The “DL Model Under Attack” category has four subcategories. The first, “Object Detection & Tracking”, includes DL models (e.g., YOLO) that handle object tracking or detection. The “Steering Wheel Angle Prediction” covers models that control the car’s steering angle. “Road Line Detection” helps the system detect and follow road lines, while “Traffic Control” assists in navigating complex traffic situations.",
+        "Mapped Safeguard": []
+    }]
+}, {
+    "avId": "SYS-240",
+    "avName": "Traffic Control",
+    "info": [{
+        "Description": "The DL model under attack, which is responsible for the system-level failure, such as YOLOv5, ResNet-34, or DAVE-2. The “DL Model Under Attack” category has four subcategories. The first, “Object Detection & Tracking”, includes DL models (e.g., YOLO) that handle object tracking or detection. The “Steering Wheel Angle Prediction” covers models that control the car’s steering angle. “Road Line Detection” helps the system detect and follow road lines, while “Traffic Control” assists in navigating complex traffic situations.",
+        "Mapped Safeguard": []
+    }]
+}, {
+    "avId": "SYS-300",
+    "avName": "System Under Attack",
+    "info": [{
+        "Description": "The autonomous system under attack, such as a driving agent like Baidu Apollo in the LGSVL simulator or the driving agent in the CARLA simulator. “System Under Attack” has two subcategories, “Simulation” and “Real AVs”, respectively indicating that the system under attack is simulated or is a real-world autonomous vehicle. “Baidu Apollo” and “CARLA’s Agent” represent examples of autonomous systems implemented in the LGSVL and CARLA simulators — the most popular simulation environments in our list of papers. Other less popular simulators include BeamNG and Udacity. “Tesla” is instead an example referred to by papers that used a real Tesla vehicle to test their attacks.",
+        "Mapped Safeguard": []
+    }]
+}, {
+    "avId": "SYS-310",
+    "avName": "Simulation",
+    "info": [{
+        "Description": "The autonomous system under attack, such as a driving agent like Baidu Apollo in the LGSVL simulator or the driving agent in the CARLA simulator. “System Under Attack” has two subcategories, “Simulation” and “Real AVs”, respectively indicating that the system under attack is simulated or is a real-world autonomous vehicle. “Baidu Apollo” and “CARLA’s Agent” represent examples of autonomous systems implemented in the LGSVL and CARLA simulators — the most popular simulation environments in our list of papers. Other less popular simulators include BeamNG and Udacity. “Tesla” is instead an example referred to by papers that used a real Tesla vehicle to test their attacks.",
+        "Mapped Safeguard": []
+    }]
+}, {
+    "avId": "SYS-320",
+    "avName": "Real AVs",
+    "info": [{
+        "Description": "The autonomous system under attack, such as a driving agent like Baidu Apollo in the LGSVL simulator or the driving agent in the CARLA simulator. “System Under Attack” has two subcategories, “Simulation” and “Real AVs”, respectively indicating that the system under attack is simulated or is a real-world autonomous vehicle. “Baidu Apollo” and “CARLA’s Agent” represent examples of autonomous systems implemented in the LGSVL and CARLA simulators — the most popular simulation environments in our list of papers. Other less popular simulators include BeamNG and Udacity. “Tesla” is instead an example referred to by papers that used a real Tesla vehicle to test their attacks.",
+        "Mapped Safeguard": []
+    }]
+}, {
+    "avId": "SYS-400",
+    "avName": "Attack Scenario",
+    "info": [{
+        "Description": "The scenario in which the attack is designed to be effective, such as when a car is at an intersection or stuck in a traffic jam. Hence, the “Attack Scenario” category provides details on the necessary conditions for an attack, i.e., the conditions that must be satisfied in order for an attack to be successful. Some papers did not specify any constraints, so they fall under the “Without Constraints” subcategory. For those requiring specific conditions, we created the “With Constraints” subcategory, which includes three further distinctions. The “Roads” subcategory covers attacks that need modifications to the road itself. The “Objects & Cars” subcategory includes attacks that require objects, such as billboards or non-autonomous cars, to be positioned in specific places. Lastly, the “Driving Condition” subcategory relates to papers that do not require physical changes but need the AV to be in a specific scenario, such as approaching a traffic light, being at an intersection, or navigating a turn.",
+        "Mapped Safeguard": []
+    }]
+},{
+    "avId": "SYS-410",
+    "avName": "Without Constraints",
+    "info": [{
+        "Description": "The scenario in which the attack is designed to be effective, such as when a car is at an intersection or stuck in a traffic jam. Hence, the “Attack Scenario” category provides details on the necessary conditions for an attack, i.e., the conditions that must be satisfied in order for an attack to be successful. Some papers did not specify any constraints, so they fall under the “Without Constraints” subcategory. For those requiring specific conditions, we created the “With Constraints” subcategory, which includes three further distinctions. The “Roads” subcategory covers attacks that need modifications to the road itself. The “Objects & Cars” subcategory includes attacks that require objects, such as billboards or non-autonomous cars, to be positioned in specific places. Lastly, the “Driving Condition” subcategory relates to papers that do not require physical changes but need the AV to be in a specific scenario, such as approaching a traffic light, being at an intersection, or navigating a turn.",
+        "Mapped Safeguard": []
+    }]
+},{
+    "avId": "SYS-420",
+    "avName": "With Constraints",
+    "info": [{
+        "Description": "The scenario in which the attack is designed to be effective, such as when a car is at an intersection or stuck in a traffic jam. Hence, the “Attack Scenario” category provides details on the necessary conditions for an attack, i.e., the conditions that must be satisfied in order for an attack to be successful. Some papers did not specify any constraints, so they fall under the “Without Constraints” subcategory. For those requiring specific conditions, we created the “With Constraints” subcategory, which includes three further distinctions. The “Roads” subcategory covers attacks that need modifications to the road itself. The “Objects & Cars” subcategory includes attacks that require objects, such as billboards or non-autonomous cars, to be positioned in specific places. Lastly, the “Driving Condition” subcategory relates to papers that do not require physical changes but need the AV to be in a specific scenario, such as approaching a traffic light, being at an intersection, or navigating a turn.",
+        "Mapped Safeguard": []
+    }]
+}, {
+    "avId": "SYS-421",
+    "avName": "Roads",
+    "info": [{
+        "Description": "The scenario in which the attack is designed to be effective, such as when a car is at an intersection or stuck in a traffic jam. Hence, the “Attack Scenario” category provides details on the necessary conditions for an attack, i.e., the conditions that must be satisfied in order for an attack to be successful. Some papers did not specify any constraints, so they fall under the “Without Constraints” subcategory. For those requiring specific conditions, we created the “With Constraints” subcategory, which includes three further distinctions. The “Roads” subcategory covers attacks that need modifications to the road itself. The “Objects & Cars” subcategory includes attacks that require objects, such as billboards or non-autonomous cars, to be positioned in specific places. Lastly, the “Driving Condition” subcategory relates to papers that do not require physical changes but need the AV to be in a specific scenario, such as approaching a traffic light, being at an intersection, or navigating a turn.",
+        "Mapped Safeguard": []
+    }]
+}, {
+    "avId": "SYS-422",
+    "avName": "Objects & Cars",
+    "info": [{
+        "Description": "The scenario in which the attack is designed to be effective, such as when a car is at an intersection or stuck in a traffic jam. Hence, the “Attack Scenario” category provides details on the necessary conditions for an attack, i.e., the conditions that must be satisfied in order for an attack to be successful. Some papers did not specify any constraints, so they fall under the “Without Constraints” subcategory. For those requiring specific conditions, we created the “With Constraints” subcategory, which includes three further distinctions. The “Roads” subcategory covers attacks that need modifications to the road itself. The “Objects & Cars” subcategory includes attacks that require objects, such as billboards or non-autonomous cars, to be positioned in specific places. Lastly, the “Driving Condition” subcategory relates to papers that do not require physical changes but need the AV to be in a specific scenario, such as approaching a traffic light, being at an intersection, or navigating a turn.",
+        "Mapped Safeguard": []
+    }]
+}, {
+    "avId": "SYS-423",
+    "avName": "Driving Conditions",
+    "info": [{
+        "Description": "The scenario in which the attack is designed to be effective, such as when a car is at an intersection or stuck in a traffic jam. Hence, the “Attack Scenario” category provides details on the necessary conditions for an attack, i.e., the conditions that must be satisfied in order for an attack to be successful. Some papers did not specify any constraints, so they fall under the “Without Constraints” subcategory. For those requiring specific conditions, we created the “With Constraints” subcategory, which includes three further distinctions. The “Roads” subcategory covers attacks that need modifications to the road itself. The “Objects & Cars” subcategory includes attacks that require objects, such as billboards or non-autonomous cars, to be positioned in specific places. Lastly, the “Driving Condition” subcategory relates to papers that do not require physical changes but need the AV to be in a specific scenario, such as approaching a traffic light, being at an intersection, or navigating a turn.",
+        "Mapped Safeguard": []
+    }]
+}, {
+    "avId": "SYS-500",
+    "avName": "Attacked Target",
+    "info": [{
+        "Description": "The specific target of the attack, such as a billboard where to place adversarial noise or a road where to add adversarial lines. If an attack operates as malicious software that directly alters the input (e.g., image) received by the DL model, then the attacked target would be e.g. the input image. The subcategories of “Attacked Target” concern the specific elements that the attacker needs to change, manipulate, or perturb. This can include the “Input Image” fed into the DL model, the “Road” or “Roadside”, the AV’s “Sensors”, “Objects” like billboards or traffic “Signs” like stop signs, and the “Training Data” used to train the model before deployment.",
+        "Mapped Safeguard": []
+    }]
+}, {
+    "avId": "SYS-510",
+    "avName": "Input Image",
+    "info": [{
+        "Description": "The specific target of the attack, such as a billboard where to place adversarial noise or a road where to add adversarial lines. If an attack operates as malicious software that directly alters the input (e.g., image) received by the DL model, then the attacked target would be e.g. the input image. The subcategories of “Attacked Target” concern the specific elements that the attacker needs to change, manipulate, or perturb. This can include the “Input Image” fed into the DL model, the “Road” or “Roadside”, the AV’s “Sensors”, “Objects” like billboards or traffic “Signs” like stop signs, and the “Training Data” used to train the model before deployment.",
+        "Mapped Safeguard": []
+    }]
+}, {
+    "avId": "SYS-520",
+    "avName": "Road/Roadside",
+    "info": [{
+        "Description": "The specific target of the attack, such as a billboard where to place adversarial noise or a road where to add adversarial lines. If an attack operates as malicious software that directly alters the input (e.g., image) received by the DL model, then the attacked target would be e.g. the input image. The subcategories of “Attacked Target” concern the specific elements that the attacker needs to change, manipulate, or perturb. This can include the “Input Image” fed into the DL model, the “Road” or “Roadside”, the AV’s “Sensors”, “Objects” like billboards or traffic “Signs” like stop signs, and the “Training Data” used to train the model before deployment.",
+        "Mapped Safeguard": []
+    }]
+}, {
+    "avId": "SYS-530",
+    "avName": "Sensors",
+    "info": [{
+        "Description": "The specific target of the attack, such as a billboard where to place adversarial noise or a road where to add adversarial lines. If an attack operates as malicious software that directly alters the input (e.g., image) received by the DL model, then the attacked target would be e.g. the input image. The subcategories of “Attacked Target” concern the specific elements that the attacker needs to change, manipulate, or perturb. This can include the “Input Image” fed into the DL model, the “Road” or “Roadside”, the AV’s “Sensors”, “Objects” like billboards or traffic “Signs” like stop signs, and the “Training Data” used to train the model before deployment.",
+        "Mapped Safeguard": []
+    }]
+}, {
+    "avId": "SYS-540",
+    "avName": "Objects/Signs",
+    "info": [{
+        "Description": "The specific target of the attack, such as a billboard where to place adversarial noise or a road where to add adversarial lines. If an attack operates as malicious software that directly alters the input (e.g., image) received by the DL model, then the attacked target would be e.g. the input image. The subcategories of “Attacked Target” concern the specific elements that the attacker needs to change, manipulate, or perturb. This can include the “Input Image” fed into the DL model, the “Road” or “Roadside”, the AV’s “Sensors”, “Objects” like billboards or traffic “Signs” like stop signs, and the “Training Data” used to train the model before deployment.",
+        "Mapped Safeguard": []
+    }]
+}, {
+    "avId": "SYS-550",
+    "avName": "Train Data",
+    "info": [{
+        "Description": "The specific target of the attack, such as a billboard where to place adversarial noise or a road where to add adversarial lines. If an attack operates as malicious software that directly alters the input (e.g., image) received by the DL model, then the attacked target would be e.g. the input image. The subcategories of “Attacked Target” concern the specific elements that the attacker needs to change, manipulate, or perturb. This can include the “Input Image” fed into the DL model, the “Road” or “Roadside”, the AV’s “Sensors”, “Objects” like billboards or traffic “Signs” like stop signs, and the “Training Data” used to train the model before deployment.",
+        "Mapped Safeguard": []
+    }]
+},{
+    "avId": "SYS-600",
+    "avName": "Attacker's Capability",
+    "info": [{
+        "Description": "The capabilities required by the attacker to execute the attack, such as the ability to alter the physical environment or to install malware into the system. The “Attacker’s Capability” category has four subcategories. Attacks requiring changes to the environment, such as placing objects on the road, fall under the “Environmental Manipulation” subcategory. Those needing alterations at the software level, like acting as a man in the middle, are categorized under “Software Interference”. Attacks that interfere with the sensors’ regular functionality, such as directing lasers at them, are included in the “Sensor Interference” subcategory. Lastly, those requiring manipulation of the model, such as adding backdoors to the training data, fall under the “Model Manipulation” subcategory.",
+        "Mapped Safeguard": []
+    }]
+},{
+    "avId": "SYS-610",
+    "avName": "Environmental Manipulation",
+    "info": [{
+        "Description": "The capabilities required by the attacker to execute the attack, such as the ability to alter the physical environment or to install malware into the system. The “Attacker’s Capability” category has four subcategories. Attacks requiring changes to the environment, such as placing objects on the road, fall under the “Environmental Manipulation” subcategory. Those needing alterations at the software level, like acting as a man in the middle, are categorized under “Software Interference”. Attacks that interfere with the sensors’ regular functionality, such as directing lasers at them, are included in the “Sensor Interference” subcategory. Lastly, those requiring manipulation of the model, such as adding backdoors to the training data, fall under the “Model Manipulation” subcategory.",
+        "Mapped Safeguard": []
+    }]
+},{
+    "avId": "SYS-620",
+    "avName": "Software Interference",
+    "info": [{
+        "Description": "The capabilities required by the attacker to execute the attack, such as the ability to alter the physical environment or to install malware into the system. The “Attacker’s Capability” category has four subcategories. Attacks requiring changes to the environment, such as placing objects on the road, fall under the “Environmental Manipulation” subcategory. Those needing alterations at the software level, like acting as a man in the middle, are categorized under “Software Interference”. Attacks that interfere with the sensors’ regular functionality, such as directing lasers at them, are included in the “Sensor Interference” subcategory. Lastly, those requiring manipulation of the model, such as adding backdoors to the training data, fall under the “Model Manipulation” subcategory.",
+        "Mapped Safeguard": []
+    }]
+},{
+    "avId": "SYS-630",
+    "avName": "Sensor Interference",
+    "info": [{
+        "Description": "The capabilities required by the attacker to execute the attack, such as the ability to alter the physical environment or to install malware into the system. The “Attacker’s Capability” category has four subcategories. Attacks requiring changes to the environment, such as placing objects on the road, fall under the “Environmental Manipulation” subcategory. Those needing alterations at the software level, like acting as a man in the middle, are categorized under “Software Interference”. Attacks that interfere with the sensors’ regular functionality, such as directing lasers at them, are included in the “Sensor Interference” subcategory. Lastly, those requiring manipulation of the model, such as adding backdoors to the training data, fall under the “Model Manipulation” subcategory.",
+        "Mapped Safeguard": []
+    }]
+},{
+    "avId": "SYS-640",
+    "avName": "Model Manipulation",
+    "info": [{
+        "Description": "The capabilities required by the attacker to execute the attack, such as the ability to alter the physical environment or to install malware into the system. The “Attacker’s Capability” category has four subcategories. Attacks requiring changes to the environment, such as placing objects on the road, fall under the “Environmental Manipulation” subcategory. Those needing alterations at the software level, like acting as a man in the middle, are categorized under “Software Interference”. Attacks that interfere with the sensors’ regular functionality, such as directing lasers at them, are included in the “Sensor Interference” subcategory. Lastly, those requiring manipulation of the model, such as adding backdoors to the training data, fall under the “Model Manipulation” subcategory.",
+        "Mapped Safeguard": []
+    }]
+}, {
+    "avId": "SYS-700",
+    "avName": "Attack Strategy",
+    "info": [{
+        "Description": "The attacker’s general strategy, such as altering training data (“Poisoning”) or producing mis-prediction at inference time (“Eva-sion”).",
+        "Mapped Safeguard": []
+    }]
+}, {
+    "avId": "SYS-710",
+    "avName": "Evasion",
+    "info": [{
+        "Description": "The attacker’s general strategy, such as altering training data (“Poisoning”) or producing mis-prediction at inference time (“Eva-sion”).",
+        "Mapped Safeguard": []
+    }]
+}, {
+    "avId": "SYS-720",
+    "avName": "Poisoning",
+    "info": [{
+        "Description": "The attacker’s general strategy, such as altering training data (“Poisoning”) or producing mis-prediction at inference time (“Eva-sion”).",
+        "Mapped Safeguard": []
+    }]
+}, {
+    "avId": "SYS-800",
+    "avName": "Attacker's System/Model Knowledge",
+    "info": [{
+        "Description": "The attacker’s knowledge about the system or model, split into white-, black-, or grey-box knowledge.",
+        "Mapped Safeguard": []
+    }]
+}, {
+    "avId": "SYS-810",
+    "avName": "Model-level Knowledge",
+    "info": [{
+        "Description": "The attacker’s knowledge about the system or model, split into white-, black-, or grey-box knowledge.",
+        "Mapped Safeguard": []
+    }]
+}, {
+    "avId": "SYS-820",
+    "avName": "System-level Knowledge",
+    "info": [{
+        "Description": "The attacker’s knowledge about the system or model, split into white-, black-, or grey-box knowledge.",
+        "Mapped Safeguard": []
+    }]
+}, {
+    "avId": "SYS-811",
+    "avName": "Model-level White-Box",
+    "info": [{
+        "Description": "Full access to the code used to create the model and to the dataset used to train/test the model.",
+        "Mapped Safeguard": []
+    }]
+}, {
+    "avId": "SYS-812",
+    "avName": "Model-level Black-Box",
+    "info": [{
+        "Description": "The attacker can only know the input and output vectors accepted/produced by the model.",
+        "Mapped Safeguard": []
+    }]
+}, {
+    "avId": "SYS-821",
+    "avName": "System-level White-Box",
+    "info": [{
+        "Description": "The attacker has unrestricted access to the entire system, including the source code of the system, DL models, simulator (if any) and datasets.",
+        "Mapped Safeguard": []
+    }]
+}, {
+    "avId": "SYS-822",
+    "avName": "System-level Black-Box",
+    "info": [{
+        "Description": "The attacker’s knowledge is limited to input (e.g., sensor) and output (e.g. actuator) data, with no visibility into the internal system components.",
+        "Mapped Safeguard": []
+    }]
+}, {
+    "avId": "SYS-823",
+    "avName": "System-level Grey-Box",
+    "info": [{
+        "Description": "The attacker has some insights into the system but not to the full extent of a white-box setting (e.g., the code of some components is available, but not the code of the entire system).",
+        "Mapped Safeguard": []
+    }]
+}, {
+    "avId": "SYS-900",
+    "avName": "Attack/Error Specificity",
+    "info": [{
+        "Description": "Some attacks are highly specific, targeting only one particular object or aspect (e.g., only traffic signs are attacked), which makes them “Attack-Specific”. On the other hand, the “Attack-Generic” subcategory represents a more general type of attack, which can be applied to a wider range of targets (e.g., any object on the side of the road). Regarding the model mis-predictions resulting from the attack, “Error-Specific” attacks aim to induce a particular output or trigger unique misbehavior in the model (e.g., confusing a 60 speed limit with a 90), while “Error-Generic” attacks allow any kind of misbehavior of the model (e.g., mis-classifying a traffic sign in any possible way).",
+        "Mapped Safeguard": []
+    }]
+}, {
+    "avId": "SYS-910",
+    "avName": "Attack",
+    "info": [{
+        "Description": "Some attacks are highly specific, targeting only one particular object or aspect (e.g., only traffic signs are attacked), which makes them “Attack-Specific”. On the other hand, the “Attack-Generic” subcategory represents a more general type of attack, which can be applied to a wider range of targets (e.g., any object on the side of the road). Regarding the model mis-predictions resulting from the attack, “Error-Specific” attacks aim to induce a particular output or trigger unique misbehavior in the model (e.g., confusing a 60 speed limit with a 90), while “Error-Generic” attacks allow any kind of misbehavior of the model (e.g., mis-classifying a traffic sign in any possible way).",
+        "Mapped Safeguard": []
+    }]
+}, {
+    "avId": "SYS-920",
+    "avName": "Error",
+    "info": [{
+        "Description": "Some attacks are highly specific, targeting only one particular object or aspect (e.g., only traffic signs are attacked), which makes them “Attack-Specific”. On the other hand, the “Attack-Generic” subcategory represents a more general type of attack, which can be applied to a wider range of targets (e.g., any object on the side of the road). Regarding the model mis-predictions resulting from the attack, “Error-Specific” attacks aim to induce a particular output or trigger unique misbehavior in the model (e.g., confusing a 60 speed limit with a 90), while “Error-Generic” attacks allow any kind of misbehavior of the model (e.g., mis-classifying a traffic sign in any possible way).",
+        "Mapped Safeguard": []
+    }]
+}, {
+    "avId": "SYS-911",
+    "avName": "Attack Specific",
+    "info": [{
+        "Description": "Some attacks are highly specific, targeting only one particular object or aspect (e.g., only traffic signs are attacked), which makes them “Attack-Specific”. On the other hand, the “Attack-Generic” subcategory represents a more general type of attack, which can be applied to a wider range of targets (e.g., any object on the side of the road). Regarding the model mis-predictions resulting from the attack, “Error-Specific” attacks aim to induce a particular output or trigger unique misbehavior in the model (e.g., confusing a 60 speed limit with a 90), while “Error-Generic” attacks allow any kind of misbehavior of the model (e.g., mis-classifying a traffic sign in any possible way).",
+        "Mapped Safeguard": []
+    }]
+}, {
+    "avId": "SYS-912",
+    "avName": "Attack Generic",
+    "info": [{
+        "Description": "Some attacks are highly specific, targeting only one particular object or aspect (e.g., only traffic signs are attacked), which makes them “Attack-Specific”. On the other hand, the “Attack-Generic” subcategory represents a more general type of attack, which can be applied to a wider range of targets (e.g., any object on the side of the road). Regarding the model mis-predictions resulting from the attack, “Error-Specific” attacks aim to induce a particular output or trigger unique misbehavior in the model (e.g., confusing a 60 speed limit with a 90), while “Error-Generic” attacks allow any kind of misbehavior of the model (e.g., mis-classifying a traffic sign in any possible way).",
+        "Mapped Safeguard": []
+    }]
+}, {
+    "avId": "SYS-921",
+    "avName": "Error Specific",
+    "info": [{
+        "Description": "Some attacks are highly specific, targeting only one particular object or aspect (e.g., only traffic signs are attacked), which makes them “Attack-Specific”. On the other hand, the “Attack-Generic” subcategory represents a more general type of attack, which can be applied to a wider range of targets (e.g., any object on the side of the road). Regarding the model mis-predictions resulting from the attack, “Error-Specific” attacks aim to induce a particular output or trigger unique misbehavior in the model (e.g., confusing a 60 speed limit with a 90), while “Error-Generic” attacks allow any kind of misbehavior of the model (e.g., mis-classifying a traffic sign in any possible way).",
+        "Mapped Safeguard": []
+    }]
+}, {
+    "avId": "SYS-922",
+    "avName": "Error Generic",
+    "info": [{
+        "Description": "Some attacks are highly specific, targeting only one particular object or aspect (e.g., only traffic signs are attacked), which makes them “Attack-Specific”. On the other hand, the “Attack-Generic” subcategory represents a more general type of attack, which can be applied to a wider range of targets (e.g., any object on the side of the road). Regarding the model mis-predictions resulting from the attack, “Error-Specific” attacks aim to induce a particular output or trigger unique misbehavior in the model (e.g., confusing a 60 speed limit with a 90), while “Error-Generic” attacks allow any kind of misbehavior of the model (e.g., mis-classifying a traffic sign in any possible way).",
+        "Mapped Safeguard": []
+    }]
+}, {
+    "avId": "SYS-1000",
+    "avName": "System's Failure Specificity",
+    "info": [{
+        "Description": "Similar to the previous category, this one indicates whether the attacker expects a particular system-level failure. For instance, if the attacker aims to make the vehicle suddenly brake, the attack is considered “Failure-Specific”. Alternatively, a “Failure-Generic” attack aims at a general system failure, without specifying the exact expected outcome.",
+        "Mapped Safeguard": []
+    }]
+},  {
+    "avId": "SYS-1010",
+    "avName": "Failure Generic",
+    "info": [{
+        "Description": "Similar to the previous category, this one indicates whether the attacker expects a particular system-level failure. For instance, if the attacker aims to make the vehicle suddenly brake, the attack is considered “Failure-Specific”. Alternatively, a “Failure-Generic” attack aims at a general system failure, without specifying the exact expected outcome.",
+        "Mapped Safeguard": []
+    }]
+},  {
+    "avId": "SYS-1020",
+    "avName": "Failure Specific",
+    "info": [{
+        "Description": "Similar to the previous category, this one indicates whether the attacker expects a particular system-level failure. For instance, if the attacker aims to make the vehicle suddenly brake, the attack is considered “Failure-Specific”. Alternatively, a “Failure-Generic” attack aims at a general system failure, without specifying the exact expected outcome.",
+        "Mapped Safeguard": []
+    }]
+}, 
+{
+    "avId": "SYS-1100",
+    "avName": "Model-Level Results",
+    "info": [{
+        "Description": "The outcome of the DL model resulting from the attack, such as a mis-classification or mis-detection by the object classifier or object detection component of the autonomous vehicle. In this category, papers causing a wrong steering angle prediction fall under the “Steering Angle Misprediction” subcategory. Those causing the object detection module to fail at detecting objects correctly are categorized under “Object Misdetection”. The “Misclassification” subcategory includes e.g. a paper where traffic light colors are incorrectly classified. Finally, the “Wrong Decision” subcategory is for instances where models make incorrect decisions, such as in traffic jams.",
+        "Mapped Safeguard": []
+    }]
+}, 
+{
+    "avId": "SYS-1110",
+    "avName": "Steering Angle Misprediction",
+    "info": [{
+        "Description": "The outcome of the DL model resulting from the attack, such as a mis-classification or mis-detection by the object classifier or object detection component of the autonomous vehicle. In this category, papers causing a wrong steering angle prediction fall under the “Steering Angle Misprediction” subcategory. Those causing the object detection module to fail at detecting objects correctly are categorized under “Object Misdetection”. The “Misclassification” subcategory includes e.g. a paper where traffic light colors are incorrectly classified. Finally, the “Wrong Decision” subcategory is for instances where models make incorrect decisions, such as in traffic jams.",
+        "Mapped Safeguard": []
+    }]
+}, 
+{
+    "avId": "SYS-1120",
+    "avName": "Object Misdetection",
+    "info": [{
+        "Description": "The outcome of the DL model resulting from the attack, such as a mis-classification or mis-detection by the object classifier or object detection component of the autonomous vehicle. In this category, papers causing a wrong steering angle prediction fall under the “Steering Angle Misprediction” subcategory. Those causing the object detection module to fail at detecting objects correctly are categorized under “Object Misdetection”. The “Misclassification” subcategory includes e.g. a paper where traffic light colors are incorrectly classified. Finally, the “Wrong Decision” subcategory is for instances where models make incorrect decisions, such as in traffic jams.",
+        "Mapped Safeguard": []
+    }]
+}, 
+{
+    "avId": "SYS-1130",
+    "avName": "Misclassification",
+    "info": [{
+        "Description": "The outcome of the DL model resulting from the attack, such as a mis-classification or mis-detection by the object classifier or object detection component of the autonomous vehicle. In this category, papers causing a wrong steering angle prediction fall under the “Steering Angle Misprediction” subcategory. Those causing the object detection module to fail at detecting objects correctly are categorized under “Object Misdetection”. The “Misclassification” subcategory includes e.g. a paper where traffic light colors are incorrectly classified. Finally, the “Wrong Decision” subcategory is for instances where models make incorrect decisions, such as in traffic jams.",
+        "Mapped Safeguard": []
+    }]
+}, 
+{
+    "avId": "SYS-1140",
+    "avName": "Wrong Decision",
+    "info": [{
+        "Description": "The outcome of the DL model resulting from the attack, such as a mis-classification or mis-detection by the object classifier or object detection component of the autonomous vehicle. In this category, papers causing a wrong steering angle prediction fall under the “Steering Angle Misprediction” subcategory. Those causing the object detection module to fail at detecting objects correctly are categorized under “Object Misdetection”. The “Misclassification” subcategory includes e.g. a paper where traffic light colors are incorrectly classified. Finally, the “Wrong Decision” subcategory is for instances where models make incorrect decisions, such as in traffic jams.",
+        "Mapped Safeguard": []
+    }]
+}, {
+    "avId": "SYS-1200",
+    "avName": "System-Level Results",
+    "info": [{
+        "Description": "This category indicates the outcomes of the attack at the system level, such as collisions with other cars, collisions with the environment, or sudden braking, resulting from model-level misbehavior propagated into system-level faults. For the “System-Level Results”, we have four subcategories. Some papers cause AV cars to crash into various things. Therefore, under the “Vehicle Crash To” subcategory, we have three more subcategories to specify what the AV crashed into. If the AV crashes into another vehicle (often a non-autonomous car), it falls under the “Vehicles” subcategory. The “Objects” subcategory is for instances when the AV hits objects such as road curbs, billboards, traffic cones, etc. There’s also a subcategory for cases where the AV crashes into “Pedestrians”. For results that don’t fall under “Vehicle Crash To” we have additional subcategories. The “Losing the Path” subcategory covers cases where the AV loses its path and goes into another lane or off-road. The “Changing in Speed/Brake” subcategory includes attacks that cause the AV to accelerate, decelerate, or suddenly brake. Lastly, the “Sign Ignorance” subcategory is for instances where the AV ignores stop signs or traffic lights.",
+        "Mapped Safeguard": []
+    }]
+},{
+    "avId": "SYS-1210",
+    "avName": "Vehicle Crash to",
+    "info": [{
+        "Description": "This category indicates the outcomes of the attack at the system level, such as collisions with other cars, collisions with the environment, or sudden braking, resulting from model-level misbehavior propagated into system-level faults. For the “System-Level Results”, we have four subcategories. Some papers cause AV cars to crash into various things. Therefore, under the “Vehicle Crash To” subcategory, we have three more subcategories to specify what the AV crashed into. If the AV crashes into another vehicle (often a non-autonomous car), it falls under the “Vehicles” subcategory. The “Objects” subcategory is for instances when the AV hits objects such as road curbs, billboards, traffic cones, etc. There’s also a subcategory for cases where the AV crashes into “Pedestrians”. For results that don’t fall under “Vehicle Crash To” we have additional subcategories. The “Losing the Path” subcategory covers cases where the AV loses its path and goes into another lane or off-road. The “Changing in Speed/Brake” subcategory includes attacks that cause the AV to accelerate, decelerate, or suddenly brake. Lastly, the “Sign Ignorance” subcategory is for instances where the AV ignores stop signs or traffic lights.",
+        "Mapped Safeguard": []
+    }]
+},{
+    "avId": "SYS-1220",
+    "avName": "Losing the path",
+    "info": [{
+        "Description": "This category indicates the outcomes of the attack at the system level, such as collisions with other cars, collisions with the environment, or sudden braking, resulting from model-level misbehavior propagated into system-level faults. For the “System-Level Results”, we have four subcategories. Some papers cause AV cars to crash into various things. Therefore, under the “Vehicle Crash To” subcategory, we have three more subcategories to specify what the AV crashed into. If the AV crashes into another vehicle (often a non-autonomous car), it falls under the “Vehicles” subcategory. The “Objects” subcategory is for instances when the AV hits objects such as road curbs, billboards, traffic cones, etc. There’s also a subcategory for cases where the AV crashes into “Pedestrians”. For results that don’t fall under “Vehicle Crash To” we have additional subcategories. The “Losing the Path” subcategory covers cases where the AV loses its path and goes into another lane or off-road. The “Changing in Speed/Brake” subcategory includes attacks that cause the AV to accelerate, decelerate, or suddenly brake. Lastly, the “Sign Ignorance” subcategory is for instances where the AV ignores stop signs or traffic lights.",
+        "Mapped Safeguard": []
+    }]
+},{
+    "avId": "SYS-1230",
+    "avName": "Changing in Speed/Brake",
+    "info": [{
+        "Description": "This category indicates the outcomes of the attack at the system level, such as collisions with other cars, collisions with the environment, or sudden braking, resulting from model-level misbehavior propagated into system-level faults. For the “System-Level Results”, we have four subcategories. Some papers cause AV cars to crash into various things. Therefore, under the “Vehicle Crash To” subcategory, we have three more subcategories to specify what the AV crashed into. If the AV crashes into another vehicle (often a non-autonomous car), it falls under the “Vehicles” subcategory. The “Objects” subcategory is for instances when the AV hits objects such as road curbs, billboards, traffic cones, etc. There’s also a subcategory for cases where the AV crashes into “Pedestrians”. For results that don’t fall under “Vehicle Crash To” we have additional subcategories. The “Losing the Path” subcategory covers cases where the AV loses its path and goes into another lane or off-road. The “Changing in Speed/Brake” subcategory includes attacks that cause the AV to accelerate, decelerate, or suddenly brake. Lastly, the “Sign Ignorance” subcategory is for instances where the AV ignores stop signs or traffic lights.",
+        "Mapped Safeguard": []
+    }]
+},{
+    "avId": "SYS-1240",
+    "avName": "Sign Ignorance",
+    "info": [{
+        "Description": "This category indicates the outcomes of the attack at the system level, such as collisions with other cars, collisions with the environment, or sudden braking, resulting from model-level misbehavior propagated into system-level faults. For the “System-Level Results”, we have four subcategories. Some papers cause AV cars to crash into various things. Therefore, under the “Vehicle Crash To” subcategory, we have three more subcategories to specify what the AV crashed into. If the AV crashes into another vehicle (often a non-autonomous car), it falls under the “Vehicles” subcategory. The “Objects” subcategory is for instances when the AV hits objects such as road curbs, billboards, traffic cones, etc. There’s also a subcategory for cases where the AV crashes into “Pedestrians”. For results that don’t fall under “Vehicle Crash To” we have additional subcategories. The “Losing the Path” subcategory covers cases where the AV loses its path and goes into another lane or off-road. The “Changing in Speed/Brake” subcategory includes attacks that cause the AV to accelerate, decelerate, or suddenly brake. Lastly, the “Sign Ignorance” subcategory is for instances where the AV ignores stop signs or traffic lights.",
+        "Mapped Safeguard": []
+    }]
+},{
+    "avId": "SYS-1211",
+    "avName": "Vehicles",
+    "info": [{
+        "Description": "This category indicates the outcomes of the attack at the system level, such as collisions with other cars, collisions with the environment, or sudden braking, resulting from model-level misbehavior propagated into system-level faults. For the “System-Level Results”, we have four subcategories. Some papers cause AV cars to crash into various things. Therefore, under the “Vehicle Crash To” subcategory, we have three more subcategories to specify what the AV crashed into. If the AV crashes into another vehicle (often a non-autonomous car), it falls under the “Vehicles” subcategory. The “Objects” subcategory is for instances when the AV hits objects such as road curbs, billboards, traffic cones, etc. There’s also a subcategory for cases where the AV crashes into “Pedestrians”. For results that don’t fall under “Vehicle Crash To” we have additional subcategories. The “Losing the Path” subcategory covers cases where the AV loses its path and goes into another lane or off-road. The “Changing in Speed/Brake” subcategory includes attacks that cause the AV to accelerate, decelerate, or suddenly brake. Lastly, the “Sign Ignorance” subcategory is for instances where the AV ignores stop signs or traffic lights.",
+        "Mapped Safeguard": []
+    }]
+},{
+    "avId": "SYS-1212",
+    "avName": "Objects",
+    "info": [{
+        "Description": "This category indicates the outcomes of the attack at the system level, such as collisions with other cars, collisions with the environment, or sudden braking, resulting from model-level misbehavior propagated into system-level faults. For the “System-Level Results”, we have four subcategories. Some papers cause AV cars to crash into various things. Therefore, under the “Vehicle Crash To” subcategory, we have three more subcategories to specify what the AV crashed into. If the AV crashes into another vehicle (often a non-autonomous car), it falls under the “Vehicles” subcategory. The “Objects” subcategory is for instances when the AV hits objects such as road curbs, billboards, traffic cones, etc. There’s also a subcategory for cases where the AV crashes into “Pedestrians”. For results that don’t fall under “Vehicle Crash To” we have additional subcategories. The “Losing the Path” subcategory covers cases where the AV loses its path and goes into another lane or off-road. The “Changing in Speed/Brake” subcategory includes attacks that cause the AV to accelerate, decelerate, or suddenly brake. Lastly, the “Sign Ignorance” subcategory is for instances where the AV ignores stop signs or traffic lights.",
+        "Mapped Safeguard": []
+    }]
+},{
+    "avId": "SYS-1213",
+    "avName": "Pedestrians",
+    "info": [{
+        "Description": "This category indicates the outcomes of the attack at the system level, such as collisions with other cars, collisions with the environment, or sudden braking, resulting from model-level misbehavior propagated into system-level faults. For the “System-Level Results”, we have four subcategories. Some papers cause AV cars to crash into various things. Therefore, under the “Vehicle Crash To” subcategory, we have three more subcategories to specify what the AV crashed into. If the AV crashes into another vehicle (often a non-autonomous car), it falls under the “Vehicles” subcategory. The “Objects” subcategory is for instances when the AV hits objects such as road curbs, billboards, traffic cones, etc. There’s also a subcategory for cases where the AV crashes into “Pedestrians”. For results that don’t fall under “Vehicle Crash To” we have additional subcategories. The “Losing the Path” subcategory covers cases where the AV loses its path and goes into another lane or off-road. The “Changing in Speed/Brake” subcategory includes attacks that cause the AV to accelerate, decelerate, or suddenly brake. Lastly, the “Sign Ignorance” subcategory is for instances where the AV ignores stop signs or traffic lights.",
+        "Mapped Safeguard": []
+    }]
+}]

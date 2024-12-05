@@ -1,0 +1,514 @@
+[{
+    "title": "DeepManeuver: Adversarial Test Generation for Trajectory Manipulation of Autonomous Vehicles",
+    "link": "https://github.com/MissMeriel/DeepManeuver",
+    "summary": "It is built on a BeamNG driving simulator and manipulates the steering angle prediction model of a victim's vehicle by installing a perturbation on a billboard.",
+    "vectors": [
+        {
+            "avId": "SYS-110",
+            "avName": "Cars"
+        },
+        {
+            "avId": "SYS-210",
+            "avName": "Object Detection & Tracking"
+        },
+        {
+            "avId": "SYS-220",
+            "avName": "Steering Wheel Angle Prediction"
+        },
+        {
+            "avId": "SYS-310",
+            "avName": "Simulation"
+        },
+        {
+            "avId": "SYS-422",
+            "avName": "Objects & Cars"
+        },
+        {
+            "avId": "SYS-540",
+            "avName": "Objects/Signs"
+        },
+        {
+            "avId": "SYS-610",
+            "avName": "Environmental Manipulation"
+        },
+        {
+            "avId": "SYS-710",
+            "avName": "Evasion"
+        },
+        {
+            "avId": "SYS-811",
+            "avName": "Model-level While-Box"
+        },
+        {
+            "avId": "SYS-822",
+            "avName": "System-level Black-Box"
+        },
+        {
+            "avId": "SYS-911",
+            "avName": "Attack Specific"
+        },
+        {
+            "avId": "SYS-922",
+            "avName": "Error Generic"
+        },
+        {
+            "avId": "SYS-1020",
+            "avName": "Failure Generic"
+        },
+        {
+            "avId": "SYS-1110",
+            "avName": "Steering Angle Misprediction"
+        },
+        {
+            "avId": "SYS-1212",
+            "avName": "Crash to Objects"
+        },
+        {
+            "avId": "SYS-1220",
+            "avName": "Losing the path"
+        }
+    ],
+    "tags": {
+        "year": 2020
+    }
+},
+{
+    "title": "Attacking vision-based perception in end-to-end autonomous driving models",
+    "link": "https://github.com/xz-group/AdverseDrive",
+    "summary": "It employs the CARLA simulator and is dockerized for convenience. The attack manipulates road lines, causing the vehicle to turn the wrong way.",
+    "vectors": [{
+            "avId": "SYS-110"
+        },
+        {
+            "avId": "SYS-230"
+        },
+        {
+            "avId": "SYS-310"
+        },
+        {
+            "avId": "SYS-423"
+        },
+        {
+            "avId": "SYS-520"
+        },
+        {
+            "avId": "SYS-610"
+        },
+        {
+            "avId": "SYS-710"
+        },
+        {
+            "avId": "SYS-812"
+        },
+        {
+            "avId": "SYS-822"
+        },
+        {
+            "avId": "SYS-911"
+        },
+        {
+            "avId": "SYS-921"
+        },
+        {
+            "avId": "SYS-1020"
+        },
+        {
+            "avId": "SYS-1120"
+        },
+        {
+            "avId": "SYS-1212"
+        },
+        {
+            "avId": "SYS-1220"
+        }
+    ],
+    "tags": {
+        "year": 2020
+    }
+},
+{
+    "title": "Trojaning attack on neural networks",
+    "link": "https://github.com/PurduePAML/TrojanNN",
+    "summary": "It is built on Python 2.7, Caffe, Theano and poisons the victim's driving model with trojan data to cause a wheel angle misprediction.",
+    "vectors": [
+        {
+            "avId": "SYS-110"
+        },
+        {
+            "avId": "SYS-220"
+        },
+        {
+            "avId": "SYS-310"
+        },
+        {
+            "avId": "SYS-410"
+        },
+        {
+            "avId": "SYS-540"
+        },
+        {
+            "avId": "SYS-640"
+        },
+        {
+            "avId": "SYS-720"
+        },
+        {
+            "avId": "SYS-811"
+        },
+        {
+            "avId": "SYS-822"
+        },
+        {
+            "avId": "SYS-912"
+        },
+        {
+            "avId": "SYS-921"
+        },
+        {
+            "avId": "SYS-1020"
+        },
+        {
+            "avId": "SYS-1110"
+        },
+        {
+            "avId": "SYS-1220"
+        }
+    ],
+    "tags": {
+        "year": 2020
+    }
+},
+{
+    "title": "Kidnapping Deep Learning-based Multirotors using Optimized Flying Adversarial Patches",
+    "link": "https://github.com/IMRCLab/flying_adversarial_patch/",
+    "summary": "Multirotors using Optimized Flying Adversarial Patches: It propose a method to hijack multi-rotor drones using flying adversarial patches, leveraging the PyTorch framework and the Crazyflie FlowDeck motion capture system.",
+    "vectors": [
+        {
+            "avId": "SYS-120"
+        },
+        {
+            "avId": "SYS-210"
+        },
+        {
+            "avId": "SYS-310"
+        },
+        {
+            "avId": "SYS-410"
+        },
+        {
+            "avId": "SYS-510"
+        },
+        {
+            "avId": "SYS-610"
+        },
+        {
+            "avId": "SYS-710"
+        },
+        {
+            "avId": "SYS-811"
+        },
+        {
+            "avId": "SYS-822"
+        },
+        {
+            "avId": "SYS-912"
+        },
+        {
+            "avId": "SYS-921"
+        },
+        {
+            "avId": "SYS-1020"
+        },
+        {
+            "avId": "SYS-1120"
+        },
+        {
+            "avId": "SYS-1220"
+        }
+    ],
+    "tags": {
+        "year": 2020
+    }
+},
+{
+    "title": "Dirty Road Can Attack: Security of Deep Learning based Automated Lane Centering under Physical-World Attack",
+    "link": "https://github.com/ASGuard-UCI/DRP-attack",
+    "summary": "It employs LGSVL simulator and OpenPilot to demonstrate an attack on AVs via printed patches, inducing incorrect steering predictions.",
+    "vectors": [
+        {
+            "avId": "SYS-110"
+        },
+        {
+            "avId": "SYS-220"
+        },
+        {
+            "avId": "SYS-310"
+        },
+        {
+            "avId": "SYS-410"
+        },
+        {
+            "avId": "SYS-520"
+        },
+        {
+            "avId": "SYS-610"
+        },
+        {
+            "avId": "SYS-710"
+        },
+        {
+            "avId": "SYS-811"
+        },
+        {
+            "avId": "SYS-822"
+        },
+        {
+            "avId": "SYS-912"
+        },
+        {
+            "avId": "SYS-921"
+        },
+        {
+            "avId": "SYS-1020"
+        },
+        {
+            "avId": "SYS-1110"
+        },
+        {
+            "avId": "SYS-1211"
+        },
+        {
+            "avId": "SYS-1212"
+        },
+        {
+            "avId": "SYS-1220"
+        }
+    ],
+    "tags": {
+        "year": 2020
+    }
+},
+{
+    "title": "SlowTrack: Increasing the Latency of Camera-Based Perception in Autonomous Driving Using Adversarial Examples",
+    "link": "https://github.com/ershang2/SlowTrack",
+    "summary": "It is built using PyTorch and designed to increase the execution time of camera-based AV perception by inserting fake bounding boxes.",
+    "vectors": [
+        {
+            "avId": "SYS-110"
+        },
+        {
+            "avId": "SYS-210"
+        },
+        {
+            "avId": "SYS-310"
+        },
+        {
+            "avId": "SYS-423"
+        },
+        {
+            "avId": "SYS-510"
+        },
+        {
+            "avId": "SYS-620"
+        },
+        {
+            "avId": "SYS-710"
+        },
+        {
+            "avId": "SYS-811"
+        },
+        {
+            "avId": "SYS-822"
+        },
+        {
+            "avId": "SYS-912"
+        },
+        {
+            "avId": "SYS-922"
+        },
+        {
+            "avId": "SYS-1010"
+        },
+        {
+            "avId": "SYS-1120"
+        },
+        {
+            "avId": "SYS-1211"
+        }
+    ],
+    "tags": {
+        "year": 2020
+    }
+},
+{
+    "title": "Invisible for both Camera and LiDAR: Security of Multi-Sensor Fusion based Perception in Autonomous Driving Under Physical-World Attacks",
+    "link": "https://github.com/ASGuard-UCI/MSF-ADV",
+    "summary": "It employs Baidu Apollo to demonstrate an attack via 3D-printed adversarial traffic cones, causing sensor deception and collisions.",
+    "vectors": [
+        {
+            "avId": "SYS-110"
+        },
+        {
+            "avId": "SYS-210"
+        },
+        {
+            "avId": "SYS-310"
+        },
+        {
+            "avId": "SYS-421"
+        },
+        {
+            "avId": "SYS-520"
+        },
+        {
+            "avId": "SYS-610"
+        },
+        {
+            "avId": "SYS-710"
+        },
+        {
+            "avId": "SYS-811"
+        },
+        {
+            "avId": "SYS-822"
+        },
+        {
+            "avId": "SYS-911"
+        },
+        {
+            "avId": "SYS-921"
+        },
+        {
+            "avId": "SYS-1020"
+        },
+        {
+            "avId": "SYS-1120"
+        },
+        {
+            "avId": "SYS-1212"
+        }
+    ],
+    "tags": {
+        "year": 2020
+    }
+},
+{
+    "title": "On Data Fabrication in Collaborative Vehicular Perception: Attacks and Countermeasures",
+    "link": "https://github.com/zqzqz/AdvCollaborativePerception",
+    "summary": "It is built on PyTorch and proposes an attack method that exploits LiDAR-based collaborative perception in AVs.",
+    "vectors": [
+        {
+            "avId": "SYS-110"
+        },
+        {
+            "avId": "SYS-210"
+        },
+        {
+            "avId": "SYS-310"
+        },
+        {
+            "avId": "SYS-423"
+        },
+        {
+            "avId": "SYS-540"
+        },
+        {
+            "avId": "SYS-620"
+        },
+        {
+            "avId": "SYS-710"
+        },
+        {
+            "avId": "SYS-811"
+        },
+        {
+            "avId": "SYS-823"
+        },
+        {
+            "avId": "SYS-911"
+        },
+        {
+            "avId": "SYS-921"
+        },
+        {
+            "avId": "SYS-1020"
+        },
+        {
+            "avId": "SYS-1120"
+        },
+        {
+            "avId": "SYS-1212"
+        },
+        {
+            "avId": "SYS-1230"
+        }
+    ],
+    "tags": {
+        "year": 2020
+    }
+},
+{
+    "title": "Phantom of the ADAS: Securing Advanced Driver-Assistance Systems from Split-Second Phantom Attacks",
+    "link": "https://github.com/ymirsky/GhostBusters",
+    "summary": "It is developed using Keras and proposes an attack method to project images onto roads, tricking AVs into perceiving them as real objects, potentially leading to unsafe driving behaviors.",
+    "vectors": [
+        {
+            "avId": "SYS-110"
+        },
+        {
+            "avId": "SYS-210"
+        },
+        {
+            "avId": "SYS-310"
+        },
+        {
+            "avId": "SYS-320"
+        },
+        {
+            "avId": "SYS-410"
+        },
+        {
+            "avId": "SYS-520"
+        },
+        {
+            "avId": "SYS-540"
+        },
+        {
+            "avId": "SYS-610"
+        },
+        {
+            "avId": "SYS-710"
+        },
+        {
+            "avId": "SYS-812"
+        },
+        {
+            "avId": "SYS-822"
+        },
+        {
+            "avId": "SYS-912"
+        },
+        {
+            "avId": "SYS-922"
+        },
+        {
+            "avId": "SYS-1010"
+        },
+        {
+            "avId": "SYS-1120"
+        },
+        {
+            "avId": "SYS-1212"
+        },
+        {
+            "avId": "SYS-1220"
+        },
+        {
+            "avId": "SYS-1230"
+        }
+    ],
+    "tags": {
+        "year": 2020
+    }
+}
+]

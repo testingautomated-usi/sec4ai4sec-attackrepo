@@ -1,0 +1,316 @@
+[{
+        "title": "Explaining and Harnessing Adversarial Examples",
+        "link": "https://link.springer.com/chapter/10.1007/978-3-030-52683-2_2",
+        "vectors": [{
+                "avId": "MOD-000",
+                "avName": "Adversarial Attacks"
+            },
+            {
+                "avId": "MOD-100",
+                "avName": "Test-time"
+            },
+            {
+                "avId": "MOD-110",
+                "avName": "Inject During the Build of Legitimate Package"
+            },
+            {
+                "avId": "MOD-111",
+                "avName": "Distribute Malicious Version of Legitimate Package"
+            }
+        ],
+        "tags": {
+            "contents": [
+                "peer-reviewed", 
+                "attack", 
+                "ICLR"
+            ],
+            "year": 2015
+        }
+    },
+    {
+        "title": "Towards Evaluating the Robustness of Neural Networks",
+        "link": "https://arXiv.org/pdf/1608.04644.pdf",
+        "vectors": [{
+            "avId": "MOD-000",
+            "avName": "Adversarial Attacks"
+        },
+        {
+            "avId": "MOD-100",
+            "avName": "Test-time"
+        },
+        {
+            "avId": "MOD-110",
+            "avName": "Inject During the Build of Legitimate Package"
+        },
+        {
+            "avId": "MOD-111",
+            "avName": "Distribute Malicious Version of Legitimate Package"
+        }
+        ],
+        "tags": {
+            "contents": [
+                "peer-reviewed", 
+                "attack", 
+                "IEEE S&P"
+            ],
+            "year": 2017
+        }
+    },
+    {
+        "title": "Towards Deep Learning Models Resistant to Adversarial Attacks",
+        "link": "https://arXiv.org/pdf/1706.06083.pdf",
+        "vectors": [{
+            "avId": "MOD-000",
+            "avName": "Adversarial Attacks"
+        },
+        {
+            "avId": "MOD-100",
+            "avName": "Test-time"
+        },
+        {
+            "avId": "MOD-110",
+            "avName": "Inject During the Build of Legitimate Package"
+        },
+        {
+            "avId": "MOD-111",
+            "avName": "Distribute Malicious Version of Legitimate Package"
+        }
+        ],
+        "tags": {
+            "contents": [
+                "peer-reviewed", 
+                "attack", 
+                "ICLR"
+            ],
+            "year": 2018
+        }
+    },
+    {
+        "title": "DeepFool: A Simple and Accurate Method to Fool Deep Neural Networks",
+        "link": "https://arXiv.org/pdf/1511.04599.pdf",
+        "vectors": [{
+            "avId": "MOD-000",
+            "avName": "Adversarial Attacks"
+        },
+        {
+            "avId": "MOD-100",
+            "avName": "Test-time"
+        },
+        {
+            "avId": "MOD-110",
+            "avName": "Inject During the Build of Legitimate Package"
+        },
+        {
+            "avId": "MOD-111",
+            "avName": "Distribute Malicious Version of Legitimate Package"
+        }
+        ],
+        "tags": {
+            "contents": [
+                "peer-reviewed", 
+                "attack", 
+                "CVPR"
+            ],
+            "year": 2016
+        }
+    },
+    {
+        "title": "Square Attack: a Query-Efficient Black-box Adversarial Attack via Random Search",
+        "link": "https://arXiv.org/pdf/1912.00049.pdf",
+        "vectors": [{
+            "avId": "MOD-000",
+            "avName": "Adversarial Attacks"
+        },
+        {
+            "avId": "MOD-100",
+            "avName": "Test-time"
+        },
+        {
+            "avId": "MOD-110",
+            "avName": "Inject During the Build of Legitimate Package"
+        },
+        {
+            "avId": "MOD-113",
+            "avName": "Distribute Malicious Version of Legitimate Package"
+        }
+        ],
+        "tags": {
+            "contents": [
+                "attack"
+            ],
+            "year": 2019
+        }
+    },
+    {
+        "title": "Practical Black-Box Attacks against Machine Learning",
+        "link": "https://arXiv.org/pdf/1602.02697.pdf",
+        "vectors": [{
+            "avId": "MOD-000",
+            "avName": "Adversarial Attacks"
+        },
+        {
+            "avId": "MOD-100",
+            "avName": "Test-time"
+        },
+        {
+            "avId": "MOD-110",
+            "avName": "Inject During the Build of Legitimate Package"
+        },
+        {
+            "avId": "MOD-113",
+            "avName": "Distribute Malicious Version of Legitimate Package"
+        }
+        ],
+        "tags": {
+            "contents": [
+                "peer-reviewed", 
+                "attack", 
+                "IEEE S&P"
+            ],
+            "year": 2016
+        }
+    },
+    {
+        "title": "SPONGE EXAMPLES: ENERGY-LATENCY ATTACKS ON NEURAL NETWORKS",
+        "link": "https://arxiv.org/pdf/2006.03463.pdf",
+        "vectors": [{
+            "avId": "MOD-000",
+            "avName": "Adversarial Attacks"
+        },
+        {
+            "avId": "MOD-100",
+            "avName": "Test-time"
+        },
+        {
+            "avId": "MOD-120",
+            "avName": "Inject During the Build of Legitimate Package"
+        },
+        {
+            "avId": "MOD-121",
+            "avName": "Distribute Malicious Version of Legitimate Package"
+        }
+        ],
+        "tags": {
+            "contents": [
+                "peer-reviewed", 
+                "attack", 
+                "IEEE S&P"
+            ],
+            "year": 2021
+        }
+    },
+    {
+        "title": "Energy-Latency Attacks via Sponge Poisoning",
+        "link": "https://arxiv.org/pdf/2203.08147.pdf",
+        "vectors": [{
+            "avId": "MOD-000",
+            "avName": "Adversarial Attacks"
+        },
+        {
+            "avId": "MOD-200",
+            "avName": "Test-time"
+        },
+        {
+            "avId": "MOD-220",
+            "avName": "Inject During the Build of Legitimate Package"
+        },
+        {
+            "avId": "MOD-221",
+            "avName": "Distribute Malicious Version of Legitimate Package"
+        }
+        ],
+        "tags": {
+            "contents": [
+                "attack"
+            ],
+            "year": 2022
+        }
+    },
+    {
+        "title": "Evasion Attacks against Machine Learning at Test Time",
+        "link": "https://arXiv.org/pdf/1708.06131.pdf",
+        "vectors": [{
+            "avId": "MOD-000",
+            "avName": "Adversarial Attacks"
+        },
+        {
+            "avId": "MOD-100",
+            "avName": "Test-time"
+        },
+        {
+            "avId": "MOD-110",
+            "avName": "Inject During the Build of Legitimate Package"
+        },
+        {
+            "avId": "MOD-111",
+            "avName": "Distribute Malicious Version of Legitimate Package"
+        }
+        ],
+        "tags": {
+            "contents": [
+                "peer-reviewed", 
+                "attack", 
+                "ECML"
+            ],
+            "year": 2013
+        }
+    },
+    {
+        "title": "Poisoning Attacks against Support Vector Machines",
+        "link": "https://arxiv.org/pdf/1206.6389.pdf",
+        "vectors": [{
+            "avId": "MOD-000",
+            "avName": "Adversarial Attacks"
+        },
+        {
+            "avId": "MOD-200",
+            "avName": "Test-time"
+        },
+        {
+            "avId": "MOD-210",
+            "avName": "Inject During the Build of Legitimate Package"
+        },
+        {
+            "avId": "MOD-211",
+            "avName": "Distribute Malicious Version of Legitimate Package"
+        }
+        ],
+        "tags": {
+            "contents": [
+                "peer-reviewed", 
+                "attack", 
+                "ICML"
+            ],
+            "year": 2012
+        }
+    },
+    {
+        "title": "Membership Inference Attacks Against Machine Learning Models",
+        "link": "https://arXiv.org/pdf/1610.05820.pdf",
+        "vectors": [{
+            "avId": "MOD-000",
+            "avName": "Adversarial Attacks"
+        },
+        {
+            "avId": "MOD-100",
+            "avName": "Test-time"
+        },
+        {
+            "avId": "MOD-130",
+            "avName": "Inject During the Build of Legitimate Package"
+        },
+        {
+            "avId": "MOD-131",
+            "avName": "Distribute Malicious Version of Legitimate Package"
+        }
+        ],
+        "tags": {
+            "contents": [
+                "peer-reviewed", 
+                "attack", 
+                "IEEE S&P"
+            ],
+            "year": 2017
+        }
+    }
+]

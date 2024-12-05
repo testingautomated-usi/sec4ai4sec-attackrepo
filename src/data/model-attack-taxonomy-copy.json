@@ -1,0 +1,318 @@
+{
+    "avName": "MOD-Level Attack Taxonomy",
+    "avId": "MOD-000",
+    "children": [
+        {
+            "avName": "Test Time",
+            "avId": "MOD-100",
+            "children": [
+                {
+                    "avName": "Integrity",
+                    "avId": "MOD-110",
+                    "children": [
+                        {
+                            "avName": "WhiteBox",
+                            "avId": "MOD-111",
+                            "children": [
+                                {
+                                    "avName": "Pintor2021Fast",
+                                    "avId": "MOD-111-Pintor2021Fast"
+                                },
+                                {
+                                    "avName": "Goodfellow2015Explaining",
+                                    "avId": "MOD-111-Goodfellow2015Explaining"
+                                },
+                                {
+                                    "avName": "Carlini2018Audio",
+                                    "avId": "MOD-111-Carlini2018Audio"
+                                },
+                                {
+                                    "avName": "Sharif2016Accessorize",
+                                    "avId": "MOD-111-Sharif2016Accessorize"
+                                },
+                                {
+                                    "avName": "Biggio2013Evasion",
+                                    "avId": "MOD-111-Biggio2013Evasion"
+                                },
+                                {
+                                    "avName": "Dezfooli2016DeepFool",
+                                    "avId": "MOD-111-Moosavi-Dezfooli2016DeepFool"
+                                },
+                                {
+                                    "avName": "Carlini2017Towards",
+                                    "avId": "MOD-111-Carlini2017Towards"
+                                },
+                                {
+                                    "avName": "Aleks2019Towards",
+                                    "avId": "MOD-111-Aleks2019Towards"
+                                },
+                                {
+                                    "avName": "Athalye2018Proceedings",
+                                    "avId": "MOD-111-Athalye2018Proceedings"
+                                },
+                                {
+                                    "avName": "Szegedy20142nd",
+                                    "avId": "MOD-111-Szegedy20142nd"
+                                },
+                                {
+                                    "avName": "Croce2020Proceedings",
+                                    "avId": "MOD-111-Croce2020Proceedings"
+                                },
+                                {
+                                    "avName": "Rony20212021",
+                                    "avId": "MOD-111-Rony20212021"
+                                },
+                                {
+                                    "avName": "Wong2019Proceedings",
+                                    "avId": "MOD-111-Wong2019Proceedings"
+                                },
+                                {
+                                    "avName": "Eykholt20182018",
+                                    "avId": "MOD-111-Eykholt20182018"
+                                },
+                                {
+                                    "avName": "Dong2018CVPR",
+                                    "avId": "MOD-111-Dong2018CVPR"
+                                },
+                                {
+                                    "avName": "Athalye2018Proceedings",
+                                    "avId": "MOD-111-Athalye2018Proceedings"
+                                },
+                                {
+                                    "avName": "Xie2017IEEE",
+                                    "avId": "MOD-111-Xie2017IEEE"
+                                },
+                                {
+                                    "avName": "Grosse2017ESORICS",
+                                    "avId": "MOD-111-Grosse2017ESORICS"
+                                }
+                            ]
+                        },
+                        {
+                            "avName": "GrayBox",
+                            "avId": "MOD-112",
+                            "children": []
+                        },
+                        {
+                            "avName": "BlackBox",
+                            "avId": "MOD-113",
+                            "children": [
+                                {
+                                    "avName": "Cheng2018QueryEfficient",
+                                    "avId": "MOD-113-Cheng2018QueryEfficient"
+                                },
+                                {
+                                    "avName": "Chen2017ZOO",
+                                    "avId": "MOD-113-Chen2017ZOO"
+                                },
+                                {
+                                    "avName": "Wiel2018DecisionBased",
+                                    "avId": "MOD-113-Wiel2018DecisionBased"
+                                },
+                                {
+                                    "avName": "Chen2020HopSkipJumpAttack",
+                                    "avId": "MOD-113-Chen2020HopSkipJumpAttack"
+                                },
+                                {
+                                    "avName": "Ilyas2019Prior",
+                                    "avId": "MOD-113-Ilyas2019Prior"
+                                },
+                                {
+                                    "avName": "Chen2017ZOO",
+                                    "avId": "MOD-113-Chen2017ZOO"
+                                },
+                                {
+                                    "avName": "Montaruli2023Raze",
+                                    "avId": "MOD-113-Montaruli2023Raze"
+                                },
+                                {
+                                    "avName": "Ilyas2018Black",
+                                    "avId": "MOD-113-Ilyas2018Black"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "avName": "Availability",
+                    "avId": "MOD-120",
+                    "children": [
+                        {
+                            "avName": "WhiteBox",
+                            "avId": "MOD-121",
+                            "children": []
+                        },
+                        {
+                            "avName": "GrayBox",
+                            "avId": "MOD-122",
+                            "children": []
+                        },
+                        {
+                            "avName": "BlackBox",
+                            "avId": "MOD-123",
+                            "children": [
+                                {
+                                    "avName": "Yeom2018Privacy",
+                                    "avId": "MOD-123-Yeom2018Privacy"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "avName": "Privacy/Confidentiality",
+                    "avId": "MOD-130",
+                    "children": [
+                        {
+                            "avName": "WhiteBox",
+                            "avId": "MOD-131",
+                            "children": [
+                                {
+                                    "avName": "Nasr2019Comprehensive",
+                                    "avId": "MOD-131-Nasr2019Comprehensive"
+                                },
+                                {
+                                    "avName": "Leino2020Stolen",
+                                    "avId": "MOD-131-Leino2020Stolen"
+                                },
+                                {
+                                    "avName": "Alex2019Whitebox",
+                                    "avId": "MOD-131-Alex2019Whitebox"
+                                }
+                            ]
+                        },
+                        {
+                            "avName": "GrayBox",
+                            "avId": "MOD-132",
+                            "children": []
+                        },
+                        {
+                            "avName": "BlackBox",
+                            "avId": "MOD-133",
+                            "children": [
+                                {
+                                    "avName": "Pang2024Blackbox",
+                                    "avId": "MOD-133-Pang2024Blackbox"
+                                },
+                                {
+                                    "avName": "Shokri20172017",
+                                    "avId": "MOD-133-Shokri20172017"
+                                },
+                                {
+                                    "avName": "Carlini2022Membership",
+                                    "avId": "MOD-133-Carlini2022Membership"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "avName": "Training Time",
+            "avId": "MOD-200",
+            "children": [
+                {
+                    "avName": "Integrity",
+                    "avId": "MOD-201",
+                    "children": [
+                        {
+                            "avName": "WhiteBox",
+                            "avId": "MOD-211",
+                            "children": [
+                                {
+                                    "avName": "Xiao2018Is",
+                                    "avId": "MOD-211-Xiao2018Is"
+                                },
+                                {
+                                    "avName": "Jagielski2021Manipulating",
+                                    "avId": "MOD-211-Jagielski2021Manipulating"
+                                },
+                                {
+                                    "avName": "Biggio2013Poisoning",
+                                    "avId": "MOD-211-Biggio2013Poisoning"
+                                }
+                            ]
+                        },
+                        {
+                            "avName": "GrayBox",
+                            "avId": "MOD-212",
+                            "children": [
+                                {
+                                    "avName": "Jagielski2021Manipulating",
+                                    "avId": "MOD-212-Jagielski2021Manipulating"
+                                },
+                                {
+                                    "avName": "Liu201825th",
+                                    "avId": "MOD-212-Liu201825th"
+                                }
+                            ]
+                        },
+                        {
+                            "avName": "BlackBox",
+                            "avId": "MOD-213",
+                            "children": [
+                                {
+                                    "avName": "Biggio2011Support",
+                                    "avId": "MOD-213-Biggio2011Support"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "avName": "Availability",
+                    "avId": "MOD-220",
+                    "children": [
+                        {
+                            "avName": "WhiteBox",
+                            "avId": "MOD-221",
+                            "children": [
+                                {
+                                    "avName": "Gonzalez2017Towards",
+                                    "avId": "MOD-221-Munoz-Gonzalez2017Towards"
+                                }
+                            ]
+                        },
+                        {
+                            "avName": "GrayBox",
+                            "avId": "MOD-222",
+                            "children": [
+                                {
+                                    "avName": "Suciu2018When",
+                                    "avId": "MOD-222-Suciu2018When"
+                                }
+                            ]
+                        },
+                        {
+                            "avName": "BlackBox",
+                            "avId": "MOD-223",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "avName": "Privacy/Confidentiality",
+                    "avId": "MOD-230",
+                    "children": [
+                        {
+                            "avName": "WhiteBox",
+                            "avId": "MOD-231",
+                            "children": []
+                        },
+                        {
+                            "avName": "GrayBox",
+                            "avId": "MOD-232",
+                            "children": []
+                        },
+                        {
+                            "avName": "BlackBox",
+                            "avId": "MOD-233",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        }
+]
+}    

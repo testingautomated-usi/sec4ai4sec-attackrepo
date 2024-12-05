@@ -1,0 +1,270 @@
+[{
+    "avId": "MOD-000",
+    "avName": "Adversarial Attacks",
+    "info": [{
+        "Description": "The attack taxonomy is based on the 2018 Pattern Recognition paper Wild Patterns: Ten years after the rise of adversarial machine learning, by Battista Biggio and Fabio Roli. The taxonomy is based on three layers, namely: (i) the attacker's capability, which is either test or training time and refers to what kind of data the attacker can manipulate; (ii) the attacker's goal, either integrity, availability or privacy/confidentiality; (iii) the attacker's knowledge, either full, partial, or zero knowledge, commonly known as, respectively, white, gray and black-box models.",
+        "Impact": "Conduct a Software Supply Chain attack",
+        "Mapped Safeguard": []
+    }]
+}, {
+    "avId": "MOD-100",
+    "avName": "Test-time",
+    "info": [{
+        "Description": "",
+        "Impact": "Create name confusion, resulting in the installation of a malicious package",
+        "Mapped Safeguard": []
+    }]
+}, {
+    "avId": "MOD-110",
+    "avName": "Test-time - Integrity",
+    "info": [{
+        "Description": "If the name of legitimate packages comprises multiple words, e.g. separated by hyphens or using camel case notation, this technique consists of re-arranging those words in a different order (for example \"test-vision-client\" instead of \"test-client-vision\")",
+        "Impact": "Create name confusion, resulting in the installation of a malicious package",
+        "Mapped Safeguard": []
+    }]
+}, {
+    "avId": "MOD-111",
+    "avName": "Test-time - Integrity - WhiteBox",
+    "info": [{
+        "Description": "This technique consists of adding or altering word separators of legitimate packages, e.g. hyphens or underscores (for example \"setup-tools\" instead of \"setuptools\").",
+        "Impact": "Create name confusion, resulting in the installation of a malicious package",
+        "Mapped Safeguard": []
+    }]
+}, 
+{
+    "avId": "MOD-111-FGSM",
+    "avName": "FGSM Attack",
+    "info": [{
+        "Description": "This attack consists in...",
+        "Venue": "ICLR 2015", 
+        "Paper Name": "Explaining and Harnessing Adversarial Examples",
+        "Mapped Safeguard": []
+    }]
+},
+{
+    "avId": "MOD-111-PGD",
+    "avName": "PGD Attack",
+    "info": [{
+        "Description": "This attack consists in...",
+        "Venue": "ICLR 2018", 
+        "Paper Name": "Towards Deep Learning Models Resistant to Adversarial Attacks",
+        "Mapped Safeguard": []
+    }]
+},
+{
+    "avId": "MOD-112",
+    "avName": "Test-time - Integrity - GrayBox",
+    "info": [{
+        "Description": "Typosquatting is a technique originally known in the context of Website domains, and relies on mistakes such as typographical errors made by users when entering a website address into a web browser. In this context, the attacker exploits that users mistype names of legitimate packages during installation or when declaring dependencies.",
+        "Impact": "Create name confusion, resulting in the installation of a malicious package",
+        "Mapped Safeguard": []
+    }]
+}, {
+    "avId": "MOD-113",
+    "avName": "Test-time - Integrity - BlackBox",
+    "info": [{
+        "Description": "By creating a package whose name is identical to a built-in package (or module, class, function, etc.) of the respective programming language or ecosystem (for example \"subprocess\" for Python), a victim can be tricked into downloading and installing the malicious package through the package manager rather than using built-in functionality.",
+        "Impact": "Create name confusion, resulting in the installation of a malicious package",
+        "Mapped Safeguard": []
+    }]
+}, {
+    "avId": "MOD-120",
+    "avName": "Test-time - Availability",
+    "info": [{
+        "Description": "This technique consists of crafting package names that create the impression of coming from a trustworthy author or entity, e.g. by using the same prefix as legitimate packages from such author (e.g. \"aws-\").",
+        "Impact": "Create name confusion, resulting in the installation of a malicious package",
+        "Mapped Safeguard": []
+    }]
+}, {
+    "avId": "MOD-121",
+    "avName": "Test-time - Availability - WhiteBox",
+    "info": [{
+        "Description": "This technique covers misleading or similar names that do not fall in any other category of name confusion attacks.",
+        "Impact": "Create name confusion, resulting in the installation of a malicious package",
+        "Mapped Safeguard": []
+    }]
+}, {
+    "avId": "MOD-122",
+    "avName": "Test-time - Availability - GrayBox",
+    "info": [{
+        "Description": "This technique consists of taking the name of a package with scope (or namespace) and publishing it without the scope.",
+        "Impact": "Create name confusion, resulting in the installation of a malicious package",
+        "Mapped Safeguard": []
+    }]
+}, {
+    "avId": "MOD-123",
+    "avName": "Test-time - Availability - BlackBox",
+    "info": [{
+        "Description": "Generative AI platforms, such as ChatGPT, have the capability to generate responses and recommendations based on the patterns and information learned during training. While these platforms provide valuable assistance, it's important to note that the responses generated may not always align with reality and can include elements that do not exist. <br>In the context of coding tasks, developers may seek recommendations for packages that can solve their specific needs. However, the generative AI model might suggest packages that are not actually present in legitimate package repositories like NPM or PyPI. This creates an opportunity for attackers to exploit the platform by crafting questions that prompt the AI to generate non-existent package names. <br>The intention of such an attack would be to deceive developers who rely on the generative AI's recommendations. The attackers could then publish malicious packages under these fabricated names, leading unsuspecting developers into using them. ",
+        "Impact": "Create name confusion, resulting in the installation of a malicious package",
+        "Mapped Safeguard": []
+    }]
+}, {
+    "avId": "MOD-130",
+    "avName": "Test-time - Privacy/Confidentiality",
+    "info": [{
+        "Description": "This attack vector covers all attacks aiming to corrupt an existing, legitimate project, which requires compromising one or more of its numerous stakeholders or resources, e.g. its source code repository, build system or distribution infrastructure. <br>The three attack vectors \"Inject into Sources of Legitimate Package\", \"Inject during the Build of Legitimate Package\" and \"Distribute Malicious Version of Legitimate Package\" have in common that most of them tamper with resources of an existing, legitimate open-source project, i.e., its source code, build system or distribution channels. Developing and advertising a distinct malicious package from scratch, as well as creating name confusion with the one of a legitimate package, on the other hand, do not require to directly interfere with existing project resources or maintainers, but only require to trick the victim into the consumption of the malicious package.",
+        "Impact": "Execute Unauthorized Code",
+        "Mapped Safeguard": [{
+            "sgId": "SG-009"
+        }, {
+            "sgId": "SG-029"
+        }]
+    }]
+}, {
+    "avId": "MOD-131",
+    "avName": "Test-time - Privacy/Confidentiality - WhiteBox",
+    "info": [{
+        "Description": "This attack vector aims at injecting malicious code into the versioning control system of a legitimate project. Consequently, every user or system building the software from the sources will be affected by the attack, and - as far as this is the attackers intention - produce a binary package including the malicious code. Of course, this also comprises the project's standard build system producing the binary that will be distributed through the project's standard distribution mechanism, e.g., package repositories like Maven Central or npm. In other words, for the attacker, this technique has the advantage that all downstream users are affected, no matter whether they consume sources or pre-built binary artifacts. On the other hand, being part of the project's code base makes it easier to spot malicious code, e.g. through code reviews.",
+        "Impact": "Execute Unauthorized Code",
+        "Mapped Safeguard": [{
+            "sgId": "SG-004"
+        }]
+    }]
+}, {
+    "avId": "MOD-132",
+    "avName": "Test-time - Privacy/Confidentiality - GrayBox",
+    "info": [{
+        "Description": "Attackers can pretend to make a useful, seemingly benign contribution to a project while in fact submitting malicious code. For example, the contribution can pretend to introduce new functionality, test cases, CI/CD automation or documentation. Contributions for some of those topics may be reviewed with less scrutiny by legitimate project maintainers, which may be exploited by attackers. The malicious code itself can expose malicious behavior (e.g., a dropper) or be a deliberate vulnerability, which can be exploited at later stages. It can be included in project code or hidden in newly introduced dependencies.",
+        "Impact": "Acceptance of malicious code from package maintainer",
+        "Mapped Safeguard": [{
+            "sgId": "SG-015"
+        }, {
+            "sgId": "SG-016"
+        }]
+    }]
+}, {
+    "avId": "MOD-133",
+    "avName": "Test-time - Privacy/Confidentiality - BlackBox",
+    "info": [{
+        "Description": "The attacker obtains the permissions of a legitimate project maintainer to commit and push malicious code to the code base of the targeted project, directly or through pull/merge requests, depending on the project's development practice. The child nodes of this technique differ in regards to how those permissions are obtained.",
+        "Impact": "Injection of malicious code into a legitimate software component",
+        "Mapped Safeguard": [{
+            "sgId": "SG-015"
+        }, {
+            "sgId": "SG-016"
+        }, {
+            "sgId": "SG-022"
+        }]
+    }]
+},  {
+    "avId": "MOD-200",
+    "avName": "Training-time",
+    "info": [{
+        "Description": "Combosquatting consists of creating a package name containing pre or post-fix additions to the name of a benign package. The attacker can use naming patterns that are common to general development practices (e.g., the addition of \"-dev\" or \"-rc\"), given ecosystems (e.g., the addition of \"3\" to suggest compatibility with Python 3) or indicate platform compatibility (e.g. \"i386\").",
+        "Impact": "Create name confusion, resulting in the installation of a malicious package",
+        "Mapped Safeguard": []
+    }]
+}, {
+    "avId": "MOD-210",
+    "avName": "Training-time - Integrity",
+    "info": [{
+        "Description": "If the name of legitimate packages comprises multiple words, e.g. separated by hyphens or using camel case notation, this technique consists of re-arranging those words in a different order (for example \"test-vision-client\" instead of \"test-client-vision\")",
+        "Impact": "Create name confusion, resulting in the installation of a malicious package",
+        "Mapped Safeguard": []
+    }]
+}, {
+    "avId": "MOD-211",
+    "avName": "Training-time - Integrity - WhiteBox",
+    "info": [{
+        "Description": "This technique consists of adding or altering word separators of legitimate packages, e.g. hyphens or underscores (for example \"setup-tools\" instead of \"setuptools\").",
+        "Impact": "Create name confusion, resulting in the installation of a malicious package",
+        "Mapped Safeguard": []
+    }]
+}, {
+    "avId": "MOD-212",
+    "avName": "Training-time - Integrity - GrayBox",
+    "info": [{
+        "Description": "Typosquatting is a technique originally known in the context of Website domains, and relies on mistakes such as typographical errors made by users when entering a website address into a web browser. In this context, the attacker exploits that users mistype names of legitimate packages during installation or when declaring dependencies.",
+        "Impact": "Create name confusion, resulting in the installation of a malicious package",
+        "Mapped Safeguard": []
+    }]
+}, {
+    "avId": "MOD-213",
+    "avName": "Training-time - Integrity - BlackBox",
+    "info": [{
+        "Description": "By creating a package whose name is identical to a built-in package (or module, class, function, etc.) of the respective programming language or ecosystem (for example \"subprocess\" for Python), a victim can be tricked into downloading and installing the malicious package through the package manager rather than using built-in functionality.",
+        "Impact": "Create name confusion, resulting in the installation of a malicious package",
+        "Mapped Safeguard": []
+    }]
+}, {
+    "avId": "MOD-220",
+    "avName": "Training-time - Availability",
+    "info": [{
+        "Description": "This technique consists of crafting package names that create the impression of coming from a trustworthy author or entity, e.g. by using the same prefix as legitimate packages from such author (e.g. \"aws-\").",
+        "Impact": "Create name confusion, resulting in the installation of a malicious package",
+        "Mapped Safeguard": []
+    }]
+}, {
+    "avId": "MOD-221",
+    "avName": "Training-time - Availability - WhiteBox",
+    "info": [{
+        "Description": "This technique covers misleading or similar names that do not fall in any other category of name confusion attacks.",
+        "Impact": "Create name confusion, resulting in the installation of a malicious package",
+        "Mapped Safeguard": []
+    }]
+}, {
+    "avId": "MOD-222",
+    "avName": "Training-time - Availability - GrayBox",
+    "info": [{
+        "Description": "This technique consists of taking the name of a package with scope (or namespace) and publishing it without the scope.",
+        "Impact": "Create name confusion, resulting in the installation of a malicious package",
+        "Mapped Safeguard": []
+    }]
+}, {
+    "avId": "MOD-223",
+    "avName": "Training-time - Availability - BlackBox",
+    "info": [{
+        "Description": "Generative AI platforms, such as ChatGPT, have the capability to generate responses and recommendations based on the patterns and information learned during training. While these platforms provide valuable assistance, it's important to note that the responses generated may not always align with reality and can include elements that do not exist. <br>In the context of coding tasks, developers may seek recommendations for packages that can solve their specific needs. However, the generative AI model might suggest packages that are not actually present in legitimate package repositories like NPM or PyPI. This creates an opportunity for attackers to exploit the platform by crafting questions that prompt the AI to generate non-existent package names. <br>The intention of such an attack would be to deceive developers who rely on the generative AI's recommendations. The attackers could then publish malicious packages under these fabricated names, leading unsuspecting developers into using them. ",
+        "Impact": "Create name confusion, resulting in the installation of a malicious package",
+        "Mapped Safeguard": []
+    }]
+}, {
+    "avId": "MOD-230",
+    "avName": "Training-time - Privacy/Confidentiality",
+    "info": [{
+        "Description": "This attack vector covers all attacks aiming to corrupt an existing, legitimate project, which requires compromising one or more of its numerous stakeholders or resources, e.g. its source code repository, build system or distribution infrastructure. <br>The three attack vectors \"Inject into Sources of Legitimate Package\", \"Inject during the Build of Legitimate Package\" and \"Distribute Malicious Version of Legitimate Package\" have in common that most of them tamper with resources of an existing, legitimate open-source project, i.e., its source code, build system or distribution channels. Developing and advertising a distinct malicious package from scratch, as well as creating name confusion with the one of a legitimate package, on the other hand, do not require to directly interfere with existing project resources or maintainers, but only require to trick the victim into the consumption of the malicious package.",
+        "Impact": "Execute Unauthorized Code",
+        "Mapped Safeguard": [{
+            "sgId": "SG-009"
+        }, {
+            "sgId": "SG-029"
+        }]
+    }]
+}, {
+    "avId": "MOD-231",
+    "avName": "Training-time - Privacy/Confidentiality - WhiteBox",
+    "info": [{
+        "Description": "This attack vector aims at injecting malicious code into the versioning control system of a legitimate project. Consequently, every user or system building the software from the sources will be affected by the attack, and - as far as this is the attackers intention - produce a binary package including the malicious code. Of course, this also comprises the project's standard build system producing the binary that will be distributed through the project's standard distribution mechanism, e.g., package repositories like Maven Central or npm. In other words, for the attacker, this technique has the advantage that all downstream users are affected, no matter whether they consume sources or pre-built binary artifacts. On the other hand, being part of the project's code base makes it easier to spot malicious code, e.g. through code reviews.",
+        "Impact": "Execute Unauthorized Code",
+        "Mapped Safeguard": [{
+            "sgId": "SG-004"
+        }]
+    }]
+}, {
+    "avId": "MOD-232",
+    "avName": "Training-time - Privacy/Confidentiality - GrayBox",
+    "info": [{
+        "Description": "Attackers can pretend to make a useful, seemingly benign contribution to a project while in fact submitting malicious code. For example, the contribution can pretend to introduce new functionality, test cases, CI/CD automation or documentation. Contributions for some of those topics may be reviewed with less scrutiny by legitimate project maintainers, which may be exploited by attackers. The malicious code itself can expose malicious behavior (e.g., a dropper) or be a deliberate vulnerability, which can be exploited at later stages. It can be included in project code or hidden in newly introduced dependencies.",
+        "Impact": "Acceptance of malicious code from package maintainer",
+        "Mapped Safeguard": [{
+            "sgId": "SG-015"
+        }, {
+            "sgId": "SG-016"
+        }]
+    }]
+}, {
+    "avId": "MOD-233",
+    "avName": "Training-time - Privacy/Confidentiality - BlackBox",
+    "info": [{
+        "Description": "The attacker obtains the permissions of a legitimate project maintainer to commit and push malicious code to the code base of the targeted project, directly or through pull/merge requests, depending on the project's development practice. The child nodes of this technique differ in regards to how those permissions are obtained.",
+        "Impact": "Injection of malicious code into a legitimate software component",
+        "Mapped Safeguard": [{
+            "sgId": "SG-015"
+        }, {
+            "sgId": "SG-016"
+        }, {
+            "sgId": "SG-022"
+        }]
+    }]
+}]

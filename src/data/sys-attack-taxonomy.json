@@ -1,0 +1,270 @@
+{   
+
+        "avId": "SYS-000",
+        "avName": "System-level Attack Taxonomy",
+        "children": [{
+                "avId": "SYS-100",
+                "avName": "Application Domain",
+                "children": [{
+                        "avId": "SYS-110",
+                        "avName": "Cars"
+                    },
+                    {
+                        "avId": "SYS-120",
+                        "avName": "Drones"
+                    }
+                ]
+            },
+            {
+                "avId": "SYS-200",
+                "avName": "DL Model Under Attack",
+                "children": [{
+                        "avId": "SYS-210",
+                        "avName": "Object Detection & Tracking"
+                    },
+                    {
+                        "avId": "SYS-220",
+                        "avName": "Steering Wheel Angle Prediction"
+                    },
+                    {
+                        "avId": "SYS-230",
+                        "avName": "Road Line Detection"
+                    },
+                    {
+                        "avId": "SYS-240",
+                        "avName": "Traffic Control"
+                    }
+                ]
+            },
+            {
+                "avId": "SYS-300",
+                "avName": "System Under Attack",
+                "children": [{
+                        "avId": "SYS-310",
+                        "avName": "Simulation"
+                    },
+                    {
+                        "avId": "SYS-320",
+                        "avName": "Real AVs"
+                    }
+                ]
+            },
+            {
+                "avId": "SYS-400",
+                "avName": "Attack Scenario",
+                "children": [{
+                        "avId": "SYS-410",
+                        "avName": "Without Constraints"
+                    },
+                    {
+                        "avId": "SYS-420",
+                        "avName": "With Constraints",
+                        "children": [{
+                                "avId": "SYS-421",
+                                "avName": "Scenario with Roads"
+                            },
+                            {
+                                "avId": "SYS-422",
+                                "avName": "Scenario with Objects & Cars"
+                            },
+                            {
+                                "avId": "SYS-423",
+                                "avName": "Scenario with Driving Conditions"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "avId": "SYS-500",
+                "avName": "Attacked Target",
+                "children": [{
+                        "avId": "SYS-510",
+                        "avName": "Input Image"
+                    },
+                    {
+                        "avId": "SYS-520",
+                        "avName": "Road/Roadside"
+                    },
+                    {
+                        "avId": "SYS-530",
+                        "avName": "Sensors"
+                    },
+                    {
+                        "avId": "SYS-540",
+                        "avName": "Objects/Signs"
+                    },
+                    {
+                        "avId": "SYS-550",
+                        "avName": "Train Data"
+                    }
+                ]
+            },
+            {
+                "avId": "SYS-600",
+                "avName": "Attacker's Capability",
+                "children": [{
+                        "avId": "SYS-610",
+                        "avName": "Environmental Manipulation"
+                    },
+                    {
+                        "avId": "SYS-620",
+                        "avName": "Software Interference"
+                    },
+                    {
+                        "avId": "SYS-630",
+                        "avName": "Sensor Interference"
+                    },
+                    {
+                        "avId": "SYS-640",
+                        "avName": "Model Manipulation"
+                    }
+                ]
+            },
+            {
+                "avId": "SYS-700",
+                "avName": "Attack Strategy",
+                "children": [{
+                        "avId": "SYS-710",
+                        "avName": "Evasion"
+                    },
+                    {
+                        "avId": "SYS-720",
+                        "avName": "Poisoning"
+                    }
+                ]
+            },
+            {
+                "avId": "SYS-800",
+                "avName": "Attacker's System/Model Knowledge",
+                "children": [{
+                        "avId": "SYS-810",
+                        "avName": "Model-level Knowledge",
+                        "children": [{
+                                "avId": "SYS-811",
+                                "avName": "Model-level White-Box"
+                            },
+                            {
+                                "avId": "SYS-812",
+                                "avName": "Model-level Black-Box"
+                            }
+                        ]
+                    },
+                    {
+                        "avId": "SYS-820",
+                        "avName": "System-level Knowledge",
+                        "children": [{
+                                "avId": "SYS-821",
+                                "avName": "System-level White-Box"
+                            },
+                            {
+                                "avId": "SYS-822",
+                                "avName": "System-level Black-Box"
+                            },
+                            {
+                                "avId": "SYS-823",
+                                "avName": "System-level Grey-Box"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "avId": "SYS-900",
+                "avName": "Attack/Error Specificity",
+                "children": [{
+                        "avId": "SYS-910",
+                        "avName": "Attack",
+                        "children": [{
+                                "avId": "SYS-911",
+                                "avName": "Attack Specific"
+                            },
+                            {
+                                "avId": "SYS-912",
+                                "avName": "Attack Generic"
+                            }
+                        ]
+                        },
+                        {
+                            "avId": "SYS-920",
+                            "avName": "Error",
+                            "children": [{
+                                "avId": "SYS-921",
+                                "avName": "Error Specific"
+                            },
+                            {
+                                "avId": "SYS-922",
+                                "avName": "Error Generic"
+                            }
+                        ]
+                        }
+                ]
+            },
+            {
+                "avId": "SYS-1000",
+                "avName": "System's Failure Specificity",
+                "children": [{
+                        "avId": "SYS-1010",
+                        "avName": "Failure Generic"
+                    },
+                    {
+                        "avId": "SYS-1020",
+                        "avName": "Failure Specific"
+                    }
+                ]
+            },
+            {
+                "avId": "SYS-1100",
+                "avName": "Model-Level Results",
+                "children": [{
+                    "avId": "SYS-1110",
+                    "avName": "Steering Angle Misprediction"
+                },
+                {
+                    "avId": "SYS-1120",
+                    "avName": "Object Misdetection"
+                },
+                {
+                    "avId": "SYS-1130",
+                    "avName": "Misclassification"
+                },
+                {
+                    "avId": "SYS-1140",
+                    "avName": "Wrong Decision"
+                }
+            ]
+            },
+            {
+                "avId": "SYS-1200",
+                "avName": "System-Level Results",
+                "children": [{
+                    "avId": "SYS-1210",
+                    "avName": "Vehicle Crash to",
+                    "children": [{
+                        "avId": "SYS-1211",
+                        "avName": "Crash to Vehicles"
+                    },{
+                        "avId": "SYS-1212",
+                        "avName": "Crash to Objects"
+                    },{
+                        "avId": "SYS-1213",
+                        "avName": "Crash to Pedestrians"
+                    }]
+                },
+                {
+                    "avId": "SYS-1220",
+                    "avName": "Losing the path"
+                },
+                {
+                    "avId": "SYS-1230",
+                    "avName": "Changing in Speed/Brake"
+                },
+                {
+                    "avId": "SYS-1240",
+                    "avName": "Sign Ignorance"
+                }
+            ]
+            }
+        ]
+     
+}

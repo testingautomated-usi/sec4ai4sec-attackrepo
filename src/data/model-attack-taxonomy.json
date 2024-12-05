@@ -1,0 +1,155 @@
+{
+    "avName": "MOD-Level Attack Taxonomy",
+    "avId": "MOD-000",
+    "children": [
+        {
+            "avName": "Test Time",
+            "avId": "MOD-100",
+            "children": [
+                {
+                    "avName": "Integrity",
+                    "avId": "MOD-110",
+                    "children": [
+                        {
+                            "avName": "WhiteBox",
+                            "avId": "MOD-111",
+                            "children": [
+                            ]
+                        },
+                        {
+                            "avName": "GrayBox",
+                            "avId": "MOD-112",
+                            "children": []
+                        },
+                        {
+                            "avName": "BlackBox",
+                            "avId": "MOD-113",
+                            "children": [
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "avName": "Availability",
+                    "avId": "MOD-120",
+                    "children": [
+                        {
+                            "avName": "WhiteBox",
+                            "avId": "MOD-121",
+                            "children": []
+                        },
+                        {
+                            "avName": "GrayBox",
+                            "avId": "MOD-122",
+                            "children": []
+                        },
+                        {
+                            "avName": "BlackBox",
+                            "avId": "MOD-123",
+                            "children": [
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "avName": "Privacy/Confidentiality",
+                    "avId": "MOD-130",
+                    "children": [
+                        {
+                            "avName": "WhiteBox",
+                            "avId": "MOD-131",
+                            "children": [
+                            ]
+                        },
+                        {
+                            "avName": "GrayBox",
+                            "avId": "MOD-132",
+                            "children": []
+                        },
+                        {
+                            "avName": "BlackBox",
+                            "avId": "MOD-133",
+                            "children": [
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "avName": "Training Time",
+            "avId": "MOD-200",
+            "children": [
+                {
+                    "avName": "Integrity",
+                    "avId": "MOD-201",
+                    "children": [
+                        {
+                            "avName": "WhiteBox",
+                            "avId": "MOD-211",
+                            "children": [
+                            ]
+                        },
+                        {
+                            "avName": "GrayBox",
+                            "avId": "MOD-212",
+                            "children": [
+                            ]
+                        },
+                        {
+                            "avName": "BlackBox",
+                            "avId": "MOD-213",
+                            "children": [
+
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "avName": "Availability",
+                    "avId": "MOD-220",
+                    "children": [
+                        {
+                            "avName": "WhiteBox",
+                            "avId": "MOD-221",
+                            "children": [
+                            ]
+                        },
+                        {
+                            "avName": "GrayBox",
+                            "avId": "MOD-222",
+                            "children": [
+                            ]
+                        },
+                        {
+                            "avName": "BlackBox",
+                            "avId": "MOD-223",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "avName": "Privacy/Confidentiality",
+                    "avId": "MOD-230",
+                    "children": [
+                        {
+                            "avName": "WhiteBox",
+                            "avId": "MOD-231",
+                            "children": []
+                        },
+                        {
+                            "avName": "GrayBox",
+                            "avId": "MOD-232",
+                            "children": []
+                        },
+                        {
+                            "avName": "BlackBox",
+                            "avId": "MOD-233",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        }
+]
+}    
