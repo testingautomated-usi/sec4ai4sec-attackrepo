@@ -1,36 +1,7 @@
 [{
-        "title": "Explaining and Harnessing Adversarial Examples",
-        "link": "https://link.springer.com/chapter/10.1007/978-3-030-52683-2_2",
-        "vectors": [{
-                "avId": "MOD-000",
-                "avName": "Adversarial Attacks"
-            },
-            {
-                "avId": "MOD-100",
-                "avName": "Test-time"
-            },
-            {
-                "avId": "MOD-110",
-                "avName": "Inject During the Build of Legitimate Package"
-            },
-            {
-                "avId": "MOD-111",
-                "avName": "Distribute Malicious Version of Legitimate Package"
-            }
-        ],
-        "tags": {
-            "contents": [
-                "peer-reviewed", 
-                "attack", 
-                "ICLR"
-            ],
-            "year": 2015
-        }
-    },
-    {
-        "title": "Towards Evaluating the Robustness of Neural Networks",
-        "link": "https://arXiv.org/pdf/1608.04644.pdf",
-        "vectors": [{
+    "title": "Explaining and Harnessing Adversarial Examples",
+    "link": "https://link.springer.com/chapter/10.1007/978-3-030-52683-2_2",
+    "vectors": [{
             "avId": "MOD-000",
             "avName": "Adversarial Attacks"
         },
@@ -46,271 +17,1288 @@
             "avId": "MOD-111",
             "avName": "Distribute Malicious Version of Legitimate Package"
         }
+    ],
+    "tags": {
+        "contents": [
+            "peer-reviewed", 
+            "attack", 
+            "ICLR"
         ],
-        "tags": {
-            "contents": [
-                "peer-reviewed", 
-                "attack", 
-                "IEEE S&P"
-            ],
-            "year": 2017
-        }
-    },
-    {
-        "title": "Towards Deep Learning Models Resistant to Adversarial Attacks",
-        "link": "https://arXiv.org/pdf/1706.06083.pdf",
-        "vectors": [{
-            "avId": "MOD-000",
-            "avName": "Adversarial Attacks"
-        },
-        {
-            "avId": "MOD-100",
-            "avName": "Test-time"
-        },
-        {
-            "avId": "MOD-110",
-            "avName": "Inject During the Build of Legitimate Package"
-        },
-        {
-            "avId": "MOD-111",
-            "avName": "Distribute Malicious Version of Legitimate Package"
-        }
-        ],
-        "tags": {
-            "contents": [
-                "peer-reviewed", 
-                "attack", 
-                "ICLR"
-            ],
-            "year": 2018
-        }
-    },
-    {
-        "title": "DeepFool: A Simple and Accurate Method to Fool Deep Neural Networks",
-        "link": "https://arXiv.org/pdf/1511.04599.pdf",
-        "vectors": [{
-            "avId": "MOD-000",
-            "avName": "Adversarial Attacks"
-        },
-        {
-            "avId": "MOD-100",
-            "avName": "Test-time"
-        },
-        {
-            "avId": "MOD-110",
-            "avName": "Inject During the Build of Legitimate Package"
-        },
-        {
-            "avId": "MOD-111",
-            "avName": "Distribute Malicious Version of Legitimate Package"
-        }
-        ],
-        "tags": {
-            "contents": [
-                "peer-reviewed", 
-                "attack", 
-                "CVPR"
-            ],
-            "year": 2016
-        }
-    },
-    {
-        "title": "Square Attack: a Query-Efficient Black-box Adversarial Attack via Random Search",
-        "link": "https://arXiv.org/pdf/1912.00049.pdf",
-        "vectors": [{
-            "avId": "MOD-000",
-            "avName": "Adversarial Attacks"
-        },
-        {
-            "avId": "MOD-100",
-            "avName": "Test-time"
-        },
-        {
-            "avId": "MOD-110",
-            "avName": "Inject During the Build of Legitimate Package"
-        },
-        {
-            "avId": "MOD-113",
-            "avName": "Distribute Malicious Version of Legitimate Package"
-        }
-        ],
-        "tags": {
-            "contents": [
-                "attack"
-            ],
-            "year": 2019
-        }
-    },
-    {
-        "title": "Practical Black-Box Attacks against Machine Learning",
-        "link": "https://arXiv.org/pdf/1602.02697.pdf",
-        "vectors": [{
-            "avId": "MOD-000",
-            "avName": "Adversarial Attacks"
-        },
-        {
-            "avId": "MOD-100",
-            "avName": "Test-time"
-        },
-        {
-            "avId": "MOD-110",
-            "avName": "Inject During the Build of Legitimate Package"
-        },
-        {
-            "avId": "MOD-113",
-            "avName": "Distribute Malicious Version of Legitimate Package"
-        }
-        ],
-        "tags": {
-            "contents": [
-                "peer-reviewed", 
-                "attack", 
-                "IEEE S&P"
-            ],
-            "year": 2016
-        }
-    },
-    {
-        "title": "SPONGE EXAMPLES: ENERGY-LATENCY ATTACKS ON NEURAL NETWORKS",
-        "link": "https://arxiv.org/pdf/2006.03463.pdf",
-        "vectors": [{
-            "avId": "MOD-000",
-            "avName": "Adversarial Attacks"
-        },
-        {
-            "avId": "MOD-100",
-            "avName": "Test-time"
-        },
-        {
-            "avId": "MOD-120",
-            "avName": "Inject During the Build of Legitimate Package"
-        },
-        {
-            "avId": "MOD-121",
-            "avName": "Distribute Malicious Version of Legitimate Package"
-        }
-        ],
-        "tags": {
-            "contents": [
-                "peer-reviewed", 
-                "attack", 
-                "IEEE S&P"
-            ],
-            "year": 2021
-        }
-    },
-    {
-        "title": "Energy-Latency Attacks via Sponge Poisoning",
-        "link": "https://arxiv.org/pdf/2203.08147.pdf",
-        "vectors": [{
-            "avId": "MOD-000",
-            "avName": "Adversarial Attacks"
-        },
-        {
-            "avId": "MOD-200",
-            "avName": "Test-time"
-        },
-        {
-            "avId": "MOD-220",
-            "avName": "Inject During the Build of Legitimate Package"
-        },
-        {
-            "avId": "MOD-221",
-            "avName": "Distribute Malicious Version of Legitimate Package"
-        }
-        ],
-        "tags": {
-            "contents": [
-                "attack"
-            ],
-            "year": 2022
-        }
-    },
-    {
-        "title": "Evasion Attacks against Machine Learning at Test Time",
-        "link": "https://arXiv.org/pdf/1708.06131.pdf",
-        "vectors": [{
-            "avId": "MOD-000",
-            "avName": "Adversarial Attacks"
-        },
-        {
-            "avId": "MOD-100",
-            "avName": "Test-time"
-        },
-        {
-            "avId": "MOD-110",
-            "avName": "Inject During the Build of Legitimate Package"
-        },
-        {
-            "avId": "MOD-111",
-            "avName": "Distribute Malicious Version of Legitimate Package"
-        }
-        ],
-        "tags": {
-            "contents": [
-                "peer-reviewed", 
-                "attack", 
-                "ECML"
-            ],
-            "year": 2013
-        }
-    },
-    {
-        "title": "Poisoning Attacks against Support Vector Machines",
-        "link": "https://arxiv.org/pdf/1206.6389.pdf",
-        "vectors": [{
-            "avId": "MOD-000",
-            "avName": "Adversarial Attacks"
-        },
-        {
-            "avId": "MOD-200",
-            "avName": "Test-time"
-        },
-        {
-            "avId": "MOD-210",
-            "avName": "Inject During the Build of Legitimate Package"
-        },
-        {
-            "avId": "MOD-211",
-            "avName": "Distribute Malicious Version of Legitimate Package"
-        }
-        ],
-        "tags": {
-            "contents": [
-                "peer-reviewed", 
-                "attack", 
-                "ICML"
-            ],
-            "year": 2012
-        }
-    },
-    {
-        "title": "Membership Inference Attacks Against Machine Learning Models",
-        "link": "https://arXiv.org/pdf/1610.05820.pdf",
-        "vectors": [{
-            "avId": "MOD-000",
-            "avName": "Adversarial Attacks"
-        },
-        {
-            "avId": "MOD-100",
-            "avName": "Test-time"
-        },
-        {
-            "avId": "MOD-130",
-            "avName": "Inject During the Build of Legitimate Package"
-        },
-        {
-            "avId": "MOD-131",
-            "avName": "Distribute Malicious Version of Legitimate Package"
-        }
-        ],
-        "tags": {
-            "contents": [
-                "peer-reviewed", 
-                "attack", 
-                "IEEE S&P"
-            ],
-            "year": 2017
-        }
+        "year": 2015
     }
+},
+{
+    "title": "Black-box Membership Inference Attacks against Fine-tuned Diffusion Models",
+    "link": "https://arxiv.org/pdf/2312.08207",
+    "vectors": [
+      {
+        "avId": "MOD-000",
+        "avName": "Adversarial Attacks"
+      },
+      {
+        "avId": "MOD-100",
+        "avName": "Test-time"
+      },
+      {
+        "avId": "MOD-120",
+        "avName": "Privacy/Confidentiality"
+      },
+      {
+        "avId": "MOD-133",
+        "avName": "Blackbox"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "title": "Audio Adversarial Examples: Targeted Attacks on Speech-to-Text",
+    "link": "https://arxiv.org/pdf/1801.01944",
+    "vectors": [
+      {
+        "avId": "MOD-000",
+        "avName": "Adversarial Attacks"
+      },
+      {
+        "avId": "MOD-100",
+        "avName": "Test-time"
+      },
+      {
+        "avId": "MOD-110",
+        "avName": "Integrity"
+      },
+      {
+        "avId": "MOD-111",
+        "avName": "Whitebox"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "title": "Accessorize to a Crime: Real and Stealthy Attacks on State-of-the-Art Face Recognition",
+    "link": "https://dl.acm.org/doi/pdf/10.1145/2976749.2978392",
+    "vectors": [
+      {
+        "avId": "MOD-000",
+        "avName": "Adversarial Attacks"
+      },
+      {
+        "avId": "MOD-100",
+        "avName": "Test-time"
+      },
+      {
+        "avId": "MOD-110",
+        "avName": "Integrity"
+      },
+      {
+        "avId": "MOD-111",
+        "avName": "Whitebox"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "title": "Evasion Attacks against Machine Learning at Test Time",
+    "link": "http://dx.doi.org/10.1007/978-3-642-40994-3_25",
+    "vectors": [
+      {
+        "avId": "MOD-000",
+        "avName": "Adversarial Attacks"
+      },
+      {
+        "avId": "MOD-100",
+        "avName": "Test-time"
+      },
+      {
+        "avId": "MOD-110",
+        "avName": "Integrity"
+      },
+      {
+        "avId": "MOD-111",
+        "avName": "Whitebox"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "title": "DeepFool: a simple and accurate method to fool deep neural networks",
+    "link": null,
+    "vectors": [
+      {
+        "avId": "MOD-000",
+        "avName": "Adversarial Attacks"
+      },
+      {
+        "avId": "MOD-100",
+        "avName": "Test-time"
+      },
+      {
+        "avId": "MOD-110",
+        "avName": "Integrity"
+      },
+      {
+        "avId": "MOD-111",
+        "avName": "Whitebox"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "title": "Towards Evaluating the Robustness of Neural Networks",
+    "link": "https://arxiv.org/abs/1608.04644",
+    "vectors": [
+      {
+        "avId": "MOD-000",
+        "avName": "Adversarial Attacks"
+      },
+      {
+        "avId": "MOD-100",
+        "avName": "Test-time"
+      },
+      {
+        "avId": "MOD-110",
+        "avName": "Integrity"
+      },
+      {
+        "avId": "MOD-111",
+        "avName": "Whitebox"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "title": "Towards Deep Learning Models Resistant to Adversarial Attacks",
+    "link": "https://arxiv.org/abs/1706.06083",
+    "vectors": [
+      {
+        "avId": "MOD-000",
+        "avName": "Adversarial Attacks"
+      },
+      {
+        "avId": "MOD-100",
+        "avName": "Test-time"
+      },
+      {
+        "avId": "MOD-110",
+        "avName": "Integrity"
+      },
+      {
+        "avId": "MOD-111",
+        "avName": "Whitebox"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "title": "Decision-Based Adversarial Attacks: Reliable Attacks Against Black-Box Machine Learning Models",
+    "link": "https://arxiv.org/abs/1712.04248",
+    "vectors": [
+      {
+        "avId": "MOD-000",
+        "avName": "Adversarial Attacks"
+      },
+      {
+        "avId": "MOD-100",
+        "avName": "Test-time"
+      },
+      {
+        "avId": "MOD-110",
+        "avName": "Integrity"
+      },
+      {
+        "avId": "MOD-113",
+        "avName": "Blackbox"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "title": "Query-Efficient Hard-label Black-box Attack: An Optimization-based Approach",
+    "link": "https://arxiv.org/abs/1807.04457",
+    "vectors": [
+      {
+        "avId": "MOD-000",
+        "avName": "Adversarial Attacks"
+      },
+      {
+        "avId": "MOD-100",
+        "avName": "Test-time"
+      },
+      {
+        "avId": "MOD-110",
+        "avName": "Integrity"
+      },
+      {
+        "avId": "MOD-113",
+        "avName": "Blackbox"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "title": "HopSkipJumpAttack: A Query-Efficient Decision-Based Attack",
+    "link": "https://arxiv.org/abs/1904.02144",
+    "vectors": [
+      {
+        "avId": "MOD-000",
+        "avName": "Adversarial Attacks"
+      },
+      {
+        "avId": "MOD-100",
+        "avName": "Test-time"
+      },
+      {
+        "avId": "MOD-110",
+        "avName": "Integrity"
+      },
+      {
+        "avId": "MOD-113",
+        "avName": "Blackbox"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "title": "Is feature selection secure against training data poisoning?",
+    "link": "https://arxiv.org/abs/1804.07933",
+    "vectors": [
+      {
+        "avId": "MOD-000",
+        "avName": "Adversarial Attacks"
+      },
+      {
+        "avId": "MOD-200",
+        "avName": "Training-time"
+      },
+      {
+        "avId": "MOD-210",
+        "avName": "Integrity"
+      },
+      {
+        "avId": "MOD-211",
+        "avName": "Whitebox"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "title": "Prior Convictions: Black-Box Adversarial Attacks with Bandits and Priors",
+    "link": "https://arxiv.org/abs/1807.07978",
+    "vectors": [
+      {
+        "avId": "MOD-000",
+        "avName": "Adversarial Attacks"
+      },
+      {
+        "avId": "MOD-100",
+        "avName": "Test-time"
+      },
+      {
+        "avId": "MOD-110",
+        "avName": "Integrity"
+      },
+      {
+        "avId": "MOD-113",
+        "avName": "Blackbox"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "title": "ZOO: Zeroth Order Optimization Based Black-box Attacks to Deep Neural Networks without Training Substitute Models",
+    "link": "http://dx.doi.org/10.1145/3128572.3140448",
+    "vectors": [
+      {
+        "avId": "MOD-000",
+        "avName": "Adversarial Attacks"
+      },
+      {
+        "avId": "MOD-100",
+        "avName": "Test-time"
+      },
+      {
+        "avId": "MOD-110",
+        "avName": "Integrity"
+      },
+      {
+        "avId": "MOD-113",
+        "avName": "Blackbox"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "title": "Manipulating Machine Learning: Poisoning Attacks and Countermeasures for Regression Learning",
+    "link": "https://arxiv.org/abs/1804.00308",
+    "vectors": [
+      {
+        "avId": "MOD-000",
+        "avName": "Adversarial Attacks"
+      },
+      {
+        "avId": "MOD-200",
+        "avName": "Training-time"
+      },
+      {
+        "avId": "MOD-210",
+        "avName": "Integrity"
+      },
+      {
+        "avId": "MOD-211",
+        "avName": "Whitebox"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "title": "Poisoning Attacks against Support Vector Machines",
+    "link": "https://arxiv.org/abs/1206.6389",
+    "vectors": [
+      {
+        "avId": "MOD-000",
+        "avName": "Adversarial Attacks"
+      },
+      {
+        "avId": "MOD-200",
+        "avName": "Training-time"
+      },
+      {
+        "avId": "MOD-210",
+        "avName": "Integrity"
+      },
+      {
+        "avId": "MOD-211",
+        "avName": "Whitebox"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "title": "Support Vector Machines Under Adversarial Label Noise",
+    "link": "https://proceedings.mlr.press/v20/biggio11.html",
+    "vectors": [
+      {
+        "avId": "MOD-000",
+        "avName": "Adversarial Attacks"
+      },
+      {
+        "avId": "MOD-200",
+        "avName": "Training-time"
+      },
+      {
+        "avId": "MOD-210",
+        "avName": "Integrity"
+      },
+      {
+        "avId": "MOD-213",
+        "avName": "Blackbox"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "title": "Towards Poisoning of Deep Learning Algorithms with Back-gradient Optimization",
+    "link": "https://arxiv.org/abs/1708.08689",
+    "vectors": [
+      {
+        "avId": "MOD-000",
+        "avName": "Adversarial Attacks"
+      },
+      {
+        "avId": "MOD-200",
+        "avName": "Training-time"
+      },
+      {
+        "avId": "MOD-220",
+        "avName": "Availability"
+      },
+      {
+        "avId": "MOD-221",
+        "avName": "Whitebox"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "title": "When Does Machine Learning {FAIL",
+    "link": "https://www.usenix.org/conference/usenixsecurity18/presentation/suciu",
+    "vectors": [
+      {
+        "avId": "MOD-000",
+        "avName": "Adversarial Attacks"
+      },
+      {
+        "avId": "MOD-200",
+        "avName": "Training-time"
+      },
+      {
+        "avId": "MOD-220",
+        "avName": "Availability"
+      },
+      {
+        "avId": "MOD-222",
+        "avName": "Graybox"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "title": "Membership Inference Attacks From First Principles",
+    "link": "https://arxiv.org/abs/2112.03570",
+    "vectors": [
+      {
+        "avId": "MOD-000",
+        "avName": "Adversarial Attacks"
+      },
+      {
+        "avId": "MOD-100",
+        "avName": "Test-time"
+      },
+      {
+        "avId": "MOD-120",
+        "avName": "Privacy/Confidentiality"
+      },
+      {
+        "avId": "MOD-133",
+        "avName": "Blackbox"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "title": "Membership Inference Attacks Against Machine Learning Models",
+    "link": "https://ieeexplore.ieee.org/document/7958568",
+    "vectors": [
+      {
+        "avId": "MOD-000",
+        "avName": "Adversarial Attacks"
+      },
+      {
+        "avId": "MOD-100",
+        "avName": "Test-time"
+      },
+      {
+        "avId": "MOD-120",
+        "avName": "Privacy/Confidentiality"
+      },
+      {
+        "avId": "MOD-133",
+        "avName": "Blackbox"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "title": "Privacy Risk in Machine Learning: Analyzing the Connection to Overfitting",
+    "link": "https://arxiv.org/abs/1709.01604",
+    "vectors": [
+      {
+        "avId": "MOD-000",
+        "avName": "Adversarial Attacks"
+      },
+      {
+        "avId": "MOD-100",
+        "avName": "Test-time"
+      },
+      {
+        "avId": "MOD-120",
+        "avName": "Availability"
+      },
+      {
+        "avId": "MOD-123",
+        "avName": "Blackbox"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "title": "Stolen Memories: Leveraging Model Memorization for Calibrated White-Box Membership Inference",
+    "link": "https://arxiv.org/abs/1906.11798",
+    "vectors": [
+      {
+        "avId": "MOD-000",
+        "avName": "Adversarial Attacks"
+      },
+      {
+        "avId": "MOD-100",
+        "avName": "Test-time"
+      },
+      {
+        "avId": "MOD-120",
+        "avName": "Privacy/Confidentiality"
+      },
+      {
+        "avId": "MOD-131",
+        "avName": "Whitebox"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "title": "Comprehensive Privacy Analysis of Deep Learning: Passive and Active White-box Inference Attacks against Centralized and Federated Learning",
+    "link": "http://dx.doi.org/10.1109/SP.2019.00065",
+    "vectors": [
+      {
+        "avId": "MOD-000",
+        "avName": "Adversarial Attacks"
+      },
+      {
+        "avId": "MOD-100",
+        "avName": "Test-time"
+      },
+      {
+        "avId": "MOD-120",
+        "avName": "Privacy/Confidentiality"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "title": "Adaptive Attacks Against Membership Inference Attacks",
+    "link": "https://arxiv.org/abs/2004.02680",
+    "vectors": [
+      {
+        "avId": "MOD-000",
+        "avName": "Adversarial Attacks"
+      },
+      {
+        "avId": "MOD-100",
+        "avName": "Test-time"
+      },
+      {
+        "avId": "MOD-120",
+        "avName": "Availability"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "title": "Towards Robust and Interpretable Poisoning Attacks Against Machine Learning",
+    "link": "https://ieeexplore.ieee.org/document/9143222",
+    "vectors": [
+      {
+        "avId": "MOD-000",
+        "avName": "Adversarial Attacks"
+      },
+      {
+        "avId": "MOD-100",
+        "avName": "Test-time"
+      },
+      {
+        "avId": "MOD-120",
+        "avName": "Availability"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "title": "Understanding Black-box Attacks on Neural Networks",
+    "link": "https://arxiv.org/abs/1704.04503",
+    "vectors": [
+      {
+        "avId": "MOD-000",
+        "avName": "Adversarial Attacks"
+      },
+      {
+        "avId": "MOD-100",
+        "avName": "Test-time"
+      },
+      {
+        "avId": "MOD-120",
+        "avName": "Availability"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "title": "Tree of Attacks: Jailbreaking Black-Box LLMs Automatically",
+    "link": "https://arxiv.org/abs/2312.02119",
+    "vectors": [
+      {
+        "avId": "MOD-000",
+        "avName": "Adversarial Attacks"
+      },
+      {
+        "avId": "MOD-100",
+        "avName": "Test-time"
+      },
+      {
+        "avId": "MOD-1X3",
+        "avName": "Blackbox"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "title": "Obfuscated Gradients Give a False Sense of Security: Circumventing\nDefenses to Adversarial Examples",
+    "link": "http://proceedings.mlr.press/v80/athalye18a.html",
+    "vectors": [
+      {
+        "avId": "MOD-000",
+        "avName": "Adversarial Attacks"
+      },
+      {
+        "avId": "MOD-100",
+        "avName": "Test-time"
+      },
+      {
+        "avId": "MOD-110",
+        "avName": "Integrity"
+      },
+      {
+        "avId": "MOD-111",
+        "avName": "Whitebox"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "title": "Intriguing properties of neural networks",
+    "link": "http://arxiv.org/abs/1312.6199",
+    "vectors": [
+      {
+        "avId": "MOD-000",
+        "avName": "Adversarial Attacks"
+      },
+      {
+        "avId": "MOD-100",
+        "avName": "Test-time"
+      },
+      {
+        "avId": "MOD-110",
+        "avName": "Integrity"
+      },
+      {
+        "avId": "MOD-111",
+        "avName": "Whitebox"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "title": "Reliable evaluation of adversarial robustness with an ensemble of\ndiverse parameter-free attacks",
+    "link": "http://proceedings.mlr.press/v119/croce20b.html",
+    "vectors": [
+      {
+        "avId": "MOD-000",
+        "avName": "Adversarial Attacks"
+      },
+      {
+        "avId": "MOD-100",
+        "avName": "Test-time"
+      },
+      {
+        "avId": "MOD-110",
+        "avName": "Integrity"
+      },
+      {
+        "avId": "MOD-111",
+        "avName": "Whitebox"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "title": "Raze to the Ground: Query-Efficient Adversarial HTML Attacks on Machine-Learning Phishing Webpage Detectors",
+    "link": "https://doi.org/10.1145/3605764.3623920",
+    "vectors": [
+      {
+        "avId": "MOD-000",
+        "avName": "Adversarial Attacks"
+      },
+      {
+        "avId": "MOD-100",
+        "avName": "Test-time"
+      },
+      {
+        "avId": "MOD-110",
+        "avName": "Integrity"
+      },
+      {
+        "avId": "MOD-113",
+        "avName": "Blackbox"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "title": "Practical Attacks on Machine Learning: A Case Study on Adversarial Windows Malware",
+    "link": null,
+    "vectors": [
+      {
+        "avId": "MOD-000",
+        "avName": "Adversarial Attacks"
+      },
+      {
+        "avId": "MOD-100",
+        "avName": "Test-time"
+      },
+      {
+        "avId": "MOD-110",
+        "avName": "Integrity"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "title": "Targeted Backdoor Attacks on Deep Learning Systems Using Data Poisoning",
+    "link": "http://arxiv.org/abs/1712.05526",
+    "vectors": [
+      {
+        "avId": "MOD-000",
+        "avName": "Adversarial Attacks"
+      },
+      {
+        "avId": "MOD-200",
+        "avName": "Training-time"
+      },
+      {
+        "avId": "MOD-220",
+        "avName": "Privacy/Confidentiality"
+      },
+      {
+        "avId": "MOD-232",
+        "avName": "Graybox"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "title": "Augmented Lagrangian Adversarial Attacks",
+    "link": "https://doi.org/10.1109/ICCV48922.2021.00764",
+    "vectors": [
+      {
+        "avId": "MOD-000",
+        "avName": "Adversarial Attacks"
+      },
+      {
+        "avId": "MOD-100",
+        "avName": "Test-time"
+      },
+      {
+        "avId": "MOD-110",
+        "avName": "Integrity"
+      },
+      {
+        "avId": "MOD-111",
+        "avName": "Whitebox"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "title": "Wasserstein Adversarial Examples via Projected Sinkhorn Iteration",
+    "link": null,
+    "vectors": [
+      {
+        "avId": "MOD-000",
+        "avName": "Adversarial Attacks"
+      },
+      {
+        "avId": "MOD-100",
+        "avName": "Test-time"
+      },
+      {
+        "avId": "MOD-110",
+        "avName": "Integrity"
+      },
+      {
+        "avId": "MOD-112",
+        "avName": "Graybox"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "title": "Black-box Adversarial Attacks with Limited Queries and Information",
+    "link": "http://proceedings.mlr.press/v80/ilyas18a.html",
+    "vectors": [
+      {
+        "avId": "MOD-000",
+        "avName": "Adversarial Attacks"
+      },
+      {
+        "avId": "MOD-100",
+        "avName": "Test-time"
+      },
+      {
+        "avId": "MOD-110",
+        "avName": "Integrity"
+      },
+      {
+        "avId": "MOD-113",
+        "avName": "Blackbox"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "title": "Robust Physical-World Attacks on Deep Learning Visual Classification",
+    "link": "http://openaccess.thecvf.com/content_cvpr_2018/html/Eykholt_Robust_Physical-World_Attacks_CVPR_2018_paper.html",
+    "vectors": [
+      {
+        "avId": "MOD-000",
+        "avName": "Adversarial Attacks"
+      },
+      {
+        "avId": "MOD-100",
+        "avName": "Test-time"
+      },
+      {
+        "avId": "MOD-110",
+        "avName": "Integrity"
+      },
+      {
+        "avId": "MOD-111",
+        "avName": "Whitebox"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "title": "Trojaning Attack on Neural Networks",
+    "link": "https://www.ndss-symposium.org/ndss-paper/trojaning-attack-on-neural-networks/",
+    "vectors": [
+      {
+        "avId": "MOD-000",
+        "avName": "Adversarial Attacks"
+      },
+      {
+        "avId": "MOD-200",
+        "avName": "Training-time"
+      },
+      {
+        "avId": "MOD-210",
+        "avName": "Integrity"
+      },
+      {
+        "avId": "MOD-212",
+        "avName": "Graybox"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "title": "Boosting Adversarial Examples with Momentum",
+    "link": "https://openaccess.thecvf.com/content_cvpr_2018/html/Dong_Boosting_Adversarial_Examples_CVPR_2018_paper.html",
+    "vectors": [
+      {
+        "avId": "MOD-000",
+        "avName": "Adversarial Attacks"
+      },
+      {
+        "avId": "MOD-100",
+        "avName": "Test-time"
+      },
+      {
+        "avId": "MOD-110",
+        "avName": "Integrity"
+      },
+      {
+        "avId": "MOD-111",
+        "avName": "Whitebox"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "title": "Synthesizing Robust Adversarial Examples",
+    "link": "http://proceedings.mlr.press/v80/athalye18b.html",
+    "vectors": [
+      {
+        "avId": "MOD-000",
+        "avName": "Adversarial Attacks"
+      },
+      {
+        "avId": "MOD-100",
+        "avName": "Test-time"
+      },
+      {
+        "avId": "MOD-110",
+        "avName": "Integrity"
+      },
+      {
+        "avId": "MOD-111",
+        "avName": "Whitebox"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "title": "Adversarial Examples for Semantic Segmentation and Object Detection",
+    "link": "https://doi.org/10.1109/ICCV.2017.153",
+    "vectors": [
+      {
+        "avId": "MOD-000",
+        "avName": "Adversarial Attacks"
+      },
+      {
+        "avId": "MOD-100",
+        "avName": "Test-time"
+      },
+      {
+        "avId": "MOD-110",
+        "avName": "Integrity"
+      },
+      {
+        "avId": "MOD-111",
+        "avName": "Whitebox"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "title": "Adversarial Examples for Malware Detection",
+    "link": "https://doi.org/10.1007/978-3-319-66451-5_4",
+    "vectors": [
+      {
+        "avId": "MOD-000",
+        "avName": "Adversarial Attacks"
+      },
+      {
+        "avId": "MOD-100",
+        "avName": "Test-time"
+      },
+      {
+        "avId": "MOD-110",
+        "avName": "Integrity"
+      },
+      {
+        "avId": "MOD-111",
+        "avName": "Whitebox"
+      }
+    ],
+    "tags": []
+  },
+  {
+"title": "Explaining and Harnessing Adversarial Examples",
+"link": "http://arxiv.org/abs/1412.6572",
+"vectors": [
+  {
+    "avId": "MOD-000",
+    "avName": "Adversarial Attacks"
+  },
+  {
+    "avId": "MOD-100",
+    "avName": "Test-time"
+  },
+  {
+    "avId": "MOD-110",
+    "avName": "Integrity"
+  },
+  {
+    "avId": "MOD-111",
+    "avName": "Whitebox"
+  }
+],
+"tags": []
+},
+{
+    "title": "Fast minimum-norm adversarial attacks through adaptive norm constraints",
+    "link": "https://arxiv.org/pdf/2102.12827",
+    "vectors": [
+      {
+        "avId": "MOD-000",
+        "avName": "Adversarial Attacks"
+      },
+      {
+        "avId": "MOD-100",
+        "avName": "Test-time"
+      },
+      {
+        "avId": "MOD-110",
+        "avName": "Integrity"
+      },
+      {
+        "avId": "MOD-111",
+        "avName": "Whitebox"
+      }
+    ],
+    "tags": []
+  },
+{
+    "title": "Towards Evaluating the Robustness of Neural Networks",
+    "link": "https://arXiv.org/pdf/1608.04644.pdf",
+    "vectors": [{
+        "avId": "MOD-000",
+        "avName": "Adversarial Attacks"
+    },
+    {
+        "avId": "MOD-100",
+        "avName": "Test-time"
+    },
+    {
+        "avId": "MOD-110",
+        "avName": "Inject During the Build of Legitimate Package"
+    },
+    {
+        "avId": "MOD-111",
+        "avName": "Distribute Malicious Version of Legitimate Package"
+    }
+    ],
+    "tags": {
+        "contents": [
+            "peer-reviewed", 
+            "attack", 
+            "IEEE S&P"
+        ],
+        "year": 2017
+    }
+},
+{
+    "title": "Towards Deep Learning Models Resistant to Adversarial Attacks",
+    "link": "https://arXiv.org/pdf/1706.06083.pdf",
+    "vectors": [{
+        "avId": "MOD-000",
+        "avName": "Adversarial Attacks"
+    },
+    {
+        "avId": "MOD-100",
+        "avName": "Test-time"
+    },
+    {
+        "avId": "MOD-110",
+        "avName": "Inject During the Build of Legitimate Package"
+    },
+    {
+        "avId": "MOD-111",
+        "avName": "Distribute Malicious Version of Legitimate Package"
+    }
+    ],
+    "tags": {
+        "contents": [
+            "peer-reviewed", 
+            "attack", 
+            "ICLR"
+        ],
+        "year": 2018
+    }
+},
+{
+    "title": "DeepFool: A Simple and Accurate Method to Fool Deep Neural Networks",
+    "link": "https://arXiv.org/pdf/1511.04599.pdf",
+    "vectors": [{
+        "avId": "MOD-000",
+        "avName": "Adversarial Attacks"
+    },
+    {
+        "avId": "MOD-100",
+        "avName": "Test-time"
+    },
+    {
+        "avId": "MOD-110",
+        "avName": "Inject During the Build of Legitimate Package"
+    },
+    {
+        "avId": "MOD-111",
+        "avName": "Distribute Malicious Version of Legitimate Package"
+    }
+    ],
+    "tags": {
+        "contents": [
+            "peer-reviewed", 
+            "attack", 
+            "CVPR"
+        ],
+        "year": 2016
+    }
+},
+{
+    "title": "Square Attack: a Query-Efficient Black-box Adversarial Attack via Random Search",
+    "link": "https://arXiv.org/pdf/1912.00049.pdf",
+    "vectors": [{
+        "avId": "MOD-000",
+        "avName": "Adversarial Attacks"
+    },
+    {
+        "avId": "MOD-100",
+        "avName": "Test-time"
+    },
+    {
+        "avId": "MOD-110",
+        "avName": "Inject During the Build of Legitimate Package"
+    },
+    {
+        "avId": "MOD-113",
+        "avName": "Distribute Malicious Version of Legitimate Package"
+    }
+    ],
+    "tags": {
+        "contents": [
+            "attack"
+        ],
+        "year": 2019
+    }
+},
+{
+    "title": "Practical Black-Box Attacks against Machine Learning",
+    "link": "https://arXiv.org/pdf/1602.02697.pdf",
+    "vectors": [{
+        "avId": "MOD-000",
+        "avName": "Adversarial Attacks"
+    },
+    {
+        "avId": "MOD-100",
+        "avName": "Test-time"
+    },
+    {
+        "avId": "MOD-110",
+        "avName": "Inject During the Build of Legitimate Package"
+    },
+    {
+        "avId": "MOD-113",
+        "avName": "Distribute Malicious Version of Legitimate Package"
+    }
+    ],
+    "tags": {
+        "contents": [
+            "peer-reviewed", 
+            "attack", 
+            "IEEE S&P"
+        ],
+        "year": 2016
+    }
+},
+{
+    "title": "SPONGE EXAMPLES: ENERGY-LATENCY ATTACKS ON NEURAL NETWORKS",
+    "link": "https://arxiv.org/pdf/2006.03463.pdf",
+    "vectors": [{
+        "avId": "MOD-000",
+        "avName": "Adversarial Attacks"
+    },
+    {
+        "avId": "MOD-100",
+        "avName": "Test-time"
+    },
+    {
+        "avId": "MOD-120",
+        "avName": "Inject During the Build of Legitimate Package"
+    },
+    {
+        "avId": "MOD-121",
+        "avName": "Distribute Malicious Version of Legitimate Package"
+    }
+    ],
+    "tags": {
+        "contents": [
+            "peer-reviewed", 
+            "attack", 
+            "IEEE S&P"
+        ],
+        "year": 2021
+    }
+},
+{
+    "title": "Energy-Latency Attacks via Sponge Poisoning",
+    "link": "https://arxiv.org/pdf/2203.08147.pdf",
+    "vectors": [{
+        "avId": "MOD-000",
+        "avName": "Adversarial Attacks"
+    },
+    {
+        "avId": "MOD-200",
+        "avName": "Test-time"
+    },
+    {
+        "avId": "MOD-220",
+        "avName": "Inject During the Build of Legitimate Package"
+    },
+    {
+        "avId": "MOD-221",
+        "avName": "Distribute Malicious Version of Legitimate Package"
+    }
+    ],
+    "tags": {
+        "contents": [
+            "attack"
+        ],
+        "year": 2022
+    }
+},
+{
+    "title": "Evasion Attacks against Machine Learning at Test Time",
+    "link": "https://arXiv.org/pdf/1708.06131.pdf",
+    "vectors": [{
+        "avId": "MOD-000",
+        "avName": "Adversarial Attacks"
+    },
+    {
+        "avId": "MOD-100",
+        "avName": "Test-time"
+    },
+    {
+        "avId": "MOD-110",
+        "avName": "Inject During the Build of Legitimate Package"
+    },
+    {
+        "avId": "MOD-111",
+        "avName": "Distribute Malicious Version of Legitimate Package"
+    }
+    ],
+    "tags": {
+        "contents": [
+            "peer-reviewed", 
+            "attack", 
+            "ECML"
+        ],
+        "year": 2013
+    }
+},
+{
+    "title": "Poisoning Attacks against Support Vector Machines",
+    "link": "https://arxiv.org/pdf/1206.6389.pdf",
+    "vectors": [{
+        "avId": "MOD-000",
+        "avName": "Adversarial Attacks"
+    },
+    {
+        "avId": "MOD-200",
+        "avName": "Test-time"
+    },
+    {
+        "avId": "MOD-210",
+        "avName": "Inject During the Build of Legitimate Package"
+    },
+    {
+        "avId": "MOD-211",
+        "avName": "Distribute Malicious Version of Legitimate Package"
+    }
+    ],
+    "tags": {
+        "contents": [
+            "peer-reviewed", 
+            "attack", 
+            "ICML"
+        ],
+        "year": 2012
+    }
+},
+{
+    "title": "Membership Inference Attacks Against Machine Learning Models",
+    "link": "https://arXiv.org/pdf/1610.05820.pdf",
+    "vectors": [{
+        "avId": "MOD-000",
+        "avName": "Adversarial Attacks"
+    },
+    {
+        "avId": "MOD-100",
+        "avName": "Test-time"
+    },
+    {
+        "avId": "MOD-130",
+        "avName": "Inject During the Build of Legitimate Package"
+    },
+    {
+        "avId": "MOD-131",
+        "avName": "Distribute Malicious Version of Legitimate Package"
+    }
+    ],
+    "tags": {
+        "contents": [
+            "peer-reviewed", 
+            "attack", 
+            "IEEE S&P"
+        ],
+        "year": 2017
+    }
+}
 ]
