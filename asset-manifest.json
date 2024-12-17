@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/attackrepo/static/css/main.8fd75893.css",
-    "main.js": "/attackrepo/static/js/main.11bf09b1.js",
+    "main.js": "/attackrepo/static/js/main.e1c865c0.js",
     "static/media/OSS-SuppChainModel-FMC-modified.png": "/attackrepo/static/media/OSS-SuppChainModel-FMC-modified.6551243ac3324cc3bbca.png",
     "static/media/AttackTreeExample-modified.png": "/attackrepo/static/media/AttackTreeExample-modified.49a06b3e87de2ffc83c3.png",
     "static/media/attackgraph.svg": "/attackrepo/static/media/attackgraph.c387045648899dcb44d3194973611cbb.svg",
     "static/media/EU_FUND_IMG.png": "/attackrepo/static/media/EU_FUND_IMG.eccd6ef31f644e381766.png",
     "index.html": "/attackrepo/index.html",
     "main.8fd75893.css.map": "/attackrepo/static/css/main.8fd75893.css.map",
-    "main.11bf09b1.js.map": "/attackrepo/static/js/main.11bf09b1.js.map"
+    "main.e1c865c0.js.map": "/attackrepo/static/js/main.e1c865c0.js.map"
   },
   "entrypoints": [
     "static/css/main.8fd75893.css",
-    "static/js/main.11bf09b1.js"
+    "static/js/main.e1c865c0.js"
   ]
 }
