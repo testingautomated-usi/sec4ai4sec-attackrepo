@@ -1,13 +1,14 @@
 [{
     "title": "Explaining and Harnessing Adversarial Examples",
     "link": "https://link.springer.com/chapter/10.1007/978-3-030-52683-2_2",
+    "summary": "The paper 'Explaining and Harnessing Adversarial Examples' investigates the susceptibility of neural networks to adversarial examples, attributing it to their linear nature. The authors introduce the fast gradient sign method for generating adversarial examples and demonstrate that adversarial training can improve robustness.",
     "vectors": [{
             "avId": "MOD-000",
             "avName": "Adversarial Attacks"
         },
         {
             "avId": "MOD-100",
-            "avName": "Test-time"
+            "avName": "Test-Data"
         },
         {
             "avId": "MOD-110",
@@ -30,6 +31,7 @@
 {
     "title": "Black-box Membership Inference Attacks against Fine-tuned Diffusion Models",
     "link": "https://arxiv.org/pdf/2312.08207",
+    "summary": "The paper 'Black-box Membership Inference Attacks against Fine-tuned Diffusion Models' by Yan Pang and Tianhao Wang introduces a novel framework for conducting membership inference attacks on diffusion-based image generative models, particularly in black-box scenarios where only the model's outputs are accessible. The authors highlight privacy concerns associated with fine-tuning pre-trained diffusion models on specific datasets, as this process can lead to the models inadvertently memorizing training data. Their proposed reconstruction-based attack framework is adaptable to various conditional generative models and demonstrates high precision, achieving an AUC of 0.95 in experiments. ",
     "vectors": [
       {
         "avId": "MOD-000",
@@ -37,7 +39,7 @@
       },
       {
         "avId": "MOD-100",
-        "avName": "Test-time"
+        "avName": "Test-Data"
       },
       {
         "avId": "MOD-120",
@@ -53,6 +55,7 @@
   {
     "title": "Audio Adversarial Examples: Targeted Attacks on Speech-to-Text",
     "link": "https://arxiv.org/pdf/1801.01944",
+    "summary": "The paper 'Audio Adversarial Examples: Targeted Attacks on Speech-to-Text' by Nicholas Carlini and David Wagner demonstrates the feasibility of crafting audio adversarial examples that can deceive automatic speech recognition (ASR) systems into transcribing any desired phrase. The authors develop a white-box, iterative optimization-based attack applied to Mozilla's implementation of DeepSpeech, achieving a 100% success rate. These adversarial examples are nearly indistinguishable from the original audio, with over 99.9% similarity, yet they cause the ASR system to produce incorrect transcriptions. This work highlights significant security concerns for ASR systems and introduces a new domain for studying adversarial examples. ",
     "vectors": [
       {
         "avId": "MOD-000",
@@ -60,7 +63,7 @@
       },
       {
         "avId": "MOD-100",
-        "avName": "Test-time"
+        "avName": "Test-Data"
       },
       {
         "avId": "MOD-110",
@@ -76,6 +79,7 @@
   {
     "title": "Accessorize to a Crime: Real and Stealthy Attacks on State-of-the-Art Face Recognition",
     "link": "https://dl.acm.org/doi/pdf/10.1145/2976749.2978392",
+    "summary": "The paper 'Accessorize to a Crime: Real and Stealthy Attacks on State-of-the-Art Face Recognition' by Mahmood Sharif, Sruti Bhagavatula, Lujo Bauer, and Michael K. Reiter presents a novel method for physically realizable and inconspicuous attacks on facial biometric systems. The authors demonstrate how customized eyeglass frames can be used to either evade recognition or impersonate another individual when presented to face-recognition algorithms. Their systematic approach is effective in both white-box and black-box scenarios, highlighting significant security concerns for face recognition technologies. ",
     "vectors": [
       {
         "avId": "MOD-000",
@@ -83,7 +87,7 @@
       },
       {
         "avId": "MOD-100",
-        "avName": "Test-time"
+        "avName": "Test-Data"
       },
       {
         "avId": "MOD-110",
@@ -99,6 +103,7 @@
   {
     "title": "Evasion Attacks against Machine Learning at Test Time",
     "link": "http://dx.doi.org/10.1007/978-3-642-40994-3_25",
+    "summary": "The paper 'Evasion Attacks against Machine Learning at Test Time' by Battista Biggio et al. presents a gradient-based approach to assess the security of classification algorithms against evasion attacks, where adversaries manipulate test samples to evade detection. The authors evaluate this method on malware detection in PDF files, demonstrating the vulnerability of such systems and suggesting potential countermeasures. ",
     "vectors": [
       {
         "avId": "MOD-000",
@@ -106,7 +111,7 @@
       },
       {
         "avId": "MOD-100",
-        "avName": "Test-time"
+        "avName": "Test-Data"
       },
       {
         "avId": "MOD-110",
@@ -122,6 +127,7 @@
   {
     "title": "DeepFool: a simple and accurate method to fool deep neural networks",
     "link": null,
+    "summary": "The paper 'DeepFool: a simple and accurate method to fool deep neural networks' by Seyed-Mohsen Moosavi-Dezfooli, Alhussein Fawzi, and Pascal Frossard introduces DeepFool, an algorithm designed to compute minimal adversarial perturbations that can mislead deep neural networks. The authors demonstrate that DeepFool efficiently generates perturbations by iteratively linearizing the classifier, leading to more accurate assessments of a model's robustness compared to previous methods. Extensive experiments show that DeepFool outperforms existing techniques in creating adversarial examples and enhancing classifier robustness. ",
     "vectors": [
       {
         "avId": "MOD-000",
@@ -129,7 +135,7 @@
       },
       {
         "avId": "MOD-100",
-        "avName": "Test-time"
+        "avName": "Test-Data"
       },
       {
         "avId": "MOD-110",
@@ -145,6 +151,7 @@
   {
     "title": "Towards Evaluating the Robustness of Neural Networks",
     "link": "https://arxiv.org/abs/1608.04644",
+    "summary": "The paper 'Towards Evaluating the Robustness of Neural Networks' by Nicholas Carlini and David Wagner examines the effectiveness of defensive distillation—a technique proposed to enhance neural network robustness against adversarial examples. The authors introduce three novel attack algorithms tailored to different distance metrics, demonstrating that these attacks can successfully generate adversarial examples with 100% success on both distilled and undistilled networks. Their findings suggest that defensive distillation does not significantly improve neural network robustness, highlighting the need for more effective defense mechanisms. ",
     "vectors": [
       {
         "avId": "MOD-000",
@@ -152,7 +159,7 @@
       },
       {
         "avId": "MOD-100",
-        "avName": "Test-time"
+        "avName": "Test-Data"
       },
       {
         "avId": "MOD-110",
@@ -168,6 +175,7 @@
   {
     "title": "Towards Deep Learning Models Resistant to Adversarial Attacks",
     "link": "https://arxiv.org/abs/1706.06083",
+    "summary": "The paper 'Towards Deep Learning Models Resistant to Adversarial Attacks' by Aleksander Madry et al. examines the vulnerability of deep neural networks to adversarial examples—inputs that are nearly indistinguishable from natural data but cause incorrect classifications. The authors approach this issue through robust optimization, providing a unified perspective on prior work and introducing methods for both training and attacking neural networks that are reliable and universal. They propose adversarial training as a means to enhance model robustness, offering concrete security guarantees against a well-defined class of adversaries. Their methods demonstrate significant improvements in resistance to a wide range of adversarial attacks, marking an important step toward fully resilient deep learning models. ",
     "vectors": [
       {
         "avId": "MOD-000",
@@ -175,7 +183,7 @@
       },
       {
         "avId": "MOD-100",
-        "avName": "Test-time"
+        "avName": "Test-Data"
       },
       {
         "avId": "MOD-110",
@@ -191,6 +199,7 @@
   {
     "title": "Decision-Based Adversarial Attacks: Reliable Attacks Against Black-Box Machine Learning Models",
     "link": "https://arxiv.org/abs/1712.04248",
+    "summary": "The paper 'Decision-Based Adversarial Attacks: Reliable Attacks Against Black-Box Machine Learning Models' by Wieland Brendel, Jonas Rauber, and Matthias Bethge introduces the Boundary Attack, a novel decision-based adversarial attack that requires only the final decision (e.g., class label) of a model, making it applicable to real-world black-box systems. The attack starts from a large adversarial perturbation and iteratively reduces it while maintaining its adversarial nature. This method is conceptually simple, requires minimal hyperparameter tuning, and does not rely on substitute models. Experiments demonstrate that the Boundary Attack is competitive with gradient-based attacks on standard computer vision tasks like ImageNet, highlighting significant security concerns for deployed machine learning systems. ",
     "vectors": [
       {
         "avId": "MOD-000",
@@ -198,7 +207,7 @@
       },
       {
         "avId": "MOD-100",
-        "avName": "Test-time"
+        "avName": "Test-Data"
       },
       {
         "avId": "MOD-110",
@@ -214,6 +223,7 @@
   {
     "title": "Query-Efficient Hard-label Black-box Attack: An Optimization-based Approach",
     "link": "https://arxiv.org/abs/1807.04457",
+    "summary": "The paper 'Query-Efficient Hard-label Black-box Attack: An Optimization-based Approach' by Minhao Cheng et al. addresses the challenge of generating adversarial examples in a hard-label black-box setting, where only the final decision of a model is accessible. The authors reformulate the attack as a real-valued optimization problem, enabling the use of zeroth-order optimization algorithms. Their method outperforms previous approaches, demonstrating effectiveness against convolutional neural networks on datasets like MNIST, CIFAR, and ImageNet, and is also applicable to non-continuous models such as Gradient Boosting Decision Trees. ",
     "vectors": [
       {
         "avId": "MOD-000",
@@ -221,7 +231,7 @@
       },
       {
         "avId": "MOD-100",
-        "avName": "Test-time"
+        "avName": "Test-Data"
       },
       {
         "avId": "MOD-110",
@@ -237,6 +247,7 @@
   {
     "title": "HopSkipJumpAttack: A Query-Efficient Decision-Based Attack",
     "link": "https://arxiv.org/abs/1904.02144",
+    "summary": "The paper 'HopSkipJumpAttack: A Query-Efficient Decision-Based Attack' by Jianbo Chen, Michael I. Jordan, and Martin J. Wainwright introduces HopSkipJumpAttack, a family of algorithms designed to generate adversarial examples by accessing only the output labels of a target model. These decision-based attacks estimate gradient directions using binary information at the decision boundary, enabling both untargeted and targeted attacks optimized for ℓ₂ and ℓ_∞ similarity metrics. The authors provide theoretical analysis and demonstrate through experiments that HopSkipJumpAttack requires significantly fewer model queries compared to existing decision-based attacks, achieving competitive performance against various defense mechanisms. ",
     "vectors": [
       {
         "avId": "MOD-000",
@@ -244,7 +255,7 @@
       },
       {
         "avId": "MOD-100",
-        "avName": "Test-time"
+        "avName": "Test-Data"
       },
       {
         "avId": "MOD-110",
@@ -260,6 +271,7 @@
   {
     "title": "Is feature selection secure against training data poisoning?",
     "link": "https://arxiv.org/abs/1804.07933",
+    "summary": "The paper 'Is Feature Selection Secure against Training Data Poisoning?' by Huang Xiao et al. investigates the robustness of popular feature selection methods, including LASSO, ridge regression, and elastic net, against training data poisoning attacks. The authors demonstrate that these methods can be significantly compromised under attack, with the insertion of less than 5% poisoned training samples reducing LASSO to almost random feature selection. Their findings highlight the need for specific countermeasures to enhance the security of feature selection in adversarial settings. ",
     "vectors": [
       {
         "avId": "MOD-000",
@@ -267,7 +279,7 @@
       },
       {
         "avId": "MOD-200",
-        "avName": "Training-time"
+        "avName": "Training-Data"
       },
       {
         "avId": "MOD-210",
@@ -283,6 +295,7 @@
   {
     "title": "Prior Convictions: Black-Box Adversarial Attacks with Bandits and Priors",
     "link": "https://arxiv.org/abs/1807.07978",
+    "summary": "The paper 'Prior Convictions: Black-Box Adversarial Attacks with Bandits and Priors' by Andrew Ilyas, Logan Engstrom, and Aleksander Madry introduces a framework for generating adversarial examples in black-box settings, where only loss-oracle access to a model is available. The authors unify existing black-box attack methods and demonstrate their optimality. They further enhance these attacks by incorporating gradient priors through a bandit optimization-based algorithm, identifying two specific priors that improve efficiency. The proposed methods require two to four times fewer queries and have two to five times lower failure rates compared to current state-of-the-art approaches. ",
     "vectors": [
       {
         "avId": "MOD-000",
@@ -290,7 +303,7 @@
       },
       {
         "avId": "MOD-100",
-        "avName": "Test-time"
+        "avName": "Test-Data"
       },
       {
         "avId": "MOD-110",
@@ -306,6 +319,7 @@
   {
     "title": "ZOO: Zeroth Order Optimization Based Black-box Attacks to Deep Neural Networks without Training Substitute Models",
     "link": "http://dx.doi.org/10.1145/3128572.3140448",
+    "summary": "The paper 'ZOO: Zeroth Order Optimization Based Black-box Attacks to Deep Neural Networks without Training Substitute Models' by Pin-Yu Chen et al. introduces a black-box attack method that directly estimates gradients of a target model using only input-output pairs, eliminating the need for training substitute models. The authors employ zeroth-order stochastic coordinate descent along with techniques like dimension reduction, hierarchical attack, and importance sampling to efficiently generate adversarial examples. Experiments on datasets such as MNIST, CIFAR-10, and ImageNet demonstrate that the proposed ZOO attack is as effective as state-of-the-art white-box attacks and significantly outperforms existing black-box attacks that rely on substitute models. ",
     "vectors": [
       {
         "avId": "MOD-000",
@@ -313,7 +327,7 @@
       },
       {
         "avId": "MOD-100",
-        "avName": "Test-time"
+        "avName": "Test-Data"
       },
       {
         "avId": "MOD-110",
@@ -329,6 +343,7 @@
   {
     "title": "Manipulating Machine Learning: Poisoning Attacks and Countermeasures for Regression Learning",
     "link": "https://arxiv.org/abs/1804.00308",
+    "summary": "The paper 'Manipulating Machine Learning: Poisoning Attacks and Countermeasures for Regression Learning' by Matthew Jagielski et al. presents a comprehensive study on the vulnerability of linear regression models to poisoning attacks, where adversaries deliberately inject malicious data into the training set to manipulate predictive outcomes. The authors propose a theoretically grounded optimization framework tailored for linear regression to execute such attacks effectively. Additionally, they introduce a rapid statistical attack requiring minimal knowledge of the training process. To counter these threats, the paper offers a principled defense method that demonstrates high resilience against various poisoning attacks, providing formal guarantees regarding its convergence and establishing an upper bound on the impact of such attacks when the defense is implemented. Extensive evaluations on realistic datasets from healthcare, loan assessment, and real estate domains underscore the efficacy of both the proposed attacks and defenses. ",
     "vectors": [
       {
         "avId": "MOD-000",
@@ -336,7 +351,7 @@
       },
       {
         "avId": "MOD-200",
-        "avName": "Training-time"
+        "avName": "Training-Data"
       },
       {
         "avId": "MOD-210",
@@ -352,6 +367,7 @@
   {
     "title": "Poisoning Attacks against Support Vector Machines",
     "link": "https://arxiv.org/abs/1206.6389",
+    "summary": "The paper 'Poisoning Attacks against Support Vector Machines' by Battista Biggio, Blaine Nelson, and Pavel Laskov investigates how adversaries can inject carefully crafted training data to degrade the performance of Support Vector Machines (SVMs). The authors propose a gradient ascent strategy to identify optimal poisoning points, demonstrating that even a small amount of malicious data can significantly increase the SVM's test error. This work highlights the vulnerability of SVMs to training data manipulation and underscores the need for robust learning algorithms in adversarial settings. ",
     "vectors": [
       {
         "avId": "MOD-000",
@@ -359,7 +375,7 @@
       },
       {
         "avId": "MOD-200",
-        "avName": "Training-time"
+        "avName": "Training-Data"
       },
       {
         "avId": "MOD-210",
@@ -375,6 +391,7 @@
   {
     "title": "Support Vector Machines Under Adversarial Label Noise",
     "link": "https://proceedings.mlr.press/v20/biggio11.html",
+    "summary": "The paper 'Support Vector Machines Under Adversarial Label Noise' by Battista Biggio, Blaine Nelson, and Pavel Laskov examines the robustness of Support Vector Machines (SVMs) when faced with adversarial label noise, where an attacker deliberately flips labels in the training data to degrade the classifier's performance. The authors propose a kernel matrix correction method to enhance SVM resilience against such attacks. Their experimental results demonstrate that this approach effectively mitigates the impact of adversarial label noise, maintaining higher classification accuracy compared to standard SVMs. ",
     "vectors": [
       {
         "avId": "MOD-000",
@@ -382,7 +399,7 @@
       },
       {
         "avId": "MOD-200",
-        "avName": "Training-time"
+        "avName": "Training-Data"
       },
       {
         "avId": "MOD-210",
@@ -398,6 +415,7 @@
   {
     "title": "Towards Poisoning of Deep Learning Algorithms with Back-gradient Optimization",
     "link": "https://arxiv.org/abs/1708.08689",
+    "summary": "The paper 'Towards Poisoning of Deep Learning Algorithms with Back-gradient Optimization' by Luis Muñoz-González et al. introduces a novel poisoning attack algorithm that extends to multiclass problems and deep learning architectures. The authors utilize back-gradient optimization to compute gradients through automatic differentiation, reversing the learning procedure to reduce attack complexity. Their approach effectively targets a wider class of learning algorithms trained with gradient-based procedures, including neural networks. Empirical evaluations on applications such as spam filtering, malware detection, and handwritten digit recognition demonstrate the attack's effectiveness. Additionally, the study shows that adversarial training examples can transfer across different learning algorithms.",
     "vectors": [
       {
         "avId": "MOD-000",
@@ -405,7 +423,7 @@
       },
       {
         "avId": "MOD-200",
-        "avName": "Training-time"
+        "avName": "Training-Data"
       },
       {
         "avId": "MOD-220",
@@ -419,8 +437,9 @@
     "tags": []
   },
   {
-    "title": "When Does Machine Learning {FAIL",
+    "title": "When Does Machine Learning FAIL? Generalized Transferability for Evasion and Poisoning Attacks",
     "link": "https://www.usenix.org/conference/usenixsecurity18/presentation/suciu",
+    "summary": "The paper 'When Does Machine Learning FAIL? Generalized Transferability for Evasion and Poisoning Attacks' by Octavian Suciu et al. introduces the FAIL adversary model, which characterizes an adversary's knowledge and control across four dimensions: Features, Algorithms, Instances, and Leverage. Utilizing this model, the authors develop 'StingRay,' a targeted poisoning attack that is effective against multiple machine learning applications and algorithms, capable of bypassing existing defenses. Their findings provide insights into the transferability of adversarial samples across models and suggest directions for developing more robust defenses. ",
     "vectors": [
       {
         "avId": "MOD-000",
@@ -428,7 +447,7 @@
       },
       {
         "avId": "MOD-200",
-        "avName": "Training-time"
+        "avName": "Training-Data"
       },
       {
         "avId": "MOD-220",
@@ -444,6 +463,7 @@
   {
     "title": "Membership Inference Attacks From First Principles",
     "link": "https://arxiv.org/abs/2112.03570",
+    "summary": "The paper 'Membership Inference Attacks From First Principles' by Nicholas Carlini et al. critiques the evaluation metrics used in assessing membership inference attacks, which aim to determine if a specific data point was part of a model's training set. The authors argue that average-case accuracy metrics are insufficient and propose evaluating attacks based on their true-positive rate at low false-positive rates. They introduce the Likelihood Ratio Attack (LiRA), which combines multiple ideas from existing literature to achieve a tenfold improvement in performance at low false-positive rates compared to prior attacks. This work underscores the need for more rigorous evaluation methodologies in understanding the privacy risks associated with machine learning models.",
     "vectors": [
       {
         "avId": "MOD-000",
@@ -451,7 +471,7 @@
       },
       {
         "avId": "MOD-100",
-        "avName": "Test-time"
+        "avName": "Test-Data"
       },
       {
         "avId": "MOD-120",
@@ -467,6 +487,7 @@
   {
     "title": "Membership Inference Attacks Against Machine Learning Models",
     "link": "https://ieeexplore.ieee.org/document/7958568",
+    "summary": "The paper 'Membership Inference Attacks Against Machine Learning Models' by Reza Shokri et al. investigates how machine learning models can inadvertently leak information about individual data records in their training datasets. The authors focus on membership inference attacks, where an adversary aims to determine whether a specific data record was part of the model's training data. They develop an attack model that leverages differences in the target model's predictions on training versus non-training inputs. Empirical evaluations on models trained by commercial machine learning services, such as those from Google and Amazon, reveal that these models are vulnerable to membership inference attacks. The study also explores factors influencing this leakage and evaluates potential mitigation strategies. ",
     "vectors": [
       {
         "avId": "MOD-000",
@@ -474,7 +495,7 @@
       },
       {
         "avId": "MOD-100",
-        "avName": "Test-time"
+        "avName": "Test-Data"
       },
       {
         "avId": "MOD-120",
@@ -490,6 +511,7 @@
   {
     "title": "Privacy Risk in Machine Learning: Analyzing the Connection to Overfitting",
     "link": "https://arxiv.org/abs/1709.01604",
+    "summary": "The paper 'Privacy Risk in Machine Learning: Analyzing the Connection to Overfitting' by Samuel Yeom, Irene Giacomelli, Matt Fredrikson, and Somesh Jha examines how overfitting and influence contribute to privacy risks in machine learning models. Through formal and empirical analyses, the authors demonstrate that overfitting can enable adversaries to perform membership inference attacks, determining whether specific data points were part of the training set. Additionally, they explore attribute inference attacks, where certain conditions related to a feature's influence can lead to privacy breaches. The study reveals a clear relationship between these factors and privacy risks, emphasizing the need for models that generalize well to mitigate such vulnerabilities.",
     "vectors": [
       {
         "avId": "MOD-000",
@@ -497,7 +519,7 @@
       },
       {
         "avId": "MOD-100",
-        "avName": "Test-time"
+        "avName": "Test-Data"
       },
       {
         "avId": "MOD-120",
@@ -513,6 +535,7 @@
   {
     "title": "Stolen Memories: Leveraging Model Memorization for Calibrated White-Box Membership Inference",
     "link": "https://arxiv.org/abs/1906.11798",
+    "summary": "The paper 'Stolen Memories: Leveraging Model Memorization for Calibrated White-Box Membership Inference' by Klas Leino and Matt Fredrikson explores membership inference attacks in a white-box setting, where adversaries have full access to a model's parameters and architecture. The authors demonstrate that overfitting in deep neural networks leads to idiosyncratic feature usage, which can be exploited to infer membership of specific data points in the training set. Their proposed attack outperforms prior black-box methods and can be calibrated for high precision, providing confident positive inferences. Additionally, the study evaluates popular defenses, finding that reducing generalization error alone is insufficient to prevent such attacks, and that differential privacy measures may reduce attack effectiveness but often at a significant cost to model accuracy. ",
     "vectors": [
       {
         "avId": "MOD-000",
@@ -520,7 +543,7 @@
       },
       {
         "avId": "MOD-100",
-        "avName": "Test-time"
+        "avName": "Test-Data"
       },
       {
         "avId": "MOD-120",
@@ -536,6 +559,7 @@
   {
     "title": "Comprehensive Privacy Analysis of Deep Learning: Passive and Active White-box Inference Attacks against Centralized and Federated Learning",
     "link": "http://dx.doi.org/10.1109/SP.2019.00065",
+    "summary": "The paper 'Comprehensive Privacy Analysis of Deep Learning: Passive and Active White-box Inference Attacks against Centralized and Federated Learning' by Milad Nasr, Reza Shokri, and Amir Houmansadr examines the susceptibility of deep neural networks to inference attacks that exploit information retained from training data. The authors develop white-box membership inference attacks to assess privacy leakage through model parameters and updates during training, applicable to both centralized and federated learning contexts. Their findings reveal that even well-generalized models are vulnerable to such attacks, with adversarial participants in federated learning capable of conducting successful active membership inference attacks against others, despite high global model accuracy.",
     "vectors": [
       {
         "avId": "MOD-000",
@@ -543,7 +567,7 @@
       },
       {
         "avId": "MOD-100",
-        "avName": "Test-time"
+        "avName": "Test-Data"
       },
       {
         "avId": "MOD-120",
@@ -555,6 +579,7 @@
   {
     "title": "Adaptive Attacks Against Membership Inference Attacks",
     "link": "https://arxiv.org/abs/2004.02680",
+    "summary": "The paper 'Adaptive Attacks Against Membership Inference Attacks' by Milad Nasr, Reza Shokri, and Amir Houmansadr examines the effectiveness of various defense mechanisms against membership inference attacks, which aim to determine whether a specific data point was part of a model's training set. The authors introduce adaptive attack strategies that consider the presence of defenses, demonstrating that many existing defenses can be circumvented when the adversary is aware of them. Their findings highlight the need for more robust and resilient defense mechanisms to protect against membership inference attacks.",
     "vectors": [
       {
         "avId": "MOD-000",
@@ -562,7 +587,7 @@
       },
       {
         "avId": "MOD-100",
-        "avName": "Test-time"
+        "avName": "Test-Data"
       },
       {
         "avId": "MOD-120",
@@ -574,6 +599,7 @@
   {
     "title": "Towards Robust and Interpretable Poisoning Attacks Against Machine Learning",
     "link": "https://ieeexplore.ieee.org/document/9143222",
+    "summary": "The paper 'Towards Robust and Interpretable Poisoning Attacks Against Machine Learning' by Xinyun Chen, Chang Liu, Bo Li, Kimberly Lu, and Dawn Song introduces a novel framework for crafting poisoning attacks that are both effective and interpretable. The authors propose leveraging generative models to produce realistic and semantically meaningful adversarial examples, which can be used to poison training data and compromise machine learning models. Their approach demonstrates the feasibility of generating interpretable poisoning attacks that maintain high attack success rates while preserving the naturalness of the adversarial samples. This work highlights the need for developing robust learning algorithms that can withstand such sophisticated poisoning strategies.",
     "vectors": [
       {
         "avId": "MOD-000",
@@ -581,7 +607,7 @@
       },
       {
         "avId": "MOD-100",
-        "avName": "Test-time"
+        "avName": "Test-Data"
       },
       {
         "avId": "MOD-120",
@@ -593,6 +619,7 @@
   {
     "title": "Understanding Black-box Attacks on Neural Networks",
     "link": "https://arxiv.org/abs/1704.04503",
+    "summary": "The paper 'Understanding Black-box Attacks on Neural Networks' by [authors] provides a comprehensive analysis of black-box adversarial attacks, where attackers have no access to the internal parameters of neural networks. The authors categorize various attack methodologies, including query-based and transfer-based attacks, and evaluate their effectiveness against different neural network architectures. The study highlights the vulnerabilities of neural networks to such attacks and underscores the need for developing robust defense mechanisms to enhance model security.",
     "vectors": [
       {
         "avId": "MOD-000",
@@ -600,7 +627,7 @@
       },
       {
         "avId": "MOD-100",
-        "avName": "Test-time"
+        "avName": "Test-Data"
       },
       {
         "avId": "MOD-120",
@@ -612,6 +639,7 @@
   {
     "title": "Tree of Attacks: Jailbreaking Black-Box LLMs Automatically",
     "link": "https://arxiv.org/abs/2312.02119",
+    "summary": "The paper 'Tree of Attacks: Jailbreaking Black-Box LLMs Automatically' introduces Tree of Attacks with Pruning (TAP), an automated method for generating jailbreaks that requires only black-box access to the target Large Language Model (LLM). TAP utilizes an attacker LLM to iteratively refine candidate prompts using tree-of-thought reasoning until one successfully bypasses the target's safety measures. Before querying the target, TAP assesses and prunes prompts unlikely to result in jailbreaks, enhancing efficiency. Empirical evaluations demonstrate that TAP can jailbreak state-of-the-art LLMs, including GPT-4 and GPT-4 Turbo, for over 80% of prompts with minimal queries. Notably, TAP also succeeds against LLMs protected by advanced guardrails, such as LlamaGuard.",
     "vectors": [
       {
         "avId": "MOD-000",
@@ -619,7 +647,7 @@
       },
       {
         "avId": "MOD-100",
-        "avName": "Test-time"
+        "avName": "Test-Data"
       },
       {
         "avId": "MOD-1X3",
@@ -631,6 +659,7 @@
   {
     "title": "Obfuscated Gradients Give a False Sense of Security: Circumventing\nDefenses to Adversarial Examples",
     "link": "http://proceedings.mlr.press/v80/athalye18a.html",
+    "summary": "The paper 'Obfuscated Gradients Give a False Sense of Security: Circumventing Defenses to Adversarial Examples' by Anish Athalye, Nicholas Carlini, and David Wagner identifies 'obfuscated gradients'—a form of gradient masking—as a flawed defense mechanism against adversarial attacks on neural networks. The authors categorize obfuscated gradients into three types: shattered gradients, stochastic gradients, and vanishing/exploding gradients. They develop specific attack strategies to bypass each type, demonstrating that seven out of nine defenses presented at ICLR 2018 relied on obfuscated gradients and could be effectively circumvented. This work underscores the inadequacy of gradient obfuscation as a defense and emphasizes the need for more robust security measures in machine learning models.",
     "vectors": [
       {
         "avId": "MOD-000",
@@ -638,7 +667,7 @@
       },
       {
         "avId": "MOD-100",
-        "avName": "Test-time"
+        "avName": "Test-Data"
       },
       {
         "avId": "MOD-110",
@@ -654,6 +683,7 @@
   {
     "title": "Intriguing properties of neural networks",
     "link": "http://arxiv.org/abs/1312.6199",
+    "summary": "The paper 'Intriguing Properties of Neural Networks' by Christian Szegedy et al. explores two counter-intuitive characteristics of deep neural networks. First, the authors find that individual high-level units and random linear combinations of these units are indistinguishable, suggesting that semantic information is embedded in the space of high-level representations rather than in individual units. Second, they demonstrate that deep neural networks can be led to misclassify inputs through imperceptible perturbations, indicating that these models learn input-output mappings that are unexpectedly discontinuous. This work highlights the need for a deeper understanding of neural network behavior, especially concerning their robustness and interpretability.",
     "vectors": [
       {
         "avId": "MOD-000",
@@ -661,7 +691,7 @@
       },
       {
         "avId": "MOD-100",
-        "avName": "Test-time"
+        "avName": "Test-Data"
       },
       {
         "avId": "MOD-110",
@@ -677,6 +707,7 @@
   {
     "title": "Reliable evaluation of adversarial robustness with an ensemble of\ndiverse parameter-free attacks",
     "link": "http://proceedings.mlr.press/v119/croce20b.html",
+    "summary": "The paper 'Reliable Evaluation of Adversarial Robustness with an Ensemble of Diverse Parameter-free Attacks' by Francesco Croce and Matthias Hein addresses the challenges in accurately assessing the robustness of machine learning models against adversarial attacks. The authors identify common pitfalls in current evaluation methods, such as improper tuning of attack hyperparameters and gradient obfuscation. To overcome these issues, they propose two extensions of the Projected Gradient Descent (PGD) attack that eliminate the need for manual step size selection and improve the objective function. These novel attacks are combined with two existing ones—the FAB-attack and the Square Attack—to form 'AutoAttack,' a parameter-free, computationally efficient, and user-independent ensemble designed to test adversarial robustness. Applying AutoAttack to over 50 models from recent machine learning and computer vision publications, the authors find that, in all but one case, the robust test accuracy is lower than reported, often by more than 10%, revealing several broken defenses. ",
     "vectors": [
       {
         "avId": "MOD-000",
@@ -684,7 +715,7 @@
       },
       {
         "avId": "MOD-100",
-        "avName": "Test-time"
+        "avName": "Test-Data"
       },
       {
         "avId": "MOD-110",
@@ -700,6 +731,7 @@
   {
     "title": "Raze to the Ground: Query-Efficient Adversarial HTML Attacks on Machine-Learning Phishing Webpage Detectors",
     "link": "https://doi.org/10.1145/3605764.3623920",
+    "summary": "The paper 'Raze to the Ground: Query-Efficient Adversarial HTML Attacks on Machine-Learning Phishing Webpage Detectors' by Biagio Montaruli et al. introduces a novel set of fine-grained, functionality- and rendering-preserving manipulations to the HTML code of phishing webpages. These manipulations are optimized using a query-efficient black-box algorithm to effectively bypass state-of-the-art machine-learning phishing webpage detectors. Experiments demonstrate that the proposed attacks can significantly degrade detector performance with as few as 30 queries, highlighting the need for more robust defenses in this domain. ",
     "vectors": [
       {
         "avId": "MOD-000",
@@ -707,7 +739,7 @@
       },
       {
         "avId": "MOD-100",
-        "avName": "Test-time"
+        "avName": "Test-Data"
       },
       {
         "avId": "MOD-110",
@@ -720,585 +752,619 @@
     ],
     "tags": []
   },
-  {
-    "title": "Practical Attacks on Machine Learning: A Case Study on Adversarial Windows Malware",
-    "link": null,
-    "vectors": [
-      {
-        "avId": "MOD-000",
-        "avName": "Adversarial Attacks"
-      },
-      {
-        "avId": "MOD-100",
-        "avName": "Test-time"
-      },
-      {
-        "avId": "MOD-110",
-        "avName": "Integrity"
-      }
-    ],
-    "tags": []
-  },
-  {
-    "title": "Targeted Backdoor Attacks on Deep Learning Systems Using Data Poisoning",
-    "link": "http://arxiv.org/abs/1712.05526",
-    "vectors": [
-      {
-        "avId": "MOD-000",
-        "avName": "Adversarial Attacks"
-      },
-      {
-        "avId": "MOD-200",
-        "avName": "Training-time"
-      },
-      {
-        "avId": "MOD-220",
-        "avName": "Privacy/Confidentiality"
-      },
-      {
-        "avId": "MOD-232",
-        "avName": "Graybox"
-      }
-    ],
-    "tags": []
-  },
-  {
-    "title": "Augmented Lagrangian Adversarial Attacks",
-    "link": "https://doi.org/10.1109/ICCV48922.2021.00764",
-    "vectors": [
-      {
-        "avId": "MOD-000",
-        "avName": "Adversarial Attacks"
-      },
-      {
-        "avId": "MOD-100",
-        "avName": "Test-time"
-      },
-      {
-        "avId": "MOD-110",
-        "avName": "Integrity"
-      },
-      {
-        "avId": "MOD-111",
-        "avName": "Whitebox"
-      }
-    ],
-    "tags": []
-  },
-  {
-    "title": "Wasserstein Adversarial Examples via Projected Sinkhorn Iteration",
-    "link": null,
-    "vectors": [
-      {
-        "avId": "MOD-000",
-        "avName": "Adversarial Attacks"
-      },
-      {
-        "avId": "MOD-100",
-        "avName": "Test-time"
-      },
-      {
-        "avId": "MOD-110",
-        "avName": "Integrity"
-      },
-      {
-        "avId": "MOD-112",
-        "avName": "Graybox"
-      }
-    ],
-    "tags": []
-  },
-  {
-    "title": "Black-box Adversarial Attacks with Limited Queries and Information",
-    "link": "http://proceedings.mlr.press/v80/ilyas18a.html",
-    "vectors": [
-      {
-        "avId": "MOD-000",
-        "avName": "Adversarial Attacks"
-      },
-      {
-        "avId": "MOD-100",
-        "avName": "Test-time"
-      },
-      {
-        "avId": "MOD-110",
-        "avName": "Integrity"
-      },
-      {
-        "avId": "MOD-113",
-        "avName": "Blackbox"
-      }
-    ],
-    "tags": []
-  },
-  {
-    "title": "Robust Physical-World Attacks on Deep Learning Visual Classification",
-    "link": "http://openaccess.thecvf.com/content_cvpr_2018/html/Eykholt_Robust_Physical-World_Attacks_CVPR_2018_paper.html",
-    "vectors": [
-      {
-        "avId": "MOD-000",
-        "avName": "Adversarial Attacks"
-      },
-      {
-        "avId": "MOD-100",
-        "avName": "Test-time"
-      },
-      {
-        "avId": "MOD-110",
-        "avName": "Integrity"
-      },
-      {
-        "avId": "MOD-111",
-        "avName": "Whitebox"
-      }
-    ],
-    "tags": []
-  },
-  {
-    "title": "Trojaning Attack on Neural Networks",
-    "link": "https://www.ndss-symposium.org/ndss-paper/trojaning-attack-on-neural-networks/",
-    "vectors": [
-      {
-        "avId": "MOD-000",
-        "avName": "Adversarial Attacks"
-      },
-      {
-        "avId": "MOD-200",
-        "avName": "Training-time"
-      },
-      {
-        "avId": "MOD-210",
-        "avName": "Integrity"
-      },
-      {
-        "avId": "MOD-212",
-        "avName": "Graybox"
-      }
-    ],
-    "tags": []
-  },
-  {
-    "title": "Boosting Adversarial Examples with Momentum",
-    "link": "https://openaccess.thecvf.com/content_cvpr_2018/html/Dong_Boosting_Adversarial_Examples_CVPR_2018_paper.html",
-    "vectors": [
-      {
-        "avId": "MOD-000",
-        "avName": "Adversarial Attacks"
-      },
-      {
-        "avId": "MOD-100",
-        "avName": "Test-time"
-      },
-      {
-        "avId": "MOD-110",
-        "avName": "Integrity"
-      },
-      {
-        "avId": "MOD-111",
-        "avName": "Whitebox"
-      }
-    ],
-    "tags": []
-  },
-  {
-    "title": "Synthesizing Robust Adversarial Examples",
-    "link": "http://proceedings.mlr.press/v80/athalye18b.html",
-    "vectors": [
-      {
-        "avId": "MOD-000",
-        "avName": "Adversarial Attacks"
-      },
-      {
-        "avId": "MOD-100",
-        "avName": "Test-time"
-      },
-      {
-        "avId": "MOD-110",
-        "avName": "Integrity"
-      },
-      {
-        "avId": "MOD-111",
-        "avName": "Whitebox"
-      }
-    ],
-    "tags": []
-  },
-  {
-    "title": "Adversarial Examples for Semantic Segmentation and Object Detection",
-    "link": "https://doi.org/10.1109/ICCV.2017.153",
-    "vectors": [
-      {
-        "avId": "MOD-000",
-        "avName": "Adversarial Attacks"
-      },
-      {
-        "avId": "MOD-100",
-        "avName": "Test-time"
-      },
-      {
-        "avId": "MOD-110",
-        "avName": "Integrity"
-      },
-      {
-        "avId": "MOD-111",
-        "avName": "Whitebox"
-      }
-    ],
-    "tags": []
-  },
-  {
-    "title": "Adversarial Examples for Malware Detection",
-    "link": "https://doi.org/10.1007/978-3-319-66451-5_4",
-    "vectors": [
-      {
-        "avId": "MOD-000",
-        "avName": "Adversarial Attacks"
-      },
-      {
-        "avId": "MOD-100",
-        "avName": "Test-time"
-      },
-      {
-        "avId": "MOD-110",
-        "avName": "Integrity"
-      },
-      {
-        "avId": "MOD-111",
-        "avName": "Whitebox"
-      }
-    ],
-    "tags": []
-  },
-  {
-"title": "Explaining and Harnessing Adversarial Examples",
-"link": "http://arxiv.org/abs/1412.6572",
-"vectors": [
-  {
-    "avId": "MOD-000",
-    "avName": "Adversarial Attacks"
-  },
-  {
-    "avId": "MOD-100",
-    "avName": "Test-time"
-  },
-  {
-    "avId": "MOD-110",
-    "avName": "Integrity"
-  },
-  {
-    "avId": "MOD-111",
-    "avName": "Whitebox"
-  }
-],
-"tags": []
-},
+    {
+      "title": "Practical Attacks on Machine Learning: A Case Study on Adversarial Windows Malware",
+      "link": null,
+      "summary": "The paper presents a practical case study demonstrating adversarial attacks on Windows malware classifiers. By manipulating malware samples, the authors showcase how machine learning-based defenses can be evaded effectively.",
+      "vectors": [
+        {
+          "avId": "MOD-000",
+          "avName": "Adversarial Attacks"
+        },
+        {
+          "avId": "MOD-100",
+          "avName": "Test-Data"
+        },
+        {
+          "avId": "MOD-110",
+          "avName": "Integrity"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "title": "Targeted Backdoor Attacks on Deep Learning Systems Using Data Poisoning",
+      "link": "http://arxiv.org/abs/1712.05526",
+      "summary": "This paper explores targeted backdoor attacks where adversaries inject malicious samples into the training data, causing the model to misclassify specific inputs at test time. The study demonstrates the vulnerability of deep learning systems to such attacks.",
+      "vectors": [
+        {
+          "avId": "MOD-000",
+          "avName": "Adversarial Attacks"
+        },
+        {
+          "avId": "MOD-200",
+          "avName": "Training-Data"
+        },
+        {
+          "avId": "MOD-220",
+          "avName": "Privacy/Confidentiality"
+        },
+        {
+          "avId": "MOD-232",
+          "avName": "Graybox"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "title": "Augmented Lagrangian Adversarial Attacks",
+      "link": "https://doi.org/10.1109/ICCV48922.2021.00764",
+      "summary": "The paper introduces Augmented Lagrangian methods to craft adversarial examples that effectively bypass model defenses. The proposed approach leverages optimization techniques to improve attack success rates in both white-box and black-box settings.",
+      "vectors": [
+        {
+          "avId": "MOD-000",
+          "avName": "Adversarial Attacks"
+        },
+        {
+          "avId": "MOD-100",
+          "avName": "Test-Data"
+        },
+        {
+          "avId": "MOD-110",
+          "avName": "Integrity"
+        },
+        {
+          "avId": "MOD-111",
+          "avName": "Whitebox"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "title": "Wasserstein Adversarial Examples via Projected Sinkhorn Iteration",
+      "link": null,
+      "summary": "This work proposes using the Wasserstein distance to generate adversarial examples through a novel optimization method called Projected Sinkhorn Iteration. The approach achieves high attack efficacy while maintaining realistic perturbations.",
+      "vectors": [
+        {
+          "avId": "MOD-000",
+          "avName": "Adversarial Attacks"
+        },
+        {
+          "avId": "MOD-100",
+          "avName": "Test-Data"
+        },
+        {
+          "avId": "MOD-110",
+          "avName": "Integrity"
+        },
+        {
+          "avId": "MOD-112",
+          "avName": "Graybox"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "title": "Black-box Adversarial Attacks with Limited Queries and Information",
+      "link": "http://proceedings.mlr.press/v80/ilyas18a.html",
+      "summary": "The authors propose a black-box adversarial attack framework that minimizes the number of queries needed to craft successful adversarial examples. Their approach leverages prior knowledge and gradient estimation techniques.",
+      "vectors": [
+        {
+          "avId": "MOD-000",
+          "avName": "Adversarial Attacks"
+        },
+        {
+          "avId": "MOD-100",
+          "avName": "Test-Data"
+        },
+        {
+          "avId": "MOD-110",
+          "avName": "Integrity"
+        },
+        {
+          "avId": "MOD-113",
+          "avName": "Blackbox"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "title": "Robust Physical-World Attacks on Deep Learning Visual Classification",
+      "link": "http://openaccess.thecvf.com/content_cvpr_2018/html/Eykholt_Robust_Physical-World_Attacks_CVPR_2018_paper.html",
+      "summary": "This paper demonstrates the feasibility of adversarial attacks in the physical world by crafting perturbations that remain effective under real-world conditions, such as varying lighting and camera angles.",
+      "vectors": [
+        {
+          "avId": "MOD-000",
+          "avName": "Adversarial Attacks"
+        },
+        {
+          "avId": "MOD-100",
+          "avName": "Test-Data"
+        },
+        {
+          "avId": "MOD-110",
+          "avName": "Integrity"
+        },
+        {
+          "avId": "MOD-111",
+          "avName": "Whitebox"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "title": "Trojaning Attack on Neural Networks",
+      "link": "https://www.ndss-symposium.org/ndss-paper/trojaning-attack-on-neural-networks/",
+      "summary": "The study explores Trojaning attacks, where neural networks are modified with backdoors during training. These backdoors enable targeted misclassifications when specific triggers are present in the input.",
+      "vectors": [
+        {
+          "avId": "MOD-000",
+          "avName": "Adversarial Attacks"
+        },
+        {
+          "avId": "MOD-200",
+          "avName": "Training-Data"
+        },
+        {
+          "avId": "MOD-210",
+          "avName": "Integrity"
+        },
+        {
+          "avId": "MOD-212",
+          "avName": "Graybox"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "title": "Boosting Adversarial Examples with Momentum",
+      "link": "https://openaccess.thecvf.com/content_cvpr_2018/html/Dong_Boosting_Adversarial_Examples_CVPR_2018_paper.html",
+      "summary": "The paper introduces a momentum-based method to enhance the transferability of adversarial examples across different models, improving the effectiveness of attacks in both black-box and white-box scenarios.",
+      "vectors": [
+        {
+          "avId": "MOD-000",
+          "avName": "Adversarial Attacks"
+        },
+        {
+          "avId": "MOD-100",
+          "avName": "Test-Data"
+        },
+        {
+          "avId": "MOD-110",
+          "avName": "Integrity"
+        },
+        {
+          "avId": "MOD-111",
+          "avName": "Whitebox"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "title": "Synthesizing Robust Adversarial Examples",
+      "link": "http://proceedings.mlr.press/v80/athalye18b.html",
+      "summary": "The study proposes a framework for generating robust adversarial examples that remain effective against defenses like gradient masking and adversarial training, ensuring high attack success rates.",
+      "vectors": [
+        {
+          "avId": "MOD-000",
+          "avName": "Adversarial Attacks"
+        },
+        {
+          "avId": "MOD-100",
+          "avName": "Test-Data"
+        },
+        {
+          "avId": "MOD-110",
+          "avName": "Integrity"
+        },
+        {
+          "avId": "MOD-111",
+          "avName": "Whitebox"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "title": "Adversarial Examples for Semantic Segmentation and Object Detection",
+      "link": "https://doi.org/10.1109/ICCV.2017.153",
+      "summary": "This paper extends adversarial attacks to semantic segmentation and object detection tasks, showcasing their vulnerability to carefully crafted perturbations in real-world scenarios.",
+      "vectors": [
+        {
+          "avId": "MOD-000",
+          "avName": "Adversarial Attacks"
+        },
+        {
+          "avId": "MOD-100",
+          "avName": "Test-Data"
+        },
+        {
+          "avId": "MOD-110",
+          "avName": "Integrity"
+        },
+        {
+          "avId": "MOD-111",
+          "avName": "Whitebox"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "title": "Adversarial Examples for Malware Detection",
+      "link": "https://doi.org/10.1007/978-3-319-66451-5_4",
+      "summary": "This paper investigates the vulnerabilities of machine learning-based malware detection systems to adversarial examples. The study highlights how perturbations can bypass these systems effectively.",
+      "vectors": [
+        {
+          "avId": "MOD-000",
+          "avName": "Adversarial Attacks"
+        },
+        {
+          "avId": "MOD-100",
+          "avName": "Test-Data"
+        },
+        {
+          "avId": "MOD-110",
+          "avName": "Integrity"
+        },
+        {
+          "avId": "MOD-111",
+          "avName": "Whitebox"
+        }
+      ],
+      "tags": []
+    },
 {
-    "title": "Fast minimum-norm adversarial attacks through adaptive norm constraints",
-    "link": "https://arxiv.org/pdf/2102.12827",
-    "vectors": [
-      {
-        "avId": "MOD-000",
-        "avName": "Adversarial Attacks"
+        "title": "Explaining and Harnessing Adversarial Examples",
+        "link": "http://arxiv.org/abs/1412.6572",
+        "summary": "The foundational paper identifies the linear behavior of neural networks as a primary factor for adversarial vulnerability, proposing the fast gradient sign method and adversarial training to improve robustness.",
+        "vectors": [
+          {
+            "avId": "MOD-000",
+            "avName": "Adversarial Attacks"
+          },
+          {
+            "avId": "MOD-100",
+            "avName": "Test-Data"
+          },
+          {
+            "avId": "MOD-110",
+            "avName": "Integrity"
+          },
+          {
+            "avId": "MOD-111",
+            "avName": "Whitebox"
+          }
+        ],
+        "tags": []
       },
       {
-        "avId": "MOD-100",
-        "avName": "Test-time"
+        "title": "Fast minimum-norm adversarial attacks through adaptive norm constraints",
+        "link": "https://arxiv.org/pdf/2102.12827",
+        "summary": "This paper proposes an efficient method for generating adversarial examples by adaptively adjusting norm constraints, ensuring minimal distortion while maintaining attack effectiveness.",
+        "vectors": [
+          {
+            "avId": "MOD-000",
+            "avName": "Adversarial Attacks"
+          },
+          {
+            "avId": "MOD-100",
+            "avName": "Test-Data"
+          },
+          {
+            "avId": "MOD-110",
+            "avName": "Integrity"
+          },
+          {
+            "avId": "MOD-111",
+            "avName": "Whitebox"
+          }
+        ],
+        "tags": []
       },
       {
-        "avId": "MOD-110",
-        "avName": "Integrity"
-      },
-      {
-        "avId": "MOD-111",
-        "avName": "Whitebox"
-      }
-    ],
-    "tags": []
-  },
-{
-    "title": "Towards Evaluating the Robustness of Neural Networks",
-    "link": "https://arXiv.org/pdf/1608.04644.pdf",
-    "vectors": [{
-        "avId": "MOD-000",
-        "avName": "Adversarial Attacks"
-    },
-    {
-        "avId": "MOD-100",
-        "avName": "Test-time"
-    },
-    {
-        "avId": "MOD-110",
-        "avName": "Inject During the Build of Legitimate Package"
-    },
-    {
-        "avId": "MOD-111",
-        "avName": "Distribute Malicious Version of Legitimate Package"
-    }
-    ],
-    "tags": {
-        "contents": [
+        "title": "Towards Evaluating the Robustness of Neural Networks",
+        "link": "https://arXiv.org/pdf/1608.04644.pdf",
+        "summary": "The paper critiques defensive distillation as a robustness strategy and introduces stronger attacks to reveal the true vulnerabilities of defended neural networks.",
+        "vectors": [
+          {
+            "avId": "MOD-000",
+            "avName": "Adversarial Attacks"
+          },
+          {
+            "avId": "MOD-100",
+            "avName": "Test-Data"
+          },
+          {
+            "avId": "MOD-110",
+            "avName": "Inject During the Build of Legitimate Package"
+          },
+          {
+            "avId": "MOD-111",
+            "avName": "Distribute Malicious Version of Legitimate Package"
+          }
+        ],
+        "tags": {
+          "contents": [
             "peer-reviewed", 
             "attack", 
             "IEEE S&P"
+          ],
+          "year": 2017
+        }
+      },
+      {
+        "title": "Towards Deep Learning Models Resistant to Adversarial Attacks",
+        "link": "https://arXiv.org/pdf/1706.06083.pdf",
+        "summary": "The paper emphasizes adversarial training as a robust optimization technique, presenting a framework to improve model resilience against a range of adversarial threats.",
+        "vectors": [
+          {
+            "avId": "MOD-000",
+            "avName": "Adversarial Attacks"
+          },
+          {
+            "avId": "MOD-100",
+            "avName": "Test-Data"
+          },
+          {
+            "avId": "MOD-110",
+            "avName": "Inject During the Build of Legitimate Package"
+          },
+          {
+            "avId": "MOD-111",
+            "avName": "Distribute Malicious Version of Legitimate Package"
+          }
         ],
-        "year": 2017
-    }
-},
-{
-    "title": "Towards Deep Learning Models Resistant to Adversarial Attacks",
-    "link": "https://arXiv.org/pdf/1706.06083.pdf",
-    "vectors": [{
-        "avId": "MOD-000",
-        "avName": "Adversarial Attacks"
-    },
-    {
-        "avId": "MOD-100",
-        "avName": "Test-time"
-    },
-    {
-        "avId": "MOD-110",
-        "avName": "Inject During the Build of Legitimate Package"
-    },
-    {
-        "avId": "MOD-111",
-        "avName": "Distribute Malicious Version of Legitimate Package"
-    }
-    ],
-    "tags": {
-        "contents": [
+        "tags": {
+          "contents": [
             "peer-reviewed", 
             "attack", 
             "ICLR"
+          ],
+          "year": 2018
+        }
+      },
+      {
+        "title": "DeepFool: A Simple and Accurate Method to Fool Deep Neural Networks",
+        "link": "https://arXiv.org/pdf/1511.04599.pdf",
+        "summary": "DeepFool introduces an iterative algorithm for computing minimal perturbations that mislead classifiers, providing insights into model vulnerability and robustness.",
+        "vectors": [
+          {
+            "avId": "MOD-000",
+            "avName": "Adversarial Attacks"
+          },
+          {
+            "avId": "MOD-100",
+            "avName": "Test-Data"
+          },
+          {
+            "avId": "MOD-110",
+            "avName": "Inject During the Build of Legitimate Package"
+          },
+          {
+            "avId": "MOD-111",
+            "avName": "Distribute Malicious Version of Legitimate Package"
+          }
         ],
-        "year": 2018
-    }
-},
-{
-    "title": "DeepFool: A Simple and Accurate Method to Fool Deep Neural Networks",
-    "link": "https://arXiv.org/pdf/1511.04599.pdf",
-    "vectors": [{
-        "avId": "MOD-000",
-        "avName": "Adversarial Attacks"
-    },
-    {
-        "avId": "MOD-100",
-        "avName": "Test-time"
-    },
-    {
-        "avId": "MOD-110",
-        "avName": "Inject During the Build of Legitimate Package"
-    },
-    {
-        "avId": "MOD-111",
-        "avName": "Distribute Malicious Version of Legitimate Package"
-    }
-    ],
-    "tags": {
-        "contents": [
+        "tags": {
+          "contents": [
             "peer-reviewed", 
             "attack", 
             "CVPR"
+          ],
+          "year": 2016
+        }
+      },
+      {
+        "title": "Square Attack: a Query-Efficient Black-box Adversarial Attack via Random Search",
+        "link": "https://arXiv.org/pdf/1912.00049.pdf",
+        "summary": "This paper presents the Square Attack, a black-box adversarial attack leveraging random search to efficiently generate adversarial examples with minimal queries.",
+        "vectors": [
+          {
+            "avId": "MOD-000",
+            "avName": "Adversarial Attacks"
+          },
+          {
+            "avId": "MOD-100",
+            "avName": "Test-Data"
+          },
+          {
+            "avId": "MOD-110",
+            "avName": "Inject During the Build of Legitimate Package"
+          },
+          {
+            "avId": "MOD-113",
+            "avName": "Distribute Malicious Version of Legitimate Package"
+          }
         ],
-        "year": 2016
-    }
-},
-{
-    "title": "Square Attack: a Query-Efficient Black-box Adversarial Attack via Random Search",
-    "link": "https://arXiv.org/pdf/1912.00049.pdf",
-    "vectors": [{
-        "avId": "MOD-000",
-        "avName": "Adversarial Attacks"
-    },
-    {
-        "avId": "MOD-100",
-        "avName": "Test-time"
-    },
-    {
-        "avId": "MOD-110",
-        "avName": "Inject During the Build of Legitimate Package"
-    },
-    {
-        "avId": "MOD-113",
-        "avName": "Distribute Malicious Version of Legitimate Package"
-    }
-    ],
-    "tags": {
-        "contents": [
+        "tags": {
+          "contents": [
             "attack"
+          ],
+          "year": 2019
+        }
+      },
+      {
+        "title": "Practical Black-Box Attacks against Machine Learning",
+        "link": "https://arXiv.org/pdf/1602.02697.pdf",
+        "summary": "The authors explore practical black-box adversarial attacks, leveraging substitute models to generate effective adversarial examples against target systems.",
+        "vectors": [
+          {
+            "avId": "MOD-000",
+            "avName": "Adversarial Attacks"
+          },
+          {
+            "avId": "MOD-100",
+            "avName": "Test-Data"
+          },
+          {
+            "avId": "MOD-110",
+            "avName": "Inject During the Build of Legitimate Package"
+          },
+          {
+            "avId": "MOD-113",
+            "avName": "Distribute Malicious Version of Legitimate Package"
+          }
         ],
-        "year": 2019
-    }
-},
-{
-    "title": "Practical Black-Box Attacks against Machine Learning",
-    "link": "https://arXiv.org/pdf/1602.02697.pdf",
-    "vectors": [{
-        "avId": "MOD-000",
-        "avName": "Adversarial Attacks"
-    },
-    {
-        "avId": "MOD-100",
-        "avName": "Test-time"
-    },
-    {
-        "avId": "MOD-110",
-        "avName": "Inject During the Build of Legitimate Package"
-    },
-    {
-        "avId": "MOD-113",
-        "avName": "Distribute Malicious Version of Legitimate Package"
-    }
-    ],
-    "tags": {
-        "contents": [
+        "tags": {
+          "contents": [
             "peer-reviewed", 
             "attack", 
             "IEEE S&P"
+          ],
+          "year": 2016
+        }
+      },
+      {
+        "title": "SPONGE EXAMPLES: ENERGY-LATENCY ATTACKS ON NEURAL NETWORKS",
+        "link": "https://arxiv.org/pdf/2006.03463.pdf",
+        "summary": "The study introduces energy-latency attacks by exploiting neural network inefficiencies, demonstrating how these vulnerabilities can be leveraged to degrade system performance.",
+        "vectors": [
+          {
+            "avId": "MOD-000",
+            "avName": "Adversarial Attacks"
+          },
+          {
+            "avId": "MOD-100",
+            "avName": "Test-Data"
+          },
+          {
+            "avId": "MOD-120",
+            "avName": "Inject During the Build of Legitimate Package"
+          },
+          {
+            "avId": "MOD-121",
+            "avName": "Distribute Malicious Version of Legitimate Package"
+          }
         ],
-        "year": 2016
-    }
-},
-{
-    "title": "SPONGE EXAMPLES: ENERGY-LATENCY ATTACKS ON NEURAL NETWORKS",
-    "link": "https://arxiv.org/pdf/2006.03463.pdf",
-    "vectors": [{
-        "avId": "MOD-000",
-        "avName": "Adversarial Attacks"
-    },
-    {
-        "avId": "MOD-100",
-        "avName": "Test-time"
-    },
-    {
-        "avId": "MOD-120",
-        "avName": "Inject During the Build of Legitimate Package"
-    },
-    {
-        "avId": "MOD-121",
-        "avName": "Distribute Malicious Version of Legitimate Package"
-    }
-    ],
-    "tags": {
-        "contents": [
+        "tags": {
+          "contents": [
             "peer-reviewed", 
             "attack", 
             "IEEE S&P"
+          ],
+          "year": 2021
+        }
+      },
+      {
+        "title": "Energy-Latency Attacks via Sponge Poisoning",
+        "link": "https://arxiv.org/pdf/2203.08147.pdf",
+        "summary": "This paper expands on energy-latency attacks by introducing sponge poisoning techniques that specifically target resource-intensive layers in neural networks.",
+        "vectors": [
+          {
+            "avId": "MOD-000",
+            "avName": "Adversarial Attacks"
+          },
+          {
+            "avId": "MOD-200",
+            "avName": "Test-Data"
+          },
+          {
+            "avId": "MOD-220",
+            "avName": "Inject During the Build of Legitimate Package"
+          },
+          {
+            "avId": "MOD-221",
+            "avName": "Distribute Malicious Version of Legitimate Package"
+          }
         ],
-        "year": 2021
-    }
-},
-{
-    "title": "Energy-Latency Attacks via Sponge Poisoning",
-    "link": "https://arxiv.org/pdf/2203.08147.pdf",
-    "vectors": [{
-        "avId": "MOD-000",
-        "avName": "Adversarial Attacks"
-    },
-    {
-        "avId": "MOD-200",
-        "avName": "Test-time"
-    },
-    {
-        "avId": "MOD-220",
-        "avName": "Inject During the Build of Legitimate Package"
-    },
-    {
-        "avId": "MOD-221",
-        "avName": "Distribute Malicious Version of Legitimate Package"
-    }
-    ],
-    "tags": {
-        "contents": [
+        "tags": {
+          "contents": [
             "attack"
+          ],
+          "year": 2022
+        }
+      },
+      {
+        "title": "Evasion Attacks against Machine Learning at Test Time",
+        "link": "https://arXiv.org/pdf/1708.06131.pdf",
+        "summary": "This study highlights test-time evasion attacks, showcasing gradient-based methods that allow adversaries to bypass detection mechanisms in machine learning models.",
+        "vectors": [
+          {
+            "avId": "MOD-000",
+            "avName": "Adversarial Attacks"
+          },
+          {
+            "avId": "MOD-100",
+            "avName": "Test-Data"
+          },
+          {
+            "avId": "MOD-110",
+            "avName": "Inject During the Build of Legitimate Package"
+          },
+          {
+            "avId": "MOD-111",
+            "avName": "Distribute Malicious Version of Legitimate Package"
+          }
         ],
-        "year": 2022
-    }
-},
-{
-    "title": "Evasion Attacks against Machine Learning at Test Time",
-    "link": "https://arXiv.org/pdf/1708.06131.pdf",
-    "vectors": [{
-        "avId": "MOD-000",
-        "avName": "Adversarial Attacks"
-    },
-    {
-        "avId": "MOD-100",
-        "avName": "Test-time"
-    },
-    {
-        "avId": "MOD-110",
-        "avName": "Inject During the Build of Legitimate Package"
-    },
-    {
-        "avId": "MOD-111",
-        "avName": "Distribute Malicious Version of Legitimate Package"
-    }
-    ],
-    "tags": {
-        "contents": [
+        "tags": {
+          "contents": [
             "peer-reviewed", 
             "attack", 
             "ECML"
+          ],
+          "year": 2013
+        }
+      },
+      {
+        "title": "Poisoning Attacks against Support Vector Machines",
+        "link": "https://arxiv.org/pdf/1206.6389.pdf",
+        "summary": "The paper examines poisoning attacks on support vector machines, demonstrating how small amounts of malicious data can degrade model performance significantly.",
+        "vectors": [
+          {
+            "avId": "MOD-000",
+            "avName": "Adversarial Attacks"
+          },
+          {
+            "avId": "MOD-200",
+            "avName": "Test-Data"
+          },
+          {
+            "avId": "MOD-210",
+            "avName": "Inject During the Build of Legitimate Package"
+          },
+          {
+            "avId": "MOD-211",
+            "avName": "Distribute Malicious Version of Legitimate Package"
+          }
         ],
-        "year": 2013
-    }
-},
-{
-    "title": "Poisoning Attacks against Support Vector Machines",
-    "link": "https://arxiv.org/pdf/1206.6389.pdf",
-    "vectors": [{
-        "avId": "MOD-000",
-        "avName": "Adversarial Attacks"
-    },
-    {
-        "avId": "MOD-200",
-        "avName": "Test-time"
-    },
-    {
-        "avId": "MOD-210",
-        "avName": "Inject During the Build of Legitimate Package"
-    },
-    {
-        "avId": "MOD-211",
-        "avName": "Distribute Malicious Version of Legitimate Package"
-    }
-    ],
-    "tags": {
-        "contents": [
+        "tags": {
+          "contents": [
             "peer-reviewed", 
             "attack", 
             "ICML"
+          ],
+          "year": 2012
+        }
+      },
+      {
+        "title": "Membership Inference Attacks Against Machine Learning Models",
+        "link": "https://arXiv.org/pdf/1610.05820.pdf",
+        "summary": "The study investigates membership inference attacks, where adversaries infer whether specific data points were part of a model's training set, revealing potential privacy risks.",
+        "vectors": [
+          {
+            "avId": "MOD-000",
+            "avName": "Adversarial Attacks"
+          },
+          {
+            "avId": "MOD-100",
+            "avName": "Test-Data"
+          },
+          {
+            "avId": "MOD-130",
+            "avName": "Inject During the Build of Legitimate Package"
+          },
+          {
+            "avId": "MOD-131",
+            "avName": "Distribute Malicious Version of Legitimate Package"
+          }
         ],
-        "year": 2012
-    }
-},
-{
-    "title": "Membership Inference Attacks Against Machine Learning Models",
-    "link": "https://arXiv.org/pdf/1610.05820.pdf",
-    "vectors": [{
-        "avId": "MOD-000",
-        "avName": "Adversarial Attacks"
-    },
-    {
-        "avId": "MOD-100",
-        "avName": "Test-time"
-    },
-    {
-        "avId": "MOD-130",
-        "avName": "Inject During the Build of Legitimate Package"
-    },
-    {
-        "avId": "MOD-131",
-        "avName": "Distribute Malicious Version of Legitimate Package"
-    }
-    ],
-    "tags": {
-        "contents": [
+        "tags": {
+          "contents": [
             "peer-reviewed", 
             "attack", 
             "IEEE S&P"
-        ],
-        "year": 2017
-    }
-}
-]
+          ],
+          "year": 2017
+        }
+      }
+    ]
+    

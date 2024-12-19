@@ -3,7 +3,7 @@
     "avId": "MOD-000",
     "children": [
         {
-            "avName": "Test Time",
+            "avName": "Test Data",
             "avId": "MOD-100",
             "children": [
                 {
@@ -77,7 +77,7 @@
             ]
         },
         {
-            "avName": "Training Time",
+            "avName": "Training Data",
             "avId": "MOD-200",
             "children": [
                 {

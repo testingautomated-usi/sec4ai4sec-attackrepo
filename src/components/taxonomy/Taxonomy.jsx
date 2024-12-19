@@ -1114,7 +1114,7 @@ function Taxonomy({ data, type }) {
                     <span className="featuredSub" id='av-ref'><ol>{examplesText}</ol></span>
                 </div>
                 <div className="featuredItem">
-                    <span className="featuredTitle">Tool Summary</span>
+                    <span className="featuredTitle">Summary</span>
                     <br></br>
                     <span className="featuredSub" id='av-summary'><ol>{summaryText}</ol></span>
                     {/* {safeguardsText}
