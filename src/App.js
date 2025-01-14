@@ -1,6 +1,7 @@
 import React,{Component} from 'react'
 import Attacktree from "./pages/attacktree/Attacktree";
 import Home from "./pages/home/Home"
+import EthicalDisclaimer from "./pages/ethicaldisclaimer/EthicalDisclaimer"
 import "./app.css"
 import { Route, Routes} from "react-router-dom";
 import Attackvectors from './pages/attackvectors/Attackvectors';
@@ -17,6 +18,7 @@ class App extends Component {
     <div className="App">
          <Routes>
           <Route exact path="/" element={<Home/>}/>
+          <Route exact path="/ethical_disclaimer" element={<EthicalDisclaimer/>}/>
           <Route path="/tree/:id" element={<Attacktree />}/>
           {/* <Route exact path="/attackvectors" element={<Attackvectors/>}/>
           <Route exact path="/safeguards" element={<Safeguards/>}/>

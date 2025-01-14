@@ -228,6 +228,11 @@ class Home extends Component {
                                 <p style={{color:"white",fontSize:"12px", fontWeight:"light", textAlign:"right", marginRight:"4%", marginBottom:".4%"}}>
                                     This project is funded by the European Union's Horizon Europe research and innovation programme under the project Sec4AI4Sec, grant agreement No 101120393.
                                 </p>
+                                <p style={{color:"white",fontSize:"12px", fontWeight:"light", textAlign:"right", marginRight:"4%", marginBottom:".4%"}}>
+                                    <Link style={{ color: 'white', textDecoration: 'underline' }} to="/ethical_disclaimer">
+                                        Ethical disclaimer
+                                    </Link>
+                                </p>
                                 </Grid>
                             </Grid>
                         </Box>
