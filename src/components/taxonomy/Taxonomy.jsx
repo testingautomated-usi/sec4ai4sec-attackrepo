@@ -1072,7 +1072,7 @@ function Taxonomy({ data, type }) {
                     <Tabs value={value} onChange={handleChange} aria-label="basic tabs example">
                         <Tab label="Searchbars" {...a11yProps(0)} />
                         <Tab label="Legend" {...a11yProps(1)} />
-                        {type === "model" ? <a href="https://github.com/pralab/secml" target="_blank"><Tab label="SecML" /></a> : null}
+                        {type === "model" ? <a href="https://github.com/pralab/secml-torch" target="_blank"><Tab label="SecML" /></a> : null}
                     </Tabs>
                 </Box>
                 <TabPanel value={value} index={0}>
