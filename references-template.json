@@ -18,7 +18,7 @@
     "tags": {
         "ecosystems": ["Java", "JavaScript", "Linux", "Python", "C#", "C/C++", "PHP"],
         "packages": ["event-stream", "..."], // Finish with "..." if the list is incomplete
-        "contents": ["peer-reviewed", "thesis", "vulnerability", "attack", "proof-of-concept", "presentation", "standard"],
+        "contents": ["peer-reviewed", "thesis", "vulnerability", "attack", "proof-of-concept", "presentation", "standard", "benchmark", "library"],
         "year": null
     }
 }

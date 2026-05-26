@@ -53,6 +53,47 @@
     "tags": []
   },
   {
+    "title": "SecML-Torch: A Library for Robustness Evaluation of Deep Learning Models",
+    "link": "https://github.com/pralab/secml-torch",
+    "summary": "SecML-Torch is an open-source PyTorch library for adversarial machine learning and robustness evaluation of deep learning models. It provides native implementations of common test-time evasion attacks, including PGD, FMN, and DDN, with support for different norm-bounded perturbation models, as well as poisoning and backdoor attack utilities. The library also wraps external attack libraries such as Foolbox and Adversarial Library, making it useful for comparing attacks and building adaptive/custom robustness evaluations.",
+    "vectors": [
+    {
+      "avId": "MOD-000",
+      "avName": "Adversarial Attacks"
+    },
+    {
+      "avId": "MOD-100",
+      "avName": "Test Data"
+    },
+    {
+      "avId": "MOD-110",
+      "avName": "Integrity"
+    },
+    {
+      "avId": "MOD-111",
+      "avName": "WhiteBox"
+    },
+    {
+      "avId": "MOD-200",
+      "avName": "Training Data"
+    },
+    {
+      "avId": "MOD-201",
+      "avName": "Integrity"
+    },
+    {
+      "avId": "MOD-211",
+      "avName": "WhiteBox"
+    }
+  ],
+    "tags": {
+    "contents": [
+        "library"
+    ],
+    "year": 2026
+  }
+  },
+  {
     "title": "Audio Adversarial Examples: Targeted Attacks on Speech-to-Text",
     "link": "https://arxiv.org/pdf/1801.01944",
     "summary": "The paper 'Audio Adversarial Examples: Targeted Attacks on Speech-to-Text' by Nicholas Carlini and David Wagner demonstrates the feasibility of crafting audio adversarial examples that can deceive automatic speech recognition (ASR) systems into transcribing any desired phrase. The authors develop a white-box, iterative optimization-based attack applied to Mozilla's implementation of DeepSpeech, achieving a 100% success rate. These adversarial examples are nearly indistinguishable from the original audio, with over 99.9% similarity, yet they cause the ASR system to produce incorrect transcriptions. This work highlights significant security concerns for ASR systems and introduces a new domain for studying adversarial examples. ",
@@ -195,6 +236,33 @@
       }
     ],
     "tags": []
+  },
+  {
+    "title": "TransferBench: Benchmarking Ensemble-based Black-box Transfer Attacks",
+    "link": "https://transferbench.github.io/",
+    "summary": "The paper introduces TransferBench, a benchmark for evaluating ensemble-based black-box transfer attacks under more realistic and challenging conditions. TransferBench evaluates attacks across CIFAR-10 and ImageNet settings with diverse surrogates, robust targets, and query-free baselines, revealing that many existing methods fail in harder scenarios and that query-based refinement often provides little benefit.",
+    "vectors": [
+      {
+        "avId": "MOD-000",
+        "avName": "Adversarial Attacks"
+      },
+      {
+        "avId": "MOD-100",
+        "avName": "Test-Data"
+      },
+      {
+        "avId": "MOD-110",
+        "avName": "Integrity"
+      },
+      {
+        "avId": "MOD-113",
+        "avName": "Blackbox"
+      }
+    ],
+    "tags": {
+      "contents": ["peer-reviewed", "attack", "benchmark"],
+      "year": 2025
+    }
   },
   {
     "title": "Decision-Based Adversarial Attacks: Reliable Attacks Against Black-Box Machine Learning Models",
