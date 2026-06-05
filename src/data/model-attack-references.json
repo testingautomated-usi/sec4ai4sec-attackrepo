@@ -1433,6 +1433,35 @@
           ],
           "year": 2017
         }
+      },
+      {
+        "title": "SAGE-5GC: Security-Aware Guidelines for Evaluating Anomaly Detection in the 5G Core Network",
+        "link": "https://arxiv.org/pdf/2602.03596v3",
+        "summary": "The paper proposes SAGE-5GC, a security-aware evaluation methodology for machine learning-based anomaly detection in 5G Core networks. It studies realistic deployment assumptions and adversarial settings where attackers manipulate observable, controllable traffic features to evade detection while preserving malicious functionality, including a model-agnostic genetic algorithm strategy for crafting adversarial network traffic.",
+        "vectors": [
+          {
+            "avId": "MOD-000",
+            "avName": "Adversarial Attacks"
+          },
+          {
+            "avId": "MOD-100",
+            "avName": "Test Data"
+          },
+          {
+            "avId": "MOD-110",
+            "avName": "Integrity"
+          },
+          {
+            "avId": "MOD-113",
+            "avName": "BlackBox"
+          }
+        ],
+        "tags": {
+          "contents": [
+            "attack"
+          ],
+          "year": 2026
+        }
       }
     ]
     
