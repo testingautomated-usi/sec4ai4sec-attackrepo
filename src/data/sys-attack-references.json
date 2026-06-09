@@ -510,5 +510,366 @@
     "tags": {
         "year": 2020
     }
+},
+{
+    "title": "RAVAGE: Robotic Autonomous Vehicles' Attack Generation Engine",
+    "link": "https://github.com/DependableSystemsLab/ravage",
+    "summary": "RAVAGE is an attack injection tool for emulating realistic physical sensor attacks, such as GPS spoofing and gyroscope, accelerometer, magnetometer, barometer, and optical-flow tampering, through software in virtual and real robotic autonomous vehicles.",
+    "vectors": [
+        {
+            "avId": "SYS-120"
+        },
+        {
+            "avId": "SYS-310"
+        },
+        {
+            "avId": "SYS-320"
+        },
+        {
+            "avId": "SYS-410"
+        },
+        {
+            "avId": "SYS-530"
+        },
+        {
+            "avId": "SYS-620"
+        },
+        {
+            "avId": "SYS-630"
+        },
+        {
+            "avId": "SYS-1010"
+        },
+        {
+            "avId": "SYS-1212"
+        },
+        {
+            "avId": "SYS-1220"
+        }
+    ],
+    "tags": {
+        "year": 2025
+    }
+},
+{
+    "title": "RPAU: Fooling the Eyes of UAVs via Physical Adversarial Patches",
+    "link": "https://github.com/Jupiterliu/MyAdvPatch",
+    "summary": "RPAU generates robust physical adversarial patches against UAV perception and navigation models, causing the UAV to miss real obstacles, turn away from its intended course, or detect fake obstacles in digital, simulation, and physical-domain experiments.",
+    "vectors": [
+        {
+            "avId": "SYS-120"
+        },
+        {
+            "avId": "SYS-210"
+        },
+        {
+            "avId": "SYS-220"
+        },
+        {
+            "avId": "SYS-310"
+        },
+        {
+            "avId": "SYS-320"
+        },
+        {
+            "avId": "SYS-410"
+        },
+        {
+            "avId": "SYS-540"
+        },
+        {
+            "avId": "SYS-610"
+        },
+        {
+            "avId": "SYS-710"
+        },
+        {
+            "avId": "SYS-811"
+        },
+        {
+            "avId": "SYS-823"
+        },
+        {
+            "avId": "SYS-912"
+        },
+        {
+            "avId": "SYS-921"
+        },
+        {
+            "avId": "SYS-1020"
+        },
+        {
+            "avId": "SYS-1110"
+        },
+        {
+            "avId": "SYS-1120"
+        },
+        {
+            "avId": "SYS-1212"
+        },
+        {
+            "avId": "SYS-1220"
+        },
+        {
+            "avId": "SYS-1230"
+        }
+    ],
+    "tags": {
+        "year": 2024
+    }
+},
+{
+    "title": "Adversarial Attacks on Adaptive Cruise Control Systems",
+    "link": "https://doi.org/10.1145/3576914.3587493",
+    "summary": "This paper studies physical adversarial patches placed on the rear of leading vehicles or trucks to fool an OpenPilot adaptive cruise control perception system, causing the target vehicle to misdetect the vehicle ahead, accelerate, and crash into it.",
+    "vectors": [
+        {
+            "avId": "SYS-110"
+        },
+        {
+            "avId": "SYS-210"
+        },
+        {
+            "avId": "SYS-310"
+        },
+        {
+            "avId": "SYS-422"
+        },
+        {
+            "avId": "SYS-540"
+        },
+        {
+            "avId": "SYS-610"
+        },
+        {
+            "avId": "SYS-710"
+        },
+        {
+            "avId": "SYS-811"
+        },
+        {
+            "avId": "SYS-822"
+        },
+        {
+            "avId": "SYS-911"
+        },
+        {
+            "avId": "SYS-921"
+        },
+        {
+            "avId": "SYS-1020"
+        },
+        {
+            "avId": "SYS-1120"
+        },
+        {
+            "avId": "SYS-1211"
+        },
+        {
+            "avId": "SYS-1230"
+        }
+    ],
+    "tags": {
+        "year": 2023
+    }
+},
+{
+    "title": "StealthBAT: Crafting Stealthy Blackbox Adaptive Adversarial Triggers for Monocular UAS Navigation and Tracking",
+    "link": "https://doi.org/10.1007/s10514-026-10250-x",
+    "summary": "StealthBAT creates black-box adversarial marker-pad triggers for monocular UAS depth estimation and target tracking, manipulating perceived range or altitude so a real UAS changes its flight path, prematurely lands, or crashes while maintaining target tracking.",
+    "vectors": [
+        {
+            "avId": "SYS-120"
+        },
+        {
+            "avId": "SYS-210"
+        },
+        {
+            "avId": "SYS-320"
+        },
+        {
+            "avId": "SYS-422"
+        },
+        {
+            "avId": "SYS-540"
+        },
+        {
+            "avId": "SYS-610"
+        },
+        {
+            "avId": "SYS-710"
+        },
+        {
+            "avId": "SYS-812"
+        },
+        {
+            "avId": "SYS-822"
+        },
+        {
+            "avId": "SYS-911"
+        },
+        {
+            "avId": "SYS-921"
+        },
+        {
+            "avId": "SYS-1020"
+        },
+        {
+            "avId": "SYS-1120"
+        },
+        {
+            "avId": "SYS-1212"
+        },
+        {
+            "avId": "SYS-1220"
+        },
+        {
+            "avId": "SYS-1230"
+        }
+    ],
+    "tags": {
+        "year": 2026
+    }
+},
+{
+    "title": "AVATAR: Autonomous Vehicle Assessment Through Testing of Adversarial Patches in Real-Time",
+    "link": "https://doi.org/10.1109/TIV.2024.3449830",
+    "summary": "AVATAR is a CARLA-based real-time framework for evaluating physical adversarial patches against autonomous-vehicle object detection, integrating patches with scene actors and analyzing the resulting time-series traces of detection confidence.",
+    "vectors": [
+        {
+            "avId": "SYS-110"
+        },
+        {
+            "avId": "SYS-210"
+        },
+        {
+            "avId": "SYS-310"
+        },
+        {
+            "avId": "SYS-422"
+        },
+        {
+            "avId": "SYS-540"
+        },
+        {
+            "avId": "SYS-610"
+        },
+        {
+            "avId": "SYS-710"
+        },
+        {
+            "avId": "SYS-811"
+        },
+        {
+            "avId": "SYS-822"
+        },
+        {
+            "avId": "SYS-912"
+        },
+        {
+            "avId": "SYS-921"
+        },
+        {
+            "avId": "SYS-1010"
+        },
+        {
+            "avId": "SYS-1120"
+        }
+    ],
+    "tags": {
+        "year": 2025
+    }
+},
+{
+    "title": "A Vision-Based Covert Attack and Hybrid Adversary Detection for Autonomous Vehicles Using Generative Adversarial Network",
+    "link": "https://doi.org/10.1109/TVT.2025.3623875",
+    "summary": "VCA-HADS introduces a GAN-based covert attack against vision-based navigation in multi-agent autonomous vehicles, manipulating camera-derived road views and actuator behavior in 3D lane-keeping simulations so an AV deviates from its lane while the attack remains hidden.",
+    "vectors": [
+        {
+            "avId": "SYS-110"
+        },
+        {
+            "avId": "SYS-230"
+        },
+        {
+            "avId": "SYS-310"
+        },
+        {
+            "avId": "SYS-423"
+        },
+        {
+            "avId": "SYS-510"
+        },
+        {
+            "avId": "SYS-620"
+        },
+        {
+            "avId": "SYS-710"
+        },
+        {
+            "avId": "SYS-821"
+        },
+        {
+            "avId": "SYS-911"
+        },
+        {
+            "avId": "SYS-921"
+        },
+        {
+            "avId": "SYS-1020"
+        },
+        {
+            "avId": "SYS-1140"
+        },
+        {
+            "avId": "SYS-1220"
+        }
+    ],
+    "tags": {
+        "year": 2026
+    }
+},
+{
+    "title": "SSD: A State-Based Stealthy Backdoor Attack for IMU/GNSS Navigation System in UAV Route Planning",
+    "link": "https://arxiv.org/abs/2502.20178",
+    "summary": "SSD is a state-triggered stealthy GNSS spoofing attack for UAV IMU/GNSS navigation and route planning, exploiting motion-state changes to increase localization error and task-failure risk while evading multiple spoofing detectors.",
+    "vectors": [
+        {
+            "avId": "SYS-120"
+        },
+        {
+            "avId": "SYS-310"
+        },
+        {
+            "avId": "SYS-410"
+        },
+        {
+            "avId": "SYS-530"
+        },
+        {
+            "avId": "SYS-630"
+        },
+        {
+            "avId": "SYS-710"
+        },
+        {
+            "avId": "SYS-821"
+        },
+        {
+            "avId": "SYS-912"
+        },
+        {
+            "avId": "SYS-921"
+        },
+        {
+            "avId": "SYS-1010"
+        },
+        {
+            "avId": "SYS-1220"
+        }
+    ],
+    "tags": {
+        "year": 2025
+    }
 }
 ]

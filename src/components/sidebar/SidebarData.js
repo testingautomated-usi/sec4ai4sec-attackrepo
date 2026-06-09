@@ -19,7 +19,7 @@ export const SidebarData = [
 
 export const SidebarDataAttack = [
     {
-        title: 'System-level Attack',
+        title: 'System-level Attack against Autonomous Vehicles',
         path: '/tree/system',
         icon: <GrIcons.GrTree/>,
         cName: 'sidebarListItem menu-item'
